@@ -1,0 +1,36 @@
+{
+  "recorded_at_utc": "2026-10-13T05:49:58.040267+00:00",
+  "local_test_demo": true,
+  "fresh_random_member_signing_keys": 7,
+  "secret_keys_in_report": false,
+  "private_account_material": "retained public test fixtures",
+  "spending_threshold": 5,
+  "unanimous_enrollment_count": 7,
+  "approved_indices": [
+    0,
+    2,
+    3,
+    5,
+    6
+  ],
+  "rejected_indices": [
+    1,
+    4
+  ],
+  "duplicate_delivery_counted_once": true,
+  "negative_cli_controls_passed": 6,
+  "creation_instruction_sha256": "eade7001a2c6bdc23dfbc33c9accf4971f275b5252f846ef8d64e8199c166239",
+  "transfer_instruction_sha256": "1cde421a637feaf2630327f680dbeba57d22dc51715bc920236c4f049835a18a",
+  "native_config_apply_passed": true,
+  "guest_execution": "pending separate host run",
+  "proof_generated": false,
+  "sequencer_submission": false,
+  "logos_chat_integrated": false,
+  "completed_external_verification": {
+    "recorded_at_utc": "2026-10-13T07:30:55.986055+00:00",
+    "verification_report": "verification.json",
+    "real_lifecycle_receipts_verified": 2,
+    "actual_local_sequencer_transactions": 3,
+    "note": "Original transcript and guest_execution field describe initial generation, before the external host and node runs."
+  }
+}

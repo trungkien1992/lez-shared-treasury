@@ -1,0 +1,6 @@
+Package: block 0.1.6
+SPDX: MIT
+Authors: Steven Sheldon
+Repository: http://github.com/SSheldon/rust-block
+Source: registry+https://github.com/rust-lang/crates.io-index
+This declaration is transcribed from the exact resolved package manifest.

@@ -1,0 +1,4 @@
+   Compiling vault-methods v0.1.0 (/workspace/scratch/a598161390b0/lez-approval-bench/integration/methods)
+warning: lee@0.1.0: Generated module at /workspace/scratch/a598161390b0/lez-approval-bench/integration/target/release/build/lee-e476ec4566744ebe/out/lee/privacy_preserving_circuit/mod.rs
+   Compiling vault-host v0.1.0 (/workspace/scratch/a598161390b0/lez-approval-bench/integration/host)
+    Finished `release` profile [optimized] target(s) in 10.56s

@@ -1,0 +1,35 @@
+[
+  {
+    "m": 1,
+    "n": 7,
+    "execution_user_cycles": {
+      "plan": 16745,
+      "apply": 500467,
+      "ppe": 2043896
+    },
+    "execution_total_user_cycles": 2561108,
+    "real_proof_completed": false
+  },
+  {
+    "m": 3,
+    "n": 7,
+    "execution_user_cycles": {
+      "plan": 19281,
+      "apply": 1052996,
+      "ppe": 2047437
+    },
+    "execution_total_user_cycles": 3119714,
+    "real_proof_completed": false
+  },
+  {
+    "m": 5,
+    "n": 7,
+    "execution_user_cycles": {
+      "plan": 21847,
+      "apply": 1604221,
+      "ppe": 2051285
+    },
+    "execution_total_user_cycles": 3677353,
+    "real_proof_completed": true
+  }
+]

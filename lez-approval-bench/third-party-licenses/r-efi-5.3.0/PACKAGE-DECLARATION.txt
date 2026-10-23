@@ -1,0 +1,6 @@
+Package: r-efi 5.3.0
+SPDX: MIT OR Apache-2.0 OR LGPL-2.1-or-later
+Authors: 
+Repository: https://github.com/r-efi/r-efi
+Source: registry+https://github.com/rust-lang/crates.io-index
+This declaration is transcribed from the exact resolved package manifest.

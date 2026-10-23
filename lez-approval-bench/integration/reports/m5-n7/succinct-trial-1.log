@@ -1,0 +1,254 @@
+Proving vault-plan (segment 2^18)
+2026-10-07T12:38:16.392920Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_session: exit_code = Halted(0), journal = Some("a60500000062d53ac404149eb32de009796e65716420f1ecc984ce2ec71f8ae54895a4e41b0003000000476bc41034e6e6bc7eba29c4b9974f5b98ea7983d341401577db90bf8ee789310062d53ac404149eb32de009796e65716420f1ecc984ce2ec71f8ae54895a4e41b476bc41034e6e6bc7eba29c4b9974f5b98ea7983d341401577db90bf8ee78931000000000000000000000000000000000000000000000000000000000000000000e0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5000000000000000000000000000000000000000000000000000000000000000000c00100000100000000000000000000000000000000204aa9d10100002c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2ce0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5250000000000000000000000000000000500000000000000f09003b72ebbca90fccb0d6973c5e3bc7d8a3272d344dc44a1eeb1b5793ca82e7e645660d211b04a6dbd461c7a7331648a334ee237ced7004483f6764de1ed3a010000000be968b9de521ce4bdb791a9d5f36f43409fb09f690ec94702abdf17d84ffed302125e6f4ed399becd2b1db04a3a7ce8c6dff4d5f4e07190fcd3267c8d8db2f30200000099d71da4e8584b1ef26602d41a53ba02b6d81d2553b1464f203b3afb3253f86cffc62dcbd078d551cd68ec9c2a9b940dad9389b9eda7f97232b5be4863bd44b3030000004fec873c406fa7739ad9753456bdffcc7c0b57fd88e60b389411dfa7ed4ac6e0b14761c6ba502b11d12b1dd5633ee4645a7a0b55613df75b00380eba97cf9b2d040000006c7a05198eeaf5810ec0b75e4a4e043b638c4af6d0077dba5284d4a9185a81bbfc7118484e1d2e8a6d2364b758f1720b6acdfd491a8a1c1e1ceb4eb2fe75d2c801000000476bc41034e6e6bc7eba29c4b9974f5b98ea7983d341401577db90bf8ee7893162d53ac404149eb32de009796e65716420f1ecc984ce2ec71f8ae54895a4e41bc00100000100000000000000000000000000000000204aa9d10100002c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2ce0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5250000000000000000000000000000000500000000000000f09003b72ebbca90fccb0d6973c5e3bc7d8a3272d344dc44a1eeb1b5793ca82e7e645660d211b04a6dbd461c7a7331648a334ee237ced7004483f6764de1ed3a010000000be968b9de521ce4bdb791a9d5f36f43409fb09f690ec94702abdf17d84ffed302125e6f4ed399becd2b1db04a3a7ce8c6dff4d5f4e07190fcd3267c8d8db2f30200000099d71da4e8584b1ef26602d41a53ba02b6d81d2553b1464f203b3afb3253f86cffc62dcbd078d551cd68ec9c2a9b940dad9389b9eda7f97232b5be4863bd44b3030000004fec873c406fa7739ad9753456bdffcc7c0b57fd88e60b389411dfa7ed4ac6e0b14761c6ba502b11d12b1dd5633ee4645a7a0b55613df75b00380eba97cf9b2d040000006c7a05198eeaf5810ec0b75e4a4e043b638c4af6d0077dba5284d4a9185a81bbfc7118484e1d2e8a6d2364b758f1720b6acdfd491a8a1c1e1ceb4eb2fe75d2c801000000000000000000000000000000000000000000000000000000000000000000000002000000476bc41034e6e6bc7eba29c4b9974f5b98ea7983d341401577db90bf8ee789310000000000000000000000000000000000000000000000000000000000000000e0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb50000000000000000000000000000000000000000000000000000000000000000110000000025000000000000000000000000000000010000002c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c0000000100204aa9d101000000000000"), segments: 1
+2026-10-07T12:38:16.393291Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:38:16.393296Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:38:16.437149Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+Completed vault-plan: {"image_id":[2059719584,1594371413,2204304149,3232472967,1398273450,815850652,619385496,1475037365],"input_sha256":"b8143a0e9fc3811c36d03f7d9553c8b6098db6b3e1659d02ff88e50d3fac9bfe","journal_bytes":1450,"mode":"real-proof","receipt_bytes":224110,"receipt_sha256":"189ac9577a3535f6f1905deb5eefa4f9c0cbdde2d94b5273ce6c94483c1ad2fb","seconds":20.287159219,"stage":"vault-plan","stats":{"paging_cycles":32155,"reserved_cycles":11534,"segments":1,"total_cycles":65536,"user_cycles":21847}}
+Proving vault-apply (segment 2^18)
+2026-10-07T12:38:36.774167Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_session: exit_code = Halted(0), journal = Some("aa0400000162d53ac404149eb32de009796e65716420f1ecc984ce2ec71f8ae54895a4e41b476bc41034e6e6bc7eba29c4b9974f5b98ea7983d341401577db90bf8ee7893162d53ac404149eb32de009796e65716420f1ecc984ce2ec71f8ae54895a4e41b3c010000010000004d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d0100000000000000050000000700000079be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5f9308a019258c31049344f85f89d5229b531c845836f99b08601f113bce036f9e493dbf1c10d80f3581e4904930b1404cc6c13900ee0758474fa94abe8c4cd132f8bde4d1a07209355b4a7250a5c5128e88b84bddc619ab7cba8d569b240efe4fff97bd5755eeea420453a14355235d382f6472f8568a18b2f057a14602975565cbdf0646e5db4eaa398f365f2ea7a0e3d419b7e0330e39ce92bddedcac4f9bc2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c0000000000000000c00100000100000000000000000000000000000000204aa9d10100002c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2ce0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5250000000000000000000000000000000500000000000000f09003b72ebbca90fccb0d6973c5e3bc7d8a3272d344dc44a1eeb1b5793ca82e7e645660d211b04a6dbd461c7a7331648a334ee237ced7004483f6764de1ed3a010000000be968b9de521ce4bdb791a9d5f36f43409fb09f690ec94702abdf17d84ffed302125e6f4ed399becd2b1db04a3a7ce8c6dff4d5f4e07190fcd3267c8d8db2f30200000099d71da4e8584b1ef26602d41a53ba02b6d81d2553b1464f203b3afb3253f86cffc62dcbd078d551cd68ec9c2a9b940dad9389b9eda7f97232b5be4863bd44b3030000004fec873c406fa7739ad9753456bdffcc7c0b57fd88e60b389411dfa7ed4ac6e0b14761c6ba502b11d12b1dd5633ee4645a7a0b55613df75b00380eba97cf9b2d040000006c7a05198eeaf5810ec0b75e4a4e043b638c4af6d0077dba5284d4a9185a81bbfc7118484e1d2e8a6d2364b758f1720b6acdfd491a8a1c1e1ceb4eb2fe75d2c8013c010000010000004d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d0100000000000000050000000700000079be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5f9308a019258c31049344f85f89d5229b531c845836f99b08601f113bce036f9e493dbf1c10d80f3581e4904930b1404cc6c13900ee0758474fa94abe8c4cd132f8bde4d1a07209355b4a7250a5c5128e88b84bddc619ab7cba8d569b240efe4fff97bd5755eeea420453a14355235d382f6472f8568a18b2f057a14602975565cbdf0646e5db4eaa398f365f2ea7a0e3d419b7e0330e39ce92bddedcac4f9bc2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c010000000000000000000000"), segments: 8
+2026-10-07T12:38:36.774470Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:38:36.774475Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:38:36.939716Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:40:04.477211Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:40:04.477484Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:40:04.849531Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:41:26.777868Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:41:26.778077Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:41:26.976658Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:42:49.583687Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:42:49.583891Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:42:49.879169Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:44:14.421735Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:44:14.421870Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:44:14.955771Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:45:50.656314Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:45:50.656685Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:45:50.878289Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:47:00.108564Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:47:00.108785Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:47:00.419352Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:48:08.912282Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:48:08.912345Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:48:09.317014Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+Completed vault-apply: {"image_id":[2059719584,1594371413,2204304149,3232472967,1398273450,815850652,619385496,1475037365],"input_sha256":"83dd3489401a983ade2967802f13edc623ad466d4ea2bbc8d5e258581bc0fb4a","journal_bytes":1198,"mode":"real-proof","receipt_bytes":2049252,"receipt_sha256":"5535e1dbfa351b532acc11f849f960f413d4acae2bbd1fdd2117fd1fdab66cec","seconds":642.26325049,"stage":"vault-apply","stats":{"paging_cycles":207064,"reserved_cycles":285867,"segments":8,"total_cycles":2097152,"user_cycles":1604221}}
+Proving ppe-composite (segment 2^18)
+2026-10-07T12:49:19.069514Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_session: exit_code = Halted(0), journal = Some("6a11000000000000020000001a36baac185b3242aeb99e2d731ea1785ac57e7dc037ed285bf7dd3955b67bfc6b098322110010150b2aa032bd85d1b73cf254eefe257b1a5aacc00d5fe95429743e6684223f6dae09e76d31a8fd725eafb07469ccb0d5efeadad9272eaeeba400040000fe177edb5ca96e877cde3dec8b389e967d0ea08cf219a3dd69353c768199a4d62db0e99ffd862b36e24ee2ed9d2bf185f0b8bbdda84952a524e6c4d63d7cf0966a76d1a4b334bcd306867a4ba4b455f097cc5ff574214ee910c796902e194e28632aadacd76a4d0e95651a5df67764a69226697d7118bcc561a1c623bc238ccdc06f16c5b4a42197f37fa263a5bccfa5548eccebe9325e28570e1335f7d604d9b54ca588ba67d4acdd777806d68a4ef49154b9467603b8af34b1b2beb4ddd44503bba8296c2a92cfe5d2c061aae381537fd905a2aad87719f6fc059a00c132ce27d899e9e99c4b66c1d79ee9b8c13b26bdf74baf5793fd6e21a070a6871ccd7cbef53272afe4a80ed03a2e6ba24017f254935dcb9290aa6f0a445fdc613c0147595e344e6f470506dbf093136bf0b6df5c92b1faa565291fbbb66dc9089e4e7870f424dc8a38c5087d6d045ced20f73553407cf3f79b669a6b51f7a150d973f81f996f19d4cc9eeb4e52eaf3d61a648d9e54bcbfa95c119c519fc351f8355bbc883b22cb8b9e969a1723f0f8d3e34dc1d4ebe372bce908b272a44a2f6f1f325949cbbca5bb98001485d1092a1f43beae32acccaea267bd992a3b28b63f89365e9ca3c3a9514791aeac446fbad6759fd386b169864402b50f29077551713c0d7a91ba70fcd3735159ef6f2cf7788dc1400ad90dee506afbedbddbc2faf7568433b1fa3cf41e083298fc03cb2928b5e74c5d6cb68ced22da5b49a9f18619fc558f95643a75a57ee8a6848d8e58626ba5b6770766179fdc3d7e56168594cc3f98e9d26f4f3262c37c3b175240d31a46f9d00b9a5a349a632f9f55d4254fa499808032acaabc1c9de5d79e669aa388ed618fbd1ce4af60f8f34606444b5d9f7d3d90110d271cd672caa72086d1b1d588061361032a344944a7adce56c851ad372ea5922a64b84d1e15071f868c5ae598a1e54e6479e3b8eaeb809da7d31158389ee1a156ce6efb05fcc3657c402ce668241fca4347392de6a57a64c9a8c7186bdb302ee0fec36456c179ed713c144b138e5f777f3fe2491ede0a8d4ceaf6c53159fe5ede9ef6c6dc3015c7ba354249d427a619b96143154c80e6543d4a307317b8bee46669b82fc54ff70b90b1a7d86f0344a79792f7273b3eb1c42aeecff3c0ee24b24c586f6509ef7b14685c3cd9f12fb87bf819e94fb2f27f4329dc66caa4bd977ea7608366e326af897e13914dd49876fb10e28b859e70a07bdfcc909b8994f9b84c2df31ce5b7a1c5b6a14fe7ec37a668b37faca7c2c9cbe35b9e0c23eba3a99db9b9d765038bbacc779873a8349806013d61c2cbed552432aed71ee85740cb3a77334e88bb4b04abe5ae0a9baa99c7753460f4d0f47d10b4f1dd4820cd509a41156ad7995b71d6cfdc0aecbc5a866edf95d47ffa3d71d013bedb15398cfec740040000af3e8ccfedb57bf4590303ad78b862c091f64c684cf800e3c253cf61debe506e47716705830fb97e3aa0072c508164f4cae157ad55e1e0a2d03d610231d82a00754c1215295ca5787062b8f865fdb93985a515dc639b2ac54d2568b6356d0e1d65357189325ac3ef1d92991ec331b213e0060e16498fc60ea061642469b84a9fcc917fdedd145802112ea9e763f261fd666a39c103c311c54301add8545d62091a0567635dcd9112c8ff9e05667f76e726a1bd4570dd1857571978d3867d345346acf3b945d7cf0dbf3687558e8d839b03aae469099b75aaa53ec75609ee6abf7005a54c42111874c6804e2be9ff145e2c66003ee7629a7ecd92d1d2c7c144d9948049ba6ed09828e07274d490cde2683df0e6c696670d08de7a6f96e23cea8e952c2f6e0c88ff60e7b221400789c74b82598b6b00c58041ed36b500dcc61da960fdaaf459f015db8ed8d7ab312c56cf642a5c9879a41b695eb525f43e45e40ba32b3b4b83c83059329cd2d4470b4d26962c9f509532925cb5a91d4b1b4a711b015ca9c162d783ebc705361ab600f78cffed6ab9f46cf0c96b346a52209ee6c02864c168e298ac86283615c7f5f99770331b8b8de1fb5c4ce59f6d3a77bf67644df98c6167e1bd1962e10b33d3b910ca29d50b3e351d2f3e261164c22e8162d423a4797be86e1eb411550be33aacadfb2e01d13daa535efb588c53b78e883d3cba9ec74c763cc422813a76b779a969e9266fc3ca50435a9c67fadccae94823be706634ace33467bc3df39436b12c1baecc2a1d46bb10edab916bdde02d3d88a4b62f7b6e63388027feb2ae06b15b52c1c46cadd48c6c58f3c8e002f05f75235f399a088a7f33b1fab1492b86943eb0c2eebb4c2131b77e521fa84b7e8285f600e55196ff28ed3445df0ef406e7d4ba88e4a13babe5803561487ab408c1a982f4e141f8a164839ec84668b26c07504fa3bd50a7d8942c40c5e5277983b35f9396ad33acb494b2f82d0c64b745c25d05871e49302a35e77f051790832cbaa9cf6bdff90e8acc64ee38c7ff26c5ce004bccfed04fc042ee62a096b101b0e24d335efeb068545464bae8f2842e75192a5790c4f71796c3ee2f48750dbb0c42bb0b536e3d6d743ce3b91650c88242c8b6f6cfec2bc9ea01cd8ad167da1087593c40489a21a093a6decef359f7ba1ef8c7c06dce7bb5b1933a2ca27ef850cd7b5130de89d554ae3e2c854c7bb9a57eaa8e5b3f614f00a507c81491a83ac1584da83e31cc336846e85f1fce80ca4acda8b537e50334798ecc6772a20b0f61c932b475cae3c2c9cb5dd1db18d49a9b73d6ac603d5588a022cfb681a5b36c27ac53cc1cf54d4d93dd8f4370b67e89beab0b4f4e92949aaa2527f4d147722e711a9228b644b3d0995be030cf423acd804870f78e39488d38aa7803d19d2bbcf2295304163741b6391d4e7d83079e956724ae08258b31be7c03f74ccaed778925fa9417d6118f77699b25bdb446c01888c157788ceef78331a474f4d5a38254a6a1a338a453daccf39649c79ae106f64d5febe10797712e7e15dd4b11241ae0b2062d09a2498ed9f2ea55f934941bb599b92ac24bf56a85950caab2ec9eedc072da29b4a225c1c3616298461ee6e3c367148be962cee48d7c130fdaf792f03acb6d0f73f2dd2c000400006a3c4bf15f48ff8006732253f6e0f279835941119f0a2eebb755db9fe9950acf6d2fe41940832dfe1f46b69cf3280497eada55f0e47d0bcf5cf4ff6df007d67756bd44106ef26c3cb85c28a2df17c02b1eba62ce95032632ab8ea7fea1ea12ae401da29e8e303f7a2343d6018a0e96f4268fa7c92255742b36e08727136e54fe0749186b8fb9e0b2757118aa38425a15749a1bfc58b7f615f8a2fd9610d666d483f2d85c5e84646cedec8c80f12665e464ef9c17975a2e2f8de9eb7ea106c066bfe61472d6750698a368b15a2e20dfea94e09ddf40b8a1764a5ea570b1505f338c2688145be66853a851e0fe7f4cffec991283001d36d0c107f075995b1184c835bca224f2cbc92bf5fcdcaa4a968f587d3b57805447c879bb41f816a5eaf25d194c52c96b99041b5c19f066b904a9c45362a72542858725e8a93de638929c37e9381b9b4acbf77b56d0f5136c5e441eba79016c93bdfa8f3e3031a6ece9fd197dfdd0d5c8931594a3801e150e5910488a3a88005fe62fdd0b58b2c194dcd6834ab4f869f708c7b89dbe77758939c68a38923b82392478f6cdc08ef20ad7370da8a7d939722cc5f2f40c28314800857580fc8ab74914b81bb90d422de48a25fe8cdaf139c8972fe5e65f1274ea50b3d29daeb8e329c77d91765e0d61139f2e016ee666b5dc499fcd9bfa7b2c4475c2e77e01198ae7dab072299d87b0ee08f00e7a063108a728d7bb48da5b4dbed99576c41d48f499fb7a987ef9f61b8b46390277b0b2176f4958f26f2f61ae49091e38e06ce6b9084588921907a83f81c6a361f3dbb7ffc3452a4257d8883a5d75bad2e8221157edb36d4b71a841a66739939532e365d47b1117df4ca5dbe19e144f0a3d5d7da0d41217158b8f5a0b7a2089723d4d2c2c56cc9459dccad88fbae70656bc0d30ed7ebf7a4d8d19e3368a869042c6f3a43de4b44c0d47010bebfa67d4bb1fbfc4890840edd7ac34ffad5a6b2601d1c328f5818fe3f89c3ffe233e6d1a9c793d242c76718711791dd7fe535cee46bcfbf55259e5f3f4f91e098b2cb1c1be2f9190d2aa9e5bae287b7a9b0e5c984d32fdd71301a93dfec75fc5844d3120e5991c5213e88e29aade23794ae52acf8a26cbe72bc558579cf9491c9d22c0a554af338bb0994f5817a55b80cfda177d2d6ba042f93b773cc16ba0b2522f328543632c388a7f9d21b4d2feefa4274d5fef1ebd8fbe5bed6039663a1df0a7cc9ce0044900de0d06d301f7033b514000b65e39a3ff317a2404a89303c8274fd553a5e393f8772c8d9342c5c76ca91576f12145b6bdab18305052ab220904ad8fd035b5c1e647978a5e956e13711ab5b545c115a9c6b759e6eff3dc1e0d1e305ce44c7e9233ba70b943315c7935c15aebb75695a8c441a242182ab195309fb2e8a3ac4b69349c9607617c2a9562603dd630a74004000090227a2a053126a1c1fa27b5495b45d0ed033613eed70d420df549fedf828819774466ebea1f2838c7fa87e848d50096ea6d7f6b2d0a61c1945986dfe29799a304802233409fd2c131b5627311a444e755e1bf57b8a8f4212736e2bcbf5dfb2c43305c2fa34b809e87cbef0ac6b44dec3082de591567430e8021fefc9ba94890a4f2d8c5b28ac2c064d57f8005fc03ab311011425ddd5fd850d6c6dcbd1da50ffabb4108275da62708e3e9f504f0d53d08fb5fd2f8eab33099489e4dc134fb48d1c333efb762e848171f931095ff5eed4a901a0d17108799281dbd35d24d5c4b9c822f3d63beefdaad1fa78f893ebca65f92cca1341ae3f2583bdcd06c71ab032e3d252717b034a8b8b3313de14a88eeabdbc5220f679beb6f8ae1a21823103bd631faf6e33ed021036b161ea14fa93f7ceeb9e291f43b80d2ca37b3b6e5e99631e754312542b8f1ac97cb7ade24c51ce4d5244672658a9eb8571cb2c4371ee6b74ce3fbdd2d2a496af4b3a82f5e23cb1ebbd792d62995d2928003b2e5fcada6711b74db2b50d390f8633cc458c664e6ed047bd5381fd17b89f7334779d9657842b27d599f4115cbccef814c594597fb5e5e31e77e664f856e34a88307bb9330b2fc2a66d7f8b6185e50f4268b0bac816e8b6bb44b3c836a0d0c204664977e9df09855fdeaae990dfb95536210f1ab7ae28c768411c1d392b8ea4c4a05568e8607c5ca422dd1a7c0b87c96f00747b8b03d248c40dc6e4f9cef51ae036872b1eb30ba14ba64bd54ae6471b342c39781a2dc9ecfdf6cdc13b1b2030826ef391421fda2be65760673ef5dae075e31943e6a6b8696b1e60545772c7ffed4c9e17a821cd23d9a4dd8d05a520083a16c145f7f4dc42d5893ac8a4e87dee23a2dd3226235fdb06fec67439427ee7fd04b5e4c5d221f9e5b0813e66cdb05abbeda7d7dc6d92a2b24831fbe2d9ac167f495839378d76bbc4df02fd0629a31cdd861f1fc2b7290cc226779fcb87cfe3811395f816be47f5c2647661a0125ac2fb3bb7cefc70c643f3201f195a08145667edfbcba00e512b6cb4cd5485419317020f77632ddd4a5cea38ae6682016b1afbbcba95ac310af4b140eaec1f65ac11e062b394361d77ad0ea4c3ade28ddbf4f5b3d6a685d0a818028b7b33c663b8ed89c194f1ad044a37cb574663d9f7c30f0442de58b872c21b7695f8a2be44bb0ad32aa7c41f524ef9fcc1e3d24a46a085067af61f2d9a6c0b9eb3698f5293f3e04b633758ee6e2cf1a9dea5eb308086d3d8a3a71d24e293575484a3218d3cd7995610ddfbcd0aeb02556ffd466512d938e7b16a291105ba01e9b8418bfb3ba628eb0dd0cb19ecbf1df2f697c63f9cf5a6c89e48e693971f5067ebcb405babcb64fc23b34dce787c34e019b652d2efb2a7553c898d8b7d2c0b953e5a01693d2d04273ab0e7bfe5ace47ecc4db20b3a5d5a6b29be36da61e0fa219d1909215fc78d5c365749214dddb42207239dd960817e04c26497a79336ca6d6f4920a04e1c582b54e9e9c4c620000000100204aa9d101000000000000"), segments: 11
+2026-10-07T12:49:19.070238Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:49:19.070244Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:49:19.273364Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:50:25.196380Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:50:25.196539Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:50:25.533590Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:51:38.706904Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:51:38.707098Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:51:38.874441Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:52:54.338360Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:52:54.338502Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:52:54.629301Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:54:22.245056Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:54:22.245189Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:54:22.344287Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:55:34.021759Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:55:34.021910Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:55:34.386575Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:56:40.916962Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:56:40.917136Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:56:41.157035Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:57:50.656318Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:57:50.656616Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:57:51.017675Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T12:59:03.353837Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T12:59:03.354190Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T12:59:03.481331Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T13:00:33.250349Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T13:00:33.250580Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T13:00:33.424013Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T13:01:43.956289Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T13:01:43.956829Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T13:01:44.195270Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T13:06:32.430570Z DEBUG risc0_zkvm::host::server::prove::prover_impl: adding keccak assumption: f694d1baacdd6d68498f9fd8d1452e96554700f5351d3422c917b79ebd2a3be4
+2026-10-07T13:06:32.430942Z DEBUG risc0_zkvm::host::server::prove::prover_impl: keccak root assumption: Assumption { claim: Digest(f694d1baacdd6d68498f9fd8d1452e96554700f5351d3422c917b79ebd2a3be4), control_root: Digest(abd93866a6878528f29ffc6ea6d9e428cc9ad020a540dd11f1d45e5e9bb6db71) }
+Completed ppe-composite: {"image_id":[3943929112,3682468618,2822605667,1764660516,290278025,2512717227,411457898,556249114],"input_sha256":"92a19efcba39a6e617172fe19a947f47b56f63d871eefdda8a5b7d21b8905bae","journal_bytes":4462,"mode":"real-proof","receipt_bytes":5317209,"receipt_sha256":"a89f1ed11a3b75e5648517e008bb5217f745f92d61a5113bb22d81ac1ed371d8","seconds":1035.086606974,"stage":"ppe-composite","stats":{"paging_cycles":458560,"reserved_cycles":373711,"segments":11,"total_cycles":2883584,"user_cycles":2051313}}
+Compressing complete PPE receipt to upstream's succinct format
+{
+  "ciphertext_padding": 1024,
+  "composite": {
+    "borsh_sha256": "03dd9ed4feca5903f54f3c4b06f78186ed2a658162932d25ca4e120d8e677a5f",
+    "borsh_transaction_bytes": 5316615,
+    "checks": {
+      "expiry_rejected": "OutOfValidityWindow",
+      "failed_checks_preserved_state": true,
+      "modified_message_rejected": "InvalidPrivacyPreservingProof",
+      "new_commitments_present": true,
+      "public_effects": 0,
+      "public_signatures": 0,
+      "replay_rejected": "InvalidInput(\"Commitment already seen\")",
+      "valid_transition": true,
+      "validation_seconds": 0.508054276
+    },
+    "core_transaction_bytes": 5316615,
+    "envelope_encoding": "pinned common::LeeTransaction layout; no RPC test",
+    "envelope_sha256": "fff9d5ba773b5a768b5fb18ce12b939bccd59ce071e80dc9e3b8c2b9f3052940",
+    "fits_debug_1mib_minus_2048": false,
+    "inner_proof_bytes": 5312145,
+    "lee_envelope_bytes": 5316616
+  },
+  "compression": {
+    "journal_bytes": 4462,
+    "mode": "real-proof",
+    "receipt_bytes": 232150,
+    "receipt_sha256": "919605a8eaa1d82b7eb7a58ba47b035b62d528059e7e4fb0714de87b06a22aa5",
+    "seconds": 1118.939023974,
+    "stage": "ppe-succinct"
+  },
+  "dummy_notes": 0,
+  "guest_image_id": [
+    2059719584,
+    1594371413,
+    2204304149,
+    3232472967,
+    1398273450,
+    815850652,
+    619385496,
+    1475037365
+  ],
+  "guest_sha256": "ca8bbda814b5e2116dee7a8b1636af9f7e283ab5e2d302669f0c4485a89c37a7",
+  "limitations": [
+    "local LEE state transition, no RPC/sequencer/Bedrock deployment",
+    "preinitialized private vault genesis fixture",
+    "no enrollment or reconfiguration workflow",
+    "two notes; no wallet seven-note padding",
+    "synthetic network domain and public deterministic test keys"
+  ],
+  "member_account_ids": [
+    "CntQ7q2MHGxso9ebbdv6XVYtzhKnGJYHnhYA1V6Aaxg5",
+    "6d4jEqncWAF9Qr1koFkQfCohXTcfJ41Md3UQSLhYYCin",
+    "GtvnQVLsv8V34E3X9hMBR9hsUokapUgiE4o7vCU4VMB5",
+    "EX5ZmwTtQDwEauFG3cnp4mKDBQ2cdgg5oynkYGDaaZTC",
+    "BomdwnjqAudoNQoCT97JMYzyU84UTujXaEHkjA1hPNeb",
+    "7LWqNSTfRqMz8av3B7snvEaMQFwiwHFKe2r4KtwgfvbN",
+    "6c9vDX3X4FGPVggNxdRv9TBjquxSDDrCFqzMvRfFbUsS"
+  ],
+  "members": 7,
+  "mode": "succinct",
+  "post_state_checks": "both encrypted notes decrypt to exact expected accounts; vault 1000→963, recipient 0→37, proposal counter 0→1",
+  "ppe_elf_sha256": "2d0e691386987e0bd0f708557730445c7ebee03a5c922ae37b897a939b8a82f5",
+  "ppe_image_id": [
+    3943929112,
+    3682468618,
+    2822605667,
+    1764660516,
+    290278025,
+    2512717227,
+    411457898,
+    556249114
+  ],
+  "private_notes": 2,
+  "program_identity": "shadow",
+  "segment_limit_po2": 18,
+  "session_limit_cycles": 134217728,
+  "stages": [
+    {
+      "image_id": [
+        2059719584,
+        1594371413,
+        2204304149,
+        3232472967,
+        1398273450,
+        815850652,
+        619385496,
+        1475037365
+      ],
+      "input_sha256": "b8143a0e9fc3811c36d03f7d9553c8b6098db6b3e1659d02ff88e50d3fac9bfe",
+      "journal_bytes": 1450,
+      "mode": "real-proof",
+      "receipt_bytes": 224110,
+      "receipt_sha256": "189ac9577a3535f6f1905deb5eefa4f9c0cbdde2d94b5273ce6c94483c1ad2fb",
+      "seconds": 20.287159219,
+      "stage": "vault-plan",
+      "stats": {
+        "paging_cycles": 32155,
+        "reserved_cycles": 11534,
+        "segments": 1,
+        "total_cycles": 65536,
+        "user_cycles": 21847
+      }
+    },
+    {
+      "image_id": [
+        2059719584,
+        1594371413,
+        2204304149,
+        3232472967,
+        1398273450,
+        815850652,
+        619385496,
+        1475037365
+      ],
+      "input_sha256": "83dd3489401a983ade2967802f13edc623ad466d4ea2bbc8d5e258581bc0fb4a",
+      "journal_bytes": 1198,
+      "mode": "real-proof",
+      "receipt_bytes": 2049252,
+      "receipt_sha256": "5535e1dbfa351b532acc11f849f960f413d4acae2bbd1fdd2117fd1fdab66cec",
+      "seconds": 642.26325049,
+      "stage": "vault-apply",
+      "stats": {
+        "paging_cycles": 207064,
+        "reserved_cycles": 285867,
+        "segments": 8,
+        "total_cycles": 2097152,
+        "user_cycles": 1604221
+      }
+    },
+    {
+      "image_id": [
+        3943929112,
+        3682468618,
+        2822605667,
+        1764660516,
+        290278025,
+        2512717227,
+        411457898,
+        556249114
+      ],
+      "input_sha256": "92a19efcba39a6e617172fe19a947f47b56f63d871eefdda8a5b7d21b8905bae",
+      "journal_bytes": 4462,
+      "mode": "real-proof",
+      "receipt_bytes": 5317209,
+      "receipt_sha256": "a89f1ed11a3b75e5648517e008bb5217f745f92d61a5113bb22d81ac1ed371d8",
+      "seconds": 1035.086606974,
+      "stage": "ppe-composite",
+      "stats": {
+        "paging_cycles": 458560,
+        "reserved_cycles": 373711,
+        "segments": 11,
+        "total_cycles": 2883584,
+        "user_cycles": 2051313
+      }
+    }
+  ],
+  "succinct": {
+    "borsh_sha256": "86eab1bcdc00bdb6b5d4ca09fd727626744773c2b84e0431033d112c84d4b67d",
+    "borsh_transaction_bytes": 232071,
+    "checks": {
+      "expiry_rejected": "OutOfValidityWindow",
+      "failed_checks_preserved_state": true,
+      "modified_message_rejected": "InvalidPrivacyPreservingProof",
+      "new_commitments_present": true,
+      "public_effects": 0,
+      "public_signatures": 0,
+      "replay_rejected": "InvalidInput(\"Commitment already seen\")",
+      "valid_transition": true,
+      "validation_seconds": 0.020585946
+    },
+    "core_transaction_bytes": 232071,
+    "envelope_encoding": "pinned common::LeeTransaction layout; no RPC test",
+    "envelope_sha256": "e1f1adbe32fc096813384b10545600e04807c01c8bbcfc8164dd0bb6fc4ab883",
+    "fits_debug_1mib_minus_2048": true,
+    "inner_proof_bytes": 227601,
+    "lee_envelope_bytes": 232072
+  },
+  "threshold": 5,
+  "upstream_commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4",
+  "wall_seconds_this_invocation": 2819.097874632
+}

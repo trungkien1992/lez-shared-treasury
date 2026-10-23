@@ -1,0 +1,179 @@
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "InsufficientApprovals"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "InsufficientApprovals"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "DuplicateApproval"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "InvalidMemberIndex"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "state version, epoch, sequence, seed or transfer mismatch"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "state version, epoch, sequence, seed or transfer mismatch"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "state version, epoch, sequence, seed or transfer mismatch"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "InsufficientApprovals"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "state version, epoch, sequence, seed or transfer mismatch"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "missing or malformed committed vault configuration"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:8:57:
+vault approval rejected: "configuration must belong to the executing program"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+{
+  "mode": "execution-only; real guest binary; no mock receipts",
+  "negative_cases": [
+    {
+      "case": "insufficient_quorum",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"InsufficientApprovals\"",
+      "native_rejected": "InsufficientApprovals"
+    },
+    {
+      "case": "group_secrets_without_approvals",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"InsufficientApprovals\"",
+      "native_rejected": "InsufficientApprovals"
+    },
+    {
+      "case": "duplicate_member",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"DuplicateApproval\"",
+      "native_rejected": "DuplicateApproval"
+    },
+    {
+      "case": "nonmember_index",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"InvalidMemberIndex\"",
+      "native_rejected": "InvalidMemberIndex"
+    },
+    {
+      "case": "corrupted_signature",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"InvalidSignature\"",
+      "native_rejected": "InvalidSignature"
+    },
+    {
+      "case": "changed_amount",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"InvalidSignature\"",
+      "native_rejected": "InvalidSignature"
+    },
+    {
+      "case": "changed_recipient",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"InvalidSignature\"",
+      "native_rejected": "InvalidSignature"
+    },
+    {
+      "case": "changed_expiry",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"InvalidSignature\"",
+      "native_rejected": "InvalidSignature"
+    },
+    {
+      "case": "changed_proposal",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"state version, epoch, sequence, seed or transfer mismatch\"",
+      "native_rejected": "state version, epoch, sequence, seed or transfer mismatch"
+    },
+    {
+      "case": "stale_epoch",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"state version, epoch, sequence, seed or transfer mismatch\"",
+      "native_rejected": "state version, epoch, sequence, seed or transfer mismatch"
+    },
+    {
+      "case": "changed_custody_seed",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"state version, epoch, sequence, seed or transfer mismatch\"",
+      "native_rejected": "state version, epoch, sequence, seed or transfer mismatch"
+    },
+    {
+      "case": "other_network",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"InvalidSignature\"",
+      "native_rejected": "InvalidSignature"
+    },
+    {
+      "case": "current_threshold_increased",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"InsufficientApprovals\"",
+      "native_rejected": "InsufficientApprovals"
+    },
+    {
+      "case": "current_members_changed",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"InvalidSignature\"",
+      "native_rejected": "InvalidSignature"
+    },
+    {
+      "case": "other_vault",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"InvalidSignature\"",
+      "native_rejected": "InvalidSignature"
+    },
+    {
+      "case": "other_program",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"InvalidSignature\"",
+      "native_rejected": "InvalidSignature"
+    },
+    {
+      "case": "proposal_already_consumed",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"state version, epoch, sequence, seed or transfer mismatch\"",
+      "native_rejected": "state version, epoch, sequence, seed or transfer mismatch"
+    },
+    {
+      "case": "missing_authoritative_state",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"missing or malformed committed vault configuration\"",
+      "native_rejected": "missing or malformed committed vault configuration"
+    },
+    {
+      "case": "foreign_configuration_shard",
+      "guest_rejected": "Guest panicked: vault approval rejected: \"configuration must belong to the executing program\"",
+      "native_rejected": "configuration must belong to the executing program"
+    }
+  ],
+  "positive_apply_user_cycles": 1604221,
+  "positive_native_and_guest_match": true,
+  "threshold": 5
+}

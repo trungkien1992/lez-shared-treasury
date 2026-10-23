@@ -1,0 +1,139 @@
+{
+  "checked_on": "2026-10-07",
+  "lez": {
+    "repository": "https://github.com/logos-blockchain/logos-execution-zone",
+    "reference_branch": "main",
+    "commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4",
+    "paths": [
+      "Cargo.toml",
+      "Cargo.lock",
+      "lee/state_machine/src/signature/mod.rs",
+      "lez/docker/risc0-base.Dockerfile"
+    ],
+    "note": "The standalone approval verifier uses LEZ as an API reference. The separate integration/ workspace links this pinned LEZ commit; see integration/sources.json for exact boundaries."
+  },
+  "risc0": {
+    "repository": "https://github.com/risc0/risc0",
+    "tag": "v3.0.5",
+    "commit": "8eb06ab020a92dc5b63ba6dd0836d432aba6d890",
+    "documentation": "https://dev.risczero.com/api/zkvm/install"
+  },
+  "official_release_downloads": [
+    {
+      "url": "https://github.com/risc0/risc0/releases/download/v3.0.5/cargo-risczero-x86_64-unknown-linux-gnu.tgz",
+      "sha256": "936ef988b78f20e3bd9f80e375f3adc934b13addc6ae2680f2e5fc0bcc966158",
+      "size_bytes": 73001634
+    },
+    {
+      "url": "https://github.com/risc0/rust/releases/download/r0.1.94.1/rust-toolchain-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "e88d823762fc06e8911fb6b310ffe2fca8fcd7af2438572f7aa90aaf3e84ea02",
+      "size_bytes": 512619537
+    }
+  ],
+  "installed_r0vm": {
+    "version": "3.0.5",
+    "sha256": "36c016a5bb2ded5bd1f8f92cc487e6ffaeb1e95ec05850c983081a0f716b515b"
+  },
+  "bip340_vectors": {
+    "url": "https://github.com/bitcoin/bips/blob/master/bip-0340/test-vectors.csv",
+    "git_blob": "672339129a844a060591bb22f444158ff45438ed",
+    "sha256": "2971d4a484dd0b96598718eb4474e89d0cee1b5e06850c96bb2d2d437b55941f",
+    "tested_32_byte_message_vectors": 15
+  },
+  "build_versions": {
+    "rust_host": "1.98.1",
+    "rust_guest_toolchain": "r0.1.94.1",
+    "risc0_zkvm": "3.0.5",
+    "risc0_build": "3.0.5",
+    "k256": "0.13.4",
+    "dependency_resolution": "standalone lockfiles; not identical to LEZ lockfile"
+  },
+  "network_and_cost": {
+    "proving": "local CPU",
+    "devnet_submissions": 0,
+    "assets_transferred": 0,
+    "paid_remote_jobs": 0
+  },
+  "guest_program": {
+    "file": "reports/accelerated/approval-guest.bin",
+    "size_bytes": 356252,
+    "sha256": "69ccf93cdcfdabd15df11fbabb18dbd6488859778ec1a97e15488737402f1ff8",
+    "image_id_words_u32": [
+      1710233713,
+      203129687,
+      3349352222,
+      2342411639,
+      1367316791,
+      1495279452,
+      1207331062,
+      3921694198
+    ]
+  },
+  "baseline_guest_program": {
+    "file": "reports/approval-guest.bin",
+    "size_bytes": 429084,
+    "sha256": "05d904e89cd3d16b39898370c01f166735c3c512e696717e791558095a5c6a5a",
+    "image_id_words_u32": [
+      3607537519,
+      96048049,
+      3090259802,
+      3875334589,
+      623586460,
+      694428010,
+      1581636548,
+      3193869510
+    ]
+  },
+  "guest_crypto_patches": [
+    {
+      "package": "k256",
+      "version": "0.13.4",
+      "repository": "https://github.com/risc0/RustCrypto-elliptic-curves",
+      "release_tag": "k256/v0.13.4-risczero.1",
+      "commit": "7d4a8d6477e258ce4169ee4669cf92aee0582c39"
+    },
+    {
+      "package": "sha2",
+      "version": "0.10.9",
+      "repository": "https://github.com/risc0/RustCrypto-hashes",
+      "release_tag": "sha2-v0.10.9-risczero.0",
+      "commit": "8631fabdea7bdffa97b11868e04e73491d8e5bcf"
+    },
+    {
+      "package": "crypto-bigint",
+      "version": "0.5.5",
+      "repository": "https://github.com/risc0/RustCrypto-crypto-bigint",
+      "release_tag": "v0.5.5-risczero.0",
+      "commit": "3ab63a6f1048833f7047d5a50532e4a4cc789384"
+    }
+  ],
+  "precompile_documentation": "https://dev.risczero.com/api/zkvm/precompiles",
+  "patch_scope": "Guest only. The host uses upstream registry packages as an independent execution control.",
+  "proof_receipt": {
+    "file": "reports/accelerated/m5-n7.receipt",
+    "sha256": "9520f6321d04a3afd0682ac78d9b2d2fd498a682f9e0da090842899951984d9a",
+    "size_bytes": 2268522,
+    "dev_mode": false,
+    "verified_from_saved_file": true
+  },
+  "validation_guest_program": {
+    "file": "reports/accelerated/approval-validation.bin",
+    "sha256": "fac26fca1d462623aab4acccc7efa40d244ff6d3ec83d76eb819cab27b582316",
+    "image_id_words_u32": [
+      3023131172,
+      1697243164,
+      1648937941,
+      651908582,
+      399815247,
+      684351709,
+      1991208466,
+      1823514026
+    ]
+  },
+  "creation_enrollment_workspace": {
+    "path": "lifecycle/",
+    "source_record": "lifecycle/sources.json",
+    "execution_evidence": true,
+    "new_guest_real_proof": false
+  }
+}

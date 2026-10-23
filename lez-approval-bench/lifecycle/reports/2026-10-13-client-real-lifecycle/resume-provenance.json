@@ -1,0 +1,24 @@
+{
+  "recorded_at_utc": "2026-10-13T06:20:02.064778+00:00",
+  "reason": "Increase local prover parallelism after creation Plan and seven-member Apply completed; prior eight-thread run fit available memory.",
+  "trial_1_threads": 4,
+  "trial_1_interrupted": true,
+  "trial_1_resource_report_available": false,
+  "trial_2_threads": 8,
+  "trial_2_reuses_only_verified_checkpoints_from_this_same_member_workflow": true,
+  "full_uninterrupted_fresh_end_to_end_benchmark": false,
+  "checkpoints": [
+    {
+      "stage": "vault-plan",
+      "receipt_sha256": "71dd31ba9c1b2478baacd2f557f004131e18f7af5b4b80b0d3a097483633e513",
+      "input_sha256": "8c541900e20dfcd46252f69e0914a0eb6d79655fbc942f7bc4db49aa4f4362c2",
+      "real_proof_seconds": 64.850545212
+    },
+    {
+      "stage": "vault-apply",
+      "receipt_sha256": "1020bb530e556b819d3a7c377eddc23d314835a9409e990aad33b702ba381019",
+      "input_sha256": "bcf0c4610884b5ab9e70f153040e704ab0ec84d1e341e29f0dd9819319f559ac",
+      "real_proof_seconds": 1356.349492261
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "completed_at_utc": "2026-10-07T13:26:21.867654+00:00",
+  "implementation": "bounded private PDA transfer prototype",
+  "execution_thresholds_passed": [
+    1,
+    3,
+    5
+  ],
+  "members": 7,
+  "negative_native_and_guest_checks_passed": 19,
+  "real_full_proof": "verified composite and succinct PPE receipts",
+  "real_proof_m": 5,
+  "fresh_saved_transaction_verified": true,
+  "elapsed_seconds": 2819.1869482529946,
+  "transaction_envelope_bytes": 232072,
+  "peak_child_rss_kib": 3637160,
+  "live_devnet_submission": false,
+  "full_rfp_complete": false,
+  "public_issue_changed": false
+}

@@ -1,0 +1,38 @@
+{
+  "status": "operator_stopped_unverified",
+  "stop_method": "terminal session interrupt (Ctrl-C)",
+  "terminal_exit_code": 130,
+  "last_observed_running_at_utc": "2026-10-07T10:16:00Z",
+  "confirmed_all_trial_processes_absent_at_utc": "2026-10-07T10:16:24Z",
+  "reason": "Finalize the requested deliverables after nearly three hours of local CPU proving without a completed receipt.",
+  "real_proof_verified": false,
+  "receipt_written": false,
+  "intrinsic_prover_failure_established": false,
+  "final_resource_report_available": false,
+  "resource_report_note": "Interrupting the terminal also stopped the measurement wrapper before its post-exit RUSAGE_CHILDREN report. The observations below are a live snapshot, not final totals.",
+  "last_live_snapshot": {
+    "observed_at_utc": "2026-10-07T10:16:00Z",
+    "r0vm_elapsed_seconds_as_reported_by_ps": 10561,
+    "r0vm_cpu_seconds_user_plus_system_as_reported_by_ps": 41091,
+    "r0vm_peak_rss_kib_so_far_from_proc_status": 2440308,
+    "r0vm_current_rss_kib_from_proc_status": 2309892,
+    "measurement_precision": "ps reports whole seconds; snapshot fields were read sequentially"
+  },
+  "configuration": {
+    "m": 5,
+    "n": 7,
+    "receipt_kind_requested": "composite",
+    "risc0_zkvm": "3.0.5",
+    "segment_limit_po2": 18,
+    "session_limit_cycles": 67108864,
+    "rayon_num_threads": 4,
+    "visible_logical_cpus": 9,
+    "cgroup_cpu_max": "800000 100000",
+    "cgroup_memory_max_bytes": 8589934592,
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "gpu_used": false,
+    "risc0_dev_mode": false,
+    "paid_remote_proving": false
+  },
+  "interpretation": "No real receipt was produced or verified in this trial. Operator interruption does not establish a prover defect, impossibility, or LEZ transaction infeasibility."
+}

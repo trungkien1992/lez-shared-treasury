@@ -1,0 +1,108 @@
+[2026-10-12T12:36:34Z INFO  sequencer_service] Storage Actor spawned
+[2026-10-12T12:36:34Z INFO  kameo::actor::spawn] actor.lifecycle; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0
+[2026-10-12T12:36:34Z INFO  sequencer_service] Bedrock Broker Actor spawned
+[2026-10-12T12:36:34Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0 message=sequencer_storage_actor::protocol::GetZoneCheckpoint
+[2026-10-12T12:36:34Z INFO  kameo::actor::spawn] actor.lifecycle; actor.name="Broker" actor.id=#2
+[2026-10-12T12:36:34Z INFO  kameo::actor::kind] actor.handle_message; actor.name="Broker" actor.id=#2 message=kameo_actors::broker::Subscribe<sequencer_bedrock_actor::protocol::ChannelEvent>
+[2026-10-12T12:36:34Z INFO  sequencer_service] Bedrock Actor spawned
+[2026-10-12T12:36:34Z INFO  kameo::actor::spawn] actor.lifecycle; actor.name="sequencer_bedrock_actor::mock::MockBedrockActor" actor.id=#3
+[2026-10-12T12:36:34Z INFO  sequencer_core] Bedrock signing public key: b7b93d36bca8b594d2ef71f0e77089166c54e923fb839cb2e4f7378855b50a7c
+[2026-10-12T12:36:34Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_bedrock_actor::mock::MockBedrockActor" actor.id=#3 message=sequencer_bedrock_actor::protocol::CheckChannelExists
+[2026-10-12T12:36:34Z INFO  sequencer_core] Channel does not exist yet; starting it as channel creator
+[2026-10-12T12:36:34Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0 message=sequencer_storage_actor::protocol::GetFirstBlockId
+[2026-10-12T12:36:34Z INFO  sequencer_core] Genesis fingerprint: c7c49d5a90f9615b9c5294aa7b93752d4731209d1b830e288c6e7c90f29b2d32
+2026-10-12T12:36:35.079470Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 32.314905ms
+2026-10-12T12:36:35.220679Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 12.15925ms
+2026-10-12T12:36:35.379359Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 35.643715ms
+2026-10-12T12:36:35.479499Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 31.031925ms
+2026-10-12T12:36:35.588925Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 25.776665ms
+2026-10-12T12:36:35.699615Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 11.279276ms
+2026-10-12T12:36:35.905029Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 25.368361ms
+2026-10-12T12:36:36.057388Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 21.174918ms
+2026-10-12T12:36:36.257218Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 15.701191ms
+2026-10-12T12:36:36.384792Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 26.074137ms
+2026-10-12T12:36:36.456850Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 13.363212ms
+2026-10-12T12:36:36.579963Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 26.326222ms
+2026-10-12T12:36:36.644001Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 6.216686ms
+2026-10-12T12:36:36.747553Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 11.058774ms
+[2026-10-12T12:36:36Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0 message=sequencer_storage_actor::protocol::AtomicUpdate
+[2026-10-12T12:36:36Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0 message=sequencer_storage_actor::protocol::GetLeeState
+[2026-10-12T12:36:36Z INFO  sequencer_core] Producer reward account (stake ownership): D9KHYTL6aXh996eJY19nvcJkeFEPak5KrKU3frHiuMPu
+[2026-10-12T12:36:36Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0 message=sequencer_storage_actor::protocol::GetFinalSnapshot
+[2026-10-12T12:36:36Z INFO  sequencer_core] Genesis fingerprint: c7c49d5a90f9615b9c5294aa7b93752d4731209d1b830e288c6e7c90f29b2d32
+[2026-10-12T12:36:36Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0 message=sequencer_storage_actor::protocol::GetChannelViewBytes
+[2026-10-12T12:36:36Z INFO  sequencer_core] No stored channel view; starting on the final tier
+[2026-10-12T12:36:36Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0 message=sequencer_storage_actor::protocol::GetZoneCheckpoint
+[2026-10-12T12:36:36Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0 message=sequencer_storage_actor::protocol::GetSlashRecordBytes
+[2026-10-12T12:36:36Z INFO  kameo::actor::spawn] actor.lifecycle; actor.name="sequencer_slasher_actor::actor::SlasherActor" actor.id=#4
+[2026-10-12T12:36:36Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0 message=sequencer_storage_actor::protocol::GetZoneAnchor
+[2026-10-12T12:36:36Z INFO  kameo::actor::spawn] actor.lifecycle; actor.name="sequencer_channel_config_actor::actor::ChannelConfigActor" actor.id=#5
+[2026-10-12T12:36:36Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_bedrock_actor::mock::MockBedrockActor" actor.id=#3 message=sequencer_bedrock_actor::protocol::GetChannelTipSlot
+[2026-10-12T12:36:36Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0 message=sequencer_storage_actor::protocol::GetLatestBlockMeta
+[2026-10-12T12:36:36Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_bedrock_actor::mock::MockBedrockActor" actor.id=#3 message=sequencer_bedrock_actor::protocol::ReadChannel
+[2026-10-12T12:36:36Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0 message=sequencer_storage_actor::protocol::GetAllBlocks
+[2026-10-12T12:36:36Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_bedrock_actor::mock::MockBedrockActor" actor.id=#3 message=sequencer_bedrock_actor::protocol::PublishBlock
+2026-10-12T12:36:36.956074Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 12.928979ms
+2026-10-12T12:36:37.207475Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 15.637025ms
+2026-10-12T12:36:37.308853Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 14.061764ms
+2026-10-12T12:36:37.407426Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 11.184543ms
+2026-10-12T12:36:37.510538Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 9.258735ms
+2026-10-12T12:36:37.593228Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 7.564115ms
+2026-10-12T12:36:37.779538Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 40.023077ms
+2026-10-12T12:36:37.920839Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 23.851397ms
+2026-10-12T12:36:38.108896Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 19.815522ms
+2026-10-12T12:36:38.216844Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 14.087573ms
+2026-10-12T12:36:38.324926Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 15.397794ms
+2026-10-12T12:36:38.432787Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 14.970111ms
+2026-10-12T12:36:38.520847Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 13.50163ms
+2026-10-12T12:36:38.616875Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 13.282962ms
+[2026-10-12T12:36:38Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0 message=sequencer_storage_actor::protocol::AtomicUpdate
+[2026-10-12T12:36:38Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_slasher_actor::actor::SlasherActor" actor.id=#4 message=sequencer_slasher_actor::protocol::SetCommittee
+[2026-10-12T12:36:38Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0 message=sequencer_storage_actor::protocol::GetZoneCheckpoint
+[2026-10-12T12:36:38Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_storage_actor::actor::StorageActor" actor.id=#0 message=sequencer_storage_actor::protocol::GetDeadLetterDispatches
+[2026-10-12T12:36:38Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_bedrock_actor::mock::MockBedrockActor" actor.id=#3 message=sequencer_bedrock_actor::protocol::CheckIsOurTurn
+[2026-10-12T12:36:38Z INFO  sequencer_service] Executor Actor spawned
+[2026-10-12T12:36:38Z INFO  sequencer_rpc_server_actor::actor] Starting RPC Server on 127.0.0.1:13440
+[2026-10-12T12:36:38Z INFO  kameo::actor::spawn] actor.lifecycle; actor.name="sequencer_executor_actor::actor::ExecutorActor<sequencer_storage_actor::actor::StorageActor, sequencer_bedrock_actor::mock::MockBedrockActor>" actor.id=#1
+[2026-10-12T12:36:38Z INFO  sequencer_service] RPC Server Actor spawned
+[2026-10-12T12:36:38Z INFO  kameo::actor::spawn] actor.lifecycle; actor.name="kameo_actors::scheduler::Scheduler" actor.id=#6
+[2026-10-12T12:36:38Z INFO  sequencer_service] Block production scheduler started
+[2026-10-12T12:36:38Z INFO  kameo::actor::kind] actor.handle_message; actor.name="kameo_actors::scheduler::Scheduler" actor.id=#6 message=kameo_actors::scheduler::SetInterval<sequencer_executor_actor::actor::ExecutorActor<sequencer_storage_actor::actor::StorageActor, sequencer_bedrock_actor::mock::MockBedrockActor>, sequencer_executor_actor::protocol::ProduceBlock>
+[2026-10-12T12:36:38Z INFO  kameo::actor::spawn] actor.lifecycle; actor.name="sequencer_rpc_server_actor::actor::RpcServerActor" actor.id=#7
+[2026-10-12T12:36:38Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_channel_config_actor::actor::ChannelConfigActor" actor.id=#5 message=sequencer_channel_config_actor::protocol::SetSubmitter
+[2026-10-12T12:36:38Z INFO  jsonrpsee_server::server] connection; remote_addr=127.0.0.1:34980 conn_id=0
+[2026-10-12T12:36:38Z INFO  jsonrpsee_server::server] connection; remote_addr=127.0.0.1:34994 conn_id=1
+[2026-10-12T12:36:38Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_executor_actor::actor::ExecutorActor<sequencer_storage_actor::actor::StorageActor, sequencer_bedrock_actor::mock::MockBedrockActor>" actor.id=#1 message=sequencer_executor_actor::protocol::GetChannelId
+[2026-10-12T12:36:38Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_bedrock_actor::mock::MockBedrockActor" actor.id=#3 message=sequencer_bedrock_actor::protocol::GetChannelId
+[2026-10-12T12:36:38Z INFO  jsonrpsee_server::server] connection; remote_addr=127.0.0.1:35006 conn_id=2
+[2026-10-12T12:36:38Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_executor_actor::actor::ExecutorActor<sequencer_storage_actor::actor::StorageActor, sequencer_bedrock_actor::mock::MockBedrockActor>" actor.id=#1 message=sequencer_executor_actor::protocol::GetAccountBalance
+[2026-10-12T12:36:38Z INFO  jsonrpsee_server::server] connection; remote_addr=127.0.0.1:35016 conn_id=3
+[2026-10-12T12:36:38Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_executor_actor::actor::ExecutorActor<sequencer_storage_actor::actor::StorageActor, sequencer_bedrock_actor::mock::MockBedrockActor>" actor.id=#1 message=sequencer_executor_actor::protocol::GetAccountNonces
+[2026-10-12T12:36:38Z INFO  jsonrpsee_server::server] connection; remote_addr=127.0.0.1:35026 conn_id=4
+[2026-10-12T12:36:38Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_executor_actor::actor::ExecutorActor<sequencer_storage_actor::actor::StorageActor, sequencer_bedrock_actor::mock::MockBedrockActor>" actor.id=#1 message=sequencer_executor_actor::protocol::GetProofsAndRoot
+[2026-10-12T12:36:38Z INFO  jsonrpsee_server::server] connection; remote_addr=127.0.0.1:35028 conn_id=5
+[2026-10-12T12:36:38Z INFO  kameo::actor::kind] actor.handle_message; actor.name="sequencer_executor_actor::actor::ExecutorActor<sequencer_storage_actor::actor::StorageActor, sequencer_bedrock_actor::mock::MockBedrockActor>" actor.id=#1 message=sequencer_executor_actor::protocol::GetLastBlockId
+[2026-10-12T12:36:38Z INFO  sequencer_service] Received SIGTERM
+[2026-10-12T12:36:38Z INFO  sequencer_service] Shutting down sequencer...
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Stopping kameo_actors::scheduler::Scheduler#6 actor...
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] kameo_actors::scheduler::Scheduler#6 actor stopped
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Killing kameo_actors::scheduler::Scheduler#6 actor
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Stopping Broker#2 actor...
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Broker#2 actor stopped
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Killing Broker#2 actor
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Stopping sequencer_rpc_server_actor::actor::RpcServerActor#7 actor...
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] sequencer_rpc_server_actor::actor::RpcServerActor#7 actor stopped
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Killing sequencer_rpc_server_actor::actor::RpcServerActor#7 actor
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Stopping sequencer_executor_actor::actor::ExecutorActor<sequencer_storage_actor::actor::StorageActor, sequencer_bedrock_actor::mock::MockBedrockActor>#1 actor...
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] sequencer_executor_actor::actor::ExecutorActor<sequencer_storage_actor::actor::StorageActor, sequencer_bedrock_actor::mock::MockBedrockActor>#1 actor stopped
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Killing sequencer_executor_actor::actor::ExecutorActor<sequencer_storage_actor::actor::StorageActor, sequencer_bedrock_actor::mock::MockBedrockActor>#1 actor
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Stopping sequencer_slasher_actor::actor::SlasherActor#4 actor...
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] sequencer_slasher_actor::actor::SlasherActor#4 actor stopped
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Killing sequencer_slasher_actor::actor::SlasherActor#4 actor
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Stopping sequencer_bedrock_actor::mock::MockBedrockActor#3 actor...
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] sequencer_bedrock_actor::mock::MockBedrockActor#3 actor stopped
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Killing sequencer_bedrock_actor::mock::MockBedrockActor#3 actor
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Stopping sequencer_storage_actor::actor::StorageActor#0 actor...
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] sequencer_storage_actor::actor::StorageActor#0 actor stopped
+[2026-10-12T12:36:38Z INFO  sequencer_service::actor_handle] Killing sequencer_storage_actor::actor::StorageActor#0 actor
+[2026-10-12T12:36:38Z INFO  sequencer_service] Sequencer shutdown complete

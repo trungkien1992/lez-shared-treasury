@@ -1,0 +1,21 @@
+{
+  "scope": "local controls on this prototype's own saved receipt",
+  "original_receipt_verified": true,
+  "wrong_expected_threshold": {
+    "exit_code": 1,
+    "stderr": "Error: journal does not match requested M/N fixture\n"
+  },
+  "wrong_guest_image": {
+    "exit_code": 1,
+    "stderr": "Error: claim digest does not match the expected digest 9521f947ff3cf2da0a4cc9f7eb0cfa9859df7b245c5e18658288c2a93e743ee5; expected 0b6ecbaf853a4d4b940975b15ae9b134e66585befab127ab5ac955b75ce24192\n"
+  },
+  "modified_journal": {
+    "modified_journal_rejected": true,
+    "original_file_modified": false,
+    "original_receipt_verified": true,
+    "status": "saved_receipt_integrity_checked",
+    "verification_error": "claim digest does not match the expected digest 9521f947ff3cf2da0a4cc9f7eb0cfa9859df7b245c5e18658288c2a93e743ee5; expected 7fc64aa36740e7ea1ea679adaf6eae5351c4b3e2c5adfd50a2d2366d59b5515a"
+  },
+  "original_receipt_modified": false,
+  "original_receipt_sha256": "9520f6321d04a3afd0682ac78d9b2d2fd498a682f9e0da090842899951984d9a"
+}

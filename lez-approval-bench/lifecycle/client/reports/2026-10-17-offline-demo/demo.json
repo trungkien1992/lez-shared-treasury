@@ -1,0 +1,29 @@
+{
+  "recorded_at_utc": "2026-10-17T01:32:33.852754+00:00",
+  "local_test_demo": true,
+  "fresh_random_member_signing_keys": 7,
+  "secret_keys_in_report": false,
+  "private_account_material": "retained public test fixtures",
+  "spending_threshold": 5,
+  "unanimous_enrollment_count": 7,
+  "approved_indices": [
+    0,
+    2,
+    3,
+    5,
+    6
+  ],
+  "rejected_indices": [
+    1,
+    4
+  ],
+  "duplicate_delivery_counted_once": true,
+  "negative_cli_controls_passed": 6,
+  "creation_instruction_sha256": "af6e185035b5fd0323bea7e771c2877c6f5881768c4e8a3db7471e8fef2ca3e2",
+  "transfer_instruction_sha256": "04e65f5e2de7dcbe62f0ee2bbe7732c6f7dceee8e8619d38aa9ff23b94860c08",
+  "native_config_apply_passed": true,
+  "guest_execution": "pending separate host run",
+  "proof_generated": false,
+  "sequencer_submission": false,
+  "logos_chat_integrated": false
+}

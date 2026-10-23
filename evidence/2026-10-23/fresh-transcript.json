@@ -1,0 +1,496 @@
+[
+  {
+    "arguments": [
+      "keygen",
+      "<LOCAL_TEST_KEYS>/member-0.key",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/member-0.public.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"public_key_hex\": \"b22753a07b18b0ed1b855c8c024bf0c64ee3f29d4e13793bd54895df45208d14\",\n  \"scheme\": \"bip340\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "keygen",
+      "<LOCAL_TEST_KEYS>/member-1.key",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/member-1.public.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"public_key_hex\": \"5b7178c4921a8bf777b31c84c440451a2830a39013121e8926eccfc47d8005f3\",\n  \"scheme\": \"bip340\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "keygen",
+      "<LOCAL_TEST_KEYS>/member-2.key",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/member-2.public.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"public_key_hex\": \"7ab62e52b687b2cf36ad3095169e2d1560c1da559a4c31a567c94472e42f3be8\",\n  \"scheme\": \"bip340\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "keygen",
+      "<LOCAL_TEST_KEYS>/member-3.key",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/member-3.public.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"public_key_hex\": \"bfedac188d285a04a06a398fda4eca4b34fd34e94a3ea16fd0db45f4b8187cbe\",\n  \"scheme\": \"bip340\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "keygen",
+      "<LOCAL_TEST_KEYS>/member-4.key",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/member-4.public.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"public_key_hex\": \"a7095d0f2709d554634290da73b8fde085365da9dbee8d96197cd352ce69a2a2\",\n  \"scheme\": \"bip340\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "keygen",
+      "<LOCAL_TEST_KEYS>/member-5.key",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/member-5.public.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"public_key_hex\": \"582c78735f77628c4e3ee49bbb1cd98af70f01126b3267ab387655f4b4374fb0\",\n  \"scheme\": \"bip340\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "keygen",
+      "<LOCAL_TEST_KEYS>/member-6.key",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/member-6.public.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"public_key_hex\": \"247d1bd37938c23df5867fcbcaf3e0180dc746e3e471b325362ef4968b79ebc3\",\n  \"scheme\": \"bip340\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "configure",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/lez-approval-bench/lifecycle/reports/lifecycle/enrolled-descriptor.borsh",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/member-public-keys.json",
+      "5",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"context_id\": \"aa28973951a400f964c51bba09c5be8a7197e1fcb25ad8ae07641571adb3c89c\",\n  \"fresh_salt\": true,\n  \"private_account_material\": \"retained from the explicitly supplied descriptor template\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "create",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "2000000000000",
+      "7ea6ed36ff5de3e1d21e4d1ef0dbf326a0ed4d2b4eda4c6db3ab7a42d6453335",
+      "500",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/create.request.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action\": {\n    \"descriptor_digest\": \"ffcf8ed8af5d998286574613bc01965daa1180bc67c9ce1f7cf9147fc8fc679b\",\n    \"funding\": {\n      \"amount_base_units\": \"500\",\n      \"approved_by_this_enrollment\": false,\n      \"from_hex\": \"7ea6ed36ff5de3e1d21e4d1ef0dbf326a0ed4d2b4eda4c6db3ab7a42d6453335\"\n    },\n    \"identifier\": \"0000000000000000000000000000000000000000000000000000000000000000\",\n    \"kind\": \"enroll\",\n    \"nullifier_public_key\": \"6a0eb03fa0c05aaf7f78995b4de077f86d5e03af6f191a04b6c73c33919358c2\",\n    \"required_enrollments\": 7,\n    \"signed_scope\": \"complete treasury descriptor and expiry; inbound funding is separately authorized\",\n    \"spending_threshold\": 5,\n    \"viewing_key_sha256\": \"c8cff27632e47d07d6a4a68e384e4662be02f3ad85d5cf730f398bce9b2c7afc\"\n  },\n  \"action_digest\": \"d53456dce83e77034569e97f0e9410dc8696682e511332e763ab13f59c1f772f\",\n  \"context_authentication\": \"external; this file alone is not evidence of accepted chain state\",\n  \"context_id\": \"aa28973951a400f964c51bba09c5be8a7197e1fcb25ad8ae07641571adb3c89c\",\n  \"decoded_from\": \"exact Borsh instruction bytes\",\n  \"expires_at_ms\": 2000000000000,\n  \"guest_sha256\": \"fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c\",\n  \"instruction_sha256\": \"bf92c096e38aaa7659f0a623bdba9ffd9908a8002aefa35e1ca7d22c93daec2c\",\n  \"member_public_keys\": [\n    \"b22753a07b18b0ed1b855c8c024bf0c64ee3f29d4e13793bd54895df45208d14\",\n    \"5b7178c4921a8bf777b31c84c440451a2830a39013121e8926eccfc47d8005f3\",\n    \"7ab62e52b687b2cf36ad3095169e2d1560c1da559a4c31a567c94472e42f3be8\",\n    \"bfedac188d285a04a06a398fda4eca4b34fd34e94a3ea16fd0db45f4b8187cbe\",\n    \"a7095d0f2709d554634290da73b8fde085365da9dbee8d96197cd352ce69a2a2\",\n    \"582c78735f77628c4e3ee49bbb1cd98af70f01126b3267ab387655f4b4374fb0\",\n    \"247d1bd37938c23df5867fcbcaf3e0180dc746e3e471b325362ef4968b79ebc3\"\n  ],\n  \"network_domain_hex\": \"4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d\",\n  \"program_hex\": \"37cbd48d3f4b99ca3595d846b8cad2c3221a1201454fae6f03e80398b06afabf\",\n  \"required_approvals\": 7,\n  \"review_digest\": \"ba70de969f6ee262300d276f5d6d446edc06f0fc7772b9f73ec288f87a0ff163\",\n  \"transport\": \"offline files; Logos Chat adapter pending\",\n  \"vault\": \"BtPGrs1xNjKPbq1QVkRTSM9fKLANR2Jtp8gyZc2Rwu6f\",\n  \"vault_hex\": \"a1beacd92a3d0f652e9d8a00b7319a9a9f1cf87130f3cae2b450ad01fee01ce8\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "review",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/create.request.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action\": {\n    \"descriptor_digest\": \"ffcf8ed8af5d998286574613bc01965daa1180bc67c9ce1f7cf9147fc8fc679b\",\n    \"funding\": {\n      \"amount_base_units\": \"500\",\n      \"approved_by_this_enrollment\": false,\n      \"from_hex\": \"7ea6ed36ff5de3e1d21e4d1ef0dbf326a0ed4d2b4eda4c6db3ab7a42d6453335\"\n    },\n    \"identifier\": \"0000000000000000000000000000000000000000000000000000000000000000\",\n    \"kind\": \"enroll\",\n    \"nullifier_public_key\": \"6a0eb03fa0c05aaf7f78995b4de077f86d5e03af6f191a04b6c73c33919358c2\",\n    \"required_enrollments\": 7,\n    \"signed_scope\": \"complete treasury descriptor and expiry; inbound funding is separately authorized\",\n    \"spending_threshold\": 5,\n    \"viewing_key_sha256\": \"c8cff27632e47d07d6a4a68e384e4662be02f3ad85d5cf730f398bce9b2c7afc\"\n  },\n  \"action_digest\": \"d53456dce83e77034569e97f0e9410dc8696682e511332e763ab13f59c1f772f\",\n  \"context_authentication\": \"external; this file alone is not evidence of accepted chain state\",\n  \"context_id\": \"aa28973951a400f964c51bba09c5be8a7197e1fcb25ad8ae07641571adb3c89c\",\n  \"decoded_from\": \"exact Borsh instruction bytes\",\n  \"expired_at_local_clock\": false,\n  \"expires_at_ms\": 2000000000000,\n  \"guest_sha256\": \"fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c\",\n  \"instruction_sha256\": \"bf92c096e38aaa7659f0a623bdba9ffd9908a8002aefa35e1ca7d22c93daec2c\",\n  \"member_public_keys\": [\n    \"b22753a07b18b0ed1b855c8c024bf0c64ee3f29d4e13793bd54895df45208d14\",\n    \"5b7178c4921a8bf777b31c84c440451a2830a39013121e8926eccfc47d8005f3\",\n    \"7ab62e52b687b2cf36ad3095169e2d1560c1da559a4c31a567c94472e42f3be8\",\n    \"bfedac188d285a04a06a398fda4eca4b34fd34e94a3ea16fd0db45f4b8187cbe\",\n    \"a7095d0f2709d554634290da73b8fde085365da9dbee8d96197cd352ce69a2a2\",\n    \"582c78735f77628c4e3ee49bbb1cd98af70f01126b3267ab387655f4b4374fb0\",\n    \"247d1bd37938c23df5867fcbcaf3e0180dc746e3e471b325362ef4968b79ebc3\"\n  ],\n  \"network_domain_hex\": \"4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d\",\n  \"program_hex\": \"37cbd48d3f4b99ca3595d846b8cad2c3221a1201454fae6f03e80398b06afabf\",\n  \"required_approvals\": 7,\n  \"review_digest\": \"ba70de969f6ee262300d276f5d6d446edc06f0fc7772b9f73ec288f87a0ff163\",\n  \"transport\": \"offline files; Logos Chat adapter pending\",\n  \"vault\": \"BtPGrs1xNjKPbq1QVkRTSM9fKLANR2Jtp8gyZc2Rwu6f\",\n  \"vault_hex\": \"a1beacd92a3d0f652e9d8a00b7319a9a9f1cf87130f3cae2b450ad01fee01ce8\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/create.request.json",
+      "<LOCAL_TEST_KEYS>/member-0.key",
+      "approve",
+      "ba70de969f6ee262300d276f5d6d446edc06f0fc7772b9f73ec288f87a0ff163",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/enrollment-0.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d53456dce83e77034569e97f0e9410dc8696682e511332e763ab13f59c1f772f\",\n  \"decision\": \"approve\",\n  \"member_index\": 0\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/create.request.json",
+      "<LOCAL_TEST_KEYS>/member-1.key",
+      "approve",
+      "ba70de969f6ee262300d276f5d6d446edc06f0fc7772b9f73ec288f87a0ff163",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/enrollment-1.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d53456dce83e77034569e97f0e9410dc8696682e511332e763ab13f59c1f772f\",\n  \"decision\": \"approve\",\n  \"member_index\": 1\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/create.request.json",
+      "<LOCAL_TEST_KEYS>/member-2.key",
+      "approve",
+      "ba70de969f6ee262300d276f5d6d446edc06f0fc7772b9f73ec288f87a0ff163",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/enrollment-2.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d53456dce83e77034569e97f0e9410dc8696682e511332e763ab13f59c1f772f\",\n  \"decision\": \"approve\",\n  \"member_index\": 2\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/create.request.json",
+      "<LOCAL_TEST_KEYS>/member-3.key",
+      "approve",
+      "ba70de969f6ee262300d276f5d6d446edc06f0fc7772b9f73ec288f87a0ff163",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/enrollment-3.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d53456dce83e77034569e97f0e9410dc8696682e511332e763ab13f59c1f772f\",\n  \"decision\": \"approve\",\n  \"member_index\": 3\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/create.request.json",
+      "<LOCAL_TEST_KEYS>/member-4.key",
+      "approve",
+      "ba70de969f6ee262300d276f5d6d446edc06f0fc7772b9f73ec288f87a0ff163",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/enrollment-4.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d53456dce83e77034569e97f0e9410dc8696682e511332e763ab13f59c1f772f\",\n  \"decision\": \"approve\",\n  \"member_index\": 4\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/create.request.json",
+      "<LOCAL_TEST_KEYS>/member-5.key",
+      "approve",
+      "ba70de969f6ee262300d276f5d6d446edc06f0fc7772b9f73ec288f87a0ff163",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/enrollment-5.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d53456dce83e77034569e97f0e9410dc8696682e511332e763ab13f59c1f772f\",\n  \"decision\": \"approve\",\n  \"member_index\": 5\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/create.request.json",
+      "<LOCAL_TEST_KEYS>/member-6.key",
+      "approve",
+      "ba70de969f6ee262300d276f5d6d446edc06f0fc7772b9f73ec288f87a0ff163",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/enrollment-6.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d53456dce83e77034569e97f0e9410dc8696682e511332e763ab13f59c1f772f\",\n  \"decision\": \"approve\",\n  \"member_index\": 6\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "collect",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/create.request.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/create.responses.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/enrollment-6.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/enrollment-5.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/enrollment-4.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/enrollment-3.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/enrollment-2.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/enrollment-1.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/enrollment-0.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d53456dce83e77034569e97f0e9410dc8696682e511332e763ab13f59c1f772f\",\n  \"approved_indices\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6\n  ],\n  \"execution_status\": \"tracked externally by prover and sequencer evidence\",\n  \"quorum\": true,\n  \"rejected_indices\": [],\n  \"rejection_policy\": \"a rejection is a signed opinion, not a veto; a member's conflicting decisions halt export\",\n  \"required_approvals\": 7\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "export",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/create.request.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/create.responses.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/create-export"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d53456dce83e77034569e97f0e9410dc8696682e511332e763ab13f59c1f772f\",\n  \"approved_indices\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6\n  ],\n  \"execution_status\": \"tracked externally by prover and sequencer evidence\",\n  \"instruction_sha256\": \"2eee78196e44e4a0bd37cf80d1b5a4deb00f700e2496e896d555117a6d718b89\",\n  \"native_config_apply_passed\": true,\n  \"predicted_context_authenticated\": false,\n  \"proof_generated\": false,\n  \"quorum\": true,\n  \"rejected_indices\": [],\n  \"rejection_policy\": \"a rejection is a signed opinion, not a veto; a member's conflicting decisions halt export\",\n  \"required_approvals\": 7,\n  \"sequencer_submission\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "propose",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "e0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5",
+      "37",
+      "2000000000000",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action\": {\n    \"amount_base_units\": \"37\",\n    \"custody_seed_hex\": \"ffcf8ed8af5d998286574613bc01965daa1180bc67c9ce1f7cf9147fc8fc679b\",\n    \"epoch\": 1,\n    \"kind\": \"native-transfer\",\n    \"proposal_counter\": 0,\n    \"recipient\": \"G87tVxK7EfnSBrANUj3UnKERyYeuBS8M197RG7DoGFmE\",\n    \"recipient_hex\": \"e0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5\",\n    \"target_program_hex\": \"0000000000000000000000000000000000000000000000000000000000000000\"\n  },\n  \"action_digest\": \"33e6aa6c832ce0abeee91ffc53ec852da7478f308c82def8b05058b4fb3b8eca\",\n  \"context_authentication\": \"external; this file alone is not evidence of accepted chain state\",\n  \"context_id\": \"aa28973951a400f964c51bba09c5be8a7197e1fcb25ad8ae07641571adb3c89c\",\n  \"decoded_from\": \"exact Borsh instruction bytes\",\n  \"expires_at_ms\": 2000000000000,\n  \"guest_sha256\": \"fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c\",\n  \"instruction_sha256\": \"be61af3401b83518e00e162df537530c18e96713700b48e5785f48801b33a9c9\",\n  \"member_public_keys\": [\n    \"b22753a07b18b0ed1b855c8c024bf0c64ee3f29d4e13793bd54895df45208d14\",\n    \"5b7178c4921a8bf777b31c84c440451a2830a39013121e8926eccfc47d8005f3\",\n    \"7ab62e52b687b2cf36ad3095169e2d1560c1da559a4c31a567c94472e42f3be8\",\n    \"bfedac188d285a04a06a398fda4eca4b34fd34e94a3ea16fd0db45f4b8187cbe\",\n    \"a7095d0f2709d554634290da73b8fde085365da9dbee8d96197cd352ce69a2a2\",\n    \"582c78735f77628c4e3ee49bbb1cd98af70f01126b3267ab387655f4b4374fb0\",\n    \"247d1bd37938c23df5867fcbcaf3e0180dc746e3e471b325362ef4968b79ebc3\"\n  ],\n  \"network_domain_hex\": \"4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d\",\n  \"program_hex\": \"37cbd48d3f4b99ca3595d846b8cad2c3221a1201454fae6f03e80398b06afabf\",\n  \"required_approvals\": 5,\n  \"review_digest\": \"0f46f84c68272ce9a791b4032da5958f3f378eb58edbb8e2f6700def6784cc65\",\n  \"transport\": \"offline files; Logos Chat adapter pending\",\n  \"vault\": \"BtPGrs1xNjKPbq1QVkRTSM9fKLANR2Jtp8gyZc2Rwu6f\",\n  \"vault_hex\": \"a1beacd92a3d0f652e9d8a00b7319a9a9f1cf87130f3cae2b450ad01fee01ce8\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "review",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action\": {\n    \"amount_base_units\": \"37\",\n    \"custody_seed_hex\": \"ffcf8ed8af5d998286574613bc01965daa1180bc67c9ce1f7cf9147fc8fc679b\",\n    \"epoch\": 1,\n    \"kind\": \"native-transfer\",\n    \"proposal_counter\": 0,\n    \"recipient\": \"G87tVxK7EfnSBrANUj3UnKERyYeuBS8M197RG7DoGFmE\",\n    \"recipient_hex\": \"e0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5\",\n    \"target_program_hex\": \"0000000000000000000000000000000000000000000000000000000000000000\"\n  },\n  \"action_digest\": \"33e6aa6c832ce0abeee91ffc53ec852da7478f308c82def8b05058b4fb3b8eca\",\n  \"context_authentication\": \"external; this file alone is not evidence of accepted chain state\",\n  \"context_id\": \"aa28973951a400f964c51bba09c5be8a7197e1fcb25ad8ae07641571adb3c89c\",\n  \"decoded_from\": \"exact Borsh instruction bytes\",\n  \"expired_at_local_clock\": false,\n  \"expires_at_ms\": 2000000000000,\n  \"guest_sha256\": \"fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c\",\n  \"instruction_sha256\": \"be61af3401b83518e00e162df537530c18e96713700b48e5785f48801b33a9c9\",\n  \"member_public_keys\": [\n    \"b22753a07b18b0ed1b855c8c024bf0c64ee3f29d4e13793bd54895df45208d14\",\n    \"5b7178c4921a8bf777b31c84c440451a2830a39013121e8926eccfc47d8005f3\",\n    \"7ab62e52b687b2cf36ad3095169e2d1560c1da559a4c31a567c94472e42f3be8\",\n    \"bfedac188d285a04a06a398fda4eca4b34fd34e94a3ea16fd0db45f4b8187cbe\",\n    \"a7095d0f2709d554634290da73b8fde085365da9dbee8d96197cd352ce69a2a2\",\n    \"582c78735f77628c4e3ee49bbb1cd98af70f01126b3267ab387655f4b4374fb0\",\n    \"247d1bd37938c23df5867fcbcaf3e0180dc746e3e471b325362ef4968b79ebc3\"\n  ],\n  \"network_domain_hex\": \"4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d\",\n  \"program_hex\": \"37cbd48d3f4b99ca3595d846b8cad2c3221a1201454fae6f03e80398b06afabf\",\n  \"required_approvals\": 5,\n  \"review_digest\": \"0f46f84c68272ce9a791b4032da5958f3f378eb58edbb8e2f6700def6784cc65\",\n  \"transport\": \"offline files; Logos Chat adapter pending\",\n  \"vault\": \"BtPGrs1xNjKPbq1QVkRTSM9fKLANR2Jtp8gyZc2Rwu6f\",\n  \"vault_hex\": \"a1beacd92a3d0f652e9d8a00b7319a9a9f1cf87130f3cae2b450ad01fee01ce8\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-0.key",
+      "approve",
+      "0f46f84c68272ce9a791b4032da5958f3f378eb58edbb8e2f6700def6784cc65",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-0.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"33e6aa6c832ce0abeee91ffc53ec852da7478f308c82def8b05058b4fb3b8eca\",\n  \"decision\": \"approve\",\n  \"member_index\": 0\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-1.key",
+      "reject",
+      "0f46f84c68272ce9a791b4032da5958f3f378eb58edbb8e2f6700def6784cc65",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-1.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"33e6aa6c832ce0abeee91ffc53ec852da7478f308c82def8b05058b4fb3b8eca\",\n  \"decision\": \"reject\",\n  \"member_index\": 1\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-2.key",
+      "approve",
+      "0f46f84c68272ce9a791b4032da5958f3f378eb58edbb8e2f6700def6784cc65",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-2.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"33e6aa6c832ce0abeee91ffc53ec852da7478f308c82def8b05058b4fb3b8eca\",\n  \"decision\": \"approve\",\n  \"member_index\": 2\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-3.key",
+      "approve",
+      "0f46f84c68272ce9a791b4032da5958f3f378eb58edbb8e2f6700def6784cc65",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-3.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"33e6aa6c832ce0abeee91ffc53ec852da7478f308c82def8b05058b4fb3b8eca\",\n  \"decision\": \"approve\",\n  \"member_index\": 3\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-4.key",
+      "reject",
+      "0f46f84c68272ce9a791b4032da5958f3f378eb58edbb8e2f6700def6784cc65",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-4.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"33e6aa6c832ce0abeee91ffc53ec852da7478f308c82def8b05058b4fb3b8eca\",\n  \"decision\": \"reject\",\n  \"member_index\": 4\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-5.key",
+      "approve",
+      "0f46f84c68272ce9a791b4032da5958f3f378eb58edbb8e2f6700def6784cc65",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-5.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"33e6aa6c832ce0abeee91ffc53ec852da7478f308c82def8b05058b4fb3b8eca\",\n  \"decision\": \"approve\",\n  \"member_index\": 5\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-6.key",
+      "approve",
+      "0f46f84c68272ce9a791b4032da5958f3f378eb58edbb8e2f6700def6784cc65",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-6.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"33e6aa6c832ce0abeee91ffc53ec852da7478f308c82def8b05058b4fb3b8eca\",\n  \"decision\": \"approve\",\n  \"member_index\": 6\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "collect",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.responses.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-6.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-5.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-4.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-3.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-2.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-1.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-0.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-3.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-3.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"33e6aa6c832ce0abeee91ffc53ec852da7478f308c82def8b05058b4fb3b8eca\",\n  \"approved_indices\": [\n    0,\n    2,\n    3,\n    5,\n    6\n  ],\n  \"execution_status\": \"tracked externally by prover and sequencer evidence\",\n  \"quorum\": true,\n  \"rejected_indices\": [\n    1,\n    4\n  ],\n  \"rejection_policy\": \"a rejection is a signed opinion, not a veto; a member's conflicting decisions halt export\",\n  \"required_approvals\": 5\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "export",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.responses.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-export"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"33e6aa6c832ce0abeee91ffc53ec852da7478f308c82def8b05058b4fb3b8eca\",\n  \"approved_indices\": [\n    0,\n    2,\n    3,\n    5,\n    6\n  ],\n  \"execution_status\": \"tracked externally by prover and sequencer evidence\",\n  \"instruction_sha256\": \"01e30837c74ed9359b380a2a5bf2bca5a7175676c41fbfca17ae2842383ae49f\",\n  \"native_config_apply_passed\": true,\n  \"predicted_context_authenticated\": false,\n  \"proof_generated\": false,\n  \"quorum\": true,\n  \"rejected_indices\": [\n    1,\n    4\n  ],\n  \"rejection_policy\": \"a rejection is a signed opinion, not a veto; a member's conflicting decisions halt export\",\n  \"required_approvals\": 5,\n  \"sequencer_submission\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "collect",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/below-threshold.responses.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-0.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-2.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-3.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-5.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"33e6aa6c832ce0abeee91ffc53ec852da7478f308c82def8b05058b4fb3b8eca\",\n  \"approved_indices\": [\n    0,\n    2,\n    3,\n    5\n  ],\n  \"execution_status\": \"tracked externally by prover and sequencer evidence\",\n  \"quorum\": false,\n  \"rejected_indices\": [],\n  \"rejection_policy\": \"a rejection is a signed opinion, not a veto; a member's conflicting decisions halt export\",\n  \"required_approvals\": 5\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "export",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/below-threshold.responses.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/must-not-export-below-threshold"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: cannot export approval package: InsufficientApprovals\n"
+  },
+  {
+    "arguments": [
+      "propose",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "e0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5",
+      "38",
+      "2000000000000",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/altered-amount.request.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action\": {\n    \"amount_base_units\": \"38\",\n    \"custody_seed_hex\": \"ffcf8ed8af5d998286574613bc01965daa1180bc67c9ce1f7cf9147fc8fc679b\",\n    \"epoch\": 1,\n    \"kind\": \"native-transfer\",\n    \"proposal_counter\": 0,\n    \"recipient\": \"G87tVxK7EfnSBrANUj3UnKERyYeuBS8M197RG7DoGFmE\",\n    \"recipient_hex\": \"e0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5\",\n    \"target_program_hex\": \"0000000000000000000000000000000000000000000000000000000000000000\"\n  },\n  \"action_digest\": \"65cd382d0614813c0463e2f12054769d7188c4ea81f9527b3cb932f0412c7212\",\n  \"context_authentication\": \"external; this file alone is not evidence of accepted chain state\",\n  \"context_id\": \"aa28973951a400f964c51bba09c5be8a7197e1fcb25ad8ae07641571adb3c89c\",\n  \"decoded_from\": \"exact Borsh instruction bytes\",\n  \"expires_at_ms\": 2000000000000,\n  \"guest_sha256\": \"fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c\",\n  \"instruction_sha256\": \"400008bd899129a899e2ebd5c8a7c32ea30f4c25f4282167ef725adb3c34e484\",\n  \"member_public_keys\": [\n    \"b22753a07b18b0ed1b855c8c024bf0c64ee3f29d4e13793bd54895df45208d14\",\n    \"5b7178c4921a8bf777b31c84c440451a2830a39013121e8926eccfc47d8005f3\",\n    \"7ab62e52b687b2cf36ad3095169e2d1560c1da559a4c31a567c94472e42f3be8\",\n    \"bfedac188d285a04a06a398fda4eca4b34fd34e94a3ea16fd0db45f4b8187cbe\",\n    \"a7095d0f2709d554634290da73b8fde085365da9dbee8d96197cd352ce69a2a2\",\n    \"582c78735f77628c4e3ee49bbb1cd98af70f01126b3267ab387655f4b4374fb0\",\n    \"247d1bd37938c23df5867fcbcaf3e0180dc746e3e471b325362ef4968b79ebc3\"\n  ],\n  \"network_domain_hex\": \"4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d\",\n  \"program_hex\": \"37cbd48d3f4b99ca3595d846b8cad2c3221a1201454fae6f03e80398b06afabf\",\n  \"required_approvals\": 5,\n  \"review_digest\": \"429b69eb18b6dbe4a1b872254711b85d8b495a5a420924c13f7b9f9b161b99f8\",\n  \"transport\": \"offline files; Logos Chat adapter pending\",\n  \"vault\": \"BtPGrs1xNjKPbq1QVkRTSM9fKLANR2Jtp8gyZc2Rwu6f\",\n  \"vault_hex\": \"a1beacd92a3d0f652e9d8a00b7319a9a9f1cf87130f3cae2b450ad01fee01ce8\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "collect",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/altered-amount.request.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/must-not-collect-altered",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-0.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-1.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-2.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-3.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-4.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-5.response.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-6.response.json"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: response belongs to a different request or configuration\n"
+  },
+  {
+    "arguments": [
+      "collect",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/must-not-collect-flipped",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/flipped-decision.response.json"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: invalid approval or rejection signature\n\nCaused by:\n    signature error\n"
+  },
+  {
+    "arguments": [
+      "review",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend-export/predicted-context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: request uses a different configuration or proposal counter\n"
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-0.key",
+      "approve",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/must-not-sign-wrong-review"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: review digest changed; review the exact request again before signing\n"
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-0.key",
+      "approve",
+      "0f46f84c68272ce9a791b4032da5958f3f378eb58edbb8e2f6700def6784cc65",
+      "/workspace/scratch/edc38349058c/treasury-public-release-2026-10-23/lez-shared-treasury/var/20261023T014249Z-demo-64850721/member-demo/must-not-read-public-key-file"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: private key permissions must be 0600 or stricter\n"
+  }
+]

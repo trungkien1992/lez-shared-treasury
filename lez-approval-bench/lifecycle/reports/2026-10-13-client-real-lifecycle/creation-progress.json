@@ -1,0 +1,108 @@
+{
+  "checks": {
+    "expiry_rejected": "OutOfValidityWindow",
+    "failed_checks_preserved_state": true,
+    "modified_message_rejected": "InvalidPrivacyPreservingProof",
+    "post_state_sha256": "522d18f1698e63c6bdffe30d0e032decb4092400fb1506594c0f9df2d2f8881c",
+    "pre_state_sha256": "cd8d9413cfccd57efb1e7b28ec7b8f0e4ad26bf3bf11629ed097c56231489358",
+    "replay_rejected": "InvalidInput(\"Commitment already seen\")",
+    "valid_transition": true,
+    "validation_seconds": 0.017122313
+  },
+  "creation_real_proof_verified": true,
+  "creation_transition_accepted": true,
+  "encoding": {
+    "borsh_sha256": "745c704e799195b2fad42c769cfc5bc53725059daf7f4f24bd7cbf1e59e080c5",
+    "borsh_transaction_bytes": 232071,
+    "core_transaction_bytes": 232071,
+    "envelope_encoding": "pinned common::LeeTransaction layout; RPC verification is a separate gate",
+    "envelope_sha256": "073df88b32f89da9c7b30faa7aeed667634120ad5feb16b434a2795e9c33739f",
+    "fits_repository_1mib_minus_2048": true,
+    "lee_envelope_bytes": 232072
+  },
+  "sequencer_submission": false,
+  "spend_completed": false,
+  "stages": [
+    {
+      "checkpoint_reused": true,
+      "image_id": [
+        3773627294,
+        3562964235,
+        1718102793,
+        1062580918,
+        16198072,
+        4137442527,
+        1682362922,
+        3174379661
+      ],
+      "input_sha256": "8c541900e20dfcd46252f69e0914a0eb6d79655fbc942f7bc4db49aa4f4362c2",
+      "journal_bytes": 4702,
+      "mode": "real-proof",
+      "receipt_bytes": 253654,
+      "receipt_sha256": "71dd31ba9c1b2478baacd2f557f004131e18f7af5b4b80b0d3a097483633e513",
+      "seconds": 64.850545212,
+      "stage": "vault-plan",
+      "stats": {
+        "paging_cycles": 51676,
+        "reserved_cycles": 20799,
+        "segments": 1,
+        "total_cycles": 131072,
+        "user_cycles": 58597
+      }
+    },
+    {
+      "checkpoint_reused": true,
+      "image_id": [
+        3773627294,
+        3562964235,
+        1718102793,
+        1062580918,
+        16198072,
+        4137442527,
+        1682362922,
+        3174379661
+      ],
+      "input_sha256": "bcf0c4610884b5ab9e70f153040e704ab0ec84d1e341e29f0dd9819319f559ac",
+      "journal_bytes": 2524,
+      "mode": "real-proof",
+      "receipt_bytes": 2819430,
+      "receipt_sha256": "1020bb530e556b819d3a7c377eddc23d314835a9409e990aad33b702ba381019",
+      "seconds": 1356.349492261,
+      "stage": "vault-apply",
+      "stats": {
+        "paging_cycles": 313124,
+        "reserved_cycles": 370745,
+        "segments": 11,
+        "total_cycles": 2883584,
+        "user_cycles": 2199715
+      }
+    },
+    {
+      "checkpoint_reused": false,
+      "image_id": [
+        3943929112,
+        3682468618,
+        2822605667,
+        1764660516,
+        290278025,
+        2512717227,
+        411457898,
+        556249114
+      ],
+      "input_sha256": "0aed16568b6aad2ece0b36cbdd7eb5d2164b85e672b279ad463413ca58883845",
+      "journal_bytes": 4462,
+      "mode": "real-proof",
+      "receipt_bytes": 6321795,
+      "receipt_sha256": "50b8dc676ee5e4674be1896c10ccc44a62333e60615f27cf2e5a5cbbfeceffad",
+      "seconds": 871.659561282,
+      "stage": "ppe-composite",
+      "stats": {
+        "paging_cycles": 503008,
+        "reserved_cycles": 324793,
+        "segments": 12,
+        "total_cycles": 2916352,
+        "user_cycles": 2088551
+      }
+    }
+  ]
+}

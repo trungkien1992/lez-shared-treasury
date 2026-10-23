@@ -1,0 +1,91 @@
+{
+  "recorded_at_utc": "2026-10-13T07:30:55.986055+00:00",
+  "member_workflow_complete": true,
+  "fresh_random_member_signing_keys": 7,
+  "guest_execution_passed": true,
+  "real_lifecycle_receipts_verified": 2,
+  "proving_stage_checkpoint_provenance": {
+    "creation": [
+      {
+        "stage": "vault-plan",
+        "checkpoint_reused": true
+      },
+      {
+        "stage": "vault-apply",
+        "checkpoint_reused": true
+      },
+      {
+        "stage": "ppe-composite",
+        "checkpoint_reused": false
+      }
+    ],
+    "spend": [
+      {
+        "stage": "vault-plan",
+        "checkpoint_reused": false
+      },
+      {
+        "stage": "vault-apply",
+        "checkpoint_reused": false
+      },
+      {
+        "stage": "ppe-composite",
+        "checkpoint_reused": false
+      }
+    ]
+  },
+  "fresh_saved_receipt_check_passed": true,
+  "actual_local_sequencer_transactions": [
+    {
+      "operation": "fund-private-source",
+      "transaction_hash": "54905db89319e187295183ce93550339d8831d830aa5684cdfbaf10351b82684",
+      "block_id": 2,
+      "envelope_bytes": 227977,
+      "envelope_sha256": "7e126e1ad406619ebdf178c2d6a6777003c3af51647070d4096582d80ee8cd36",
+      "included_bytes_match": true,
+      "accepted_funding_root_matches_lifecycle": true
+    },
+    {
+      "operation": "create-and-fund-vault",
+      "transaction_hash": "745c704e799195b2fad42c769cfc5bc53725059daf7f4f24bd7cbf1e59e080c5",
+      "block_id": 3,
+      "envelope_bytes": 232072,
+      "envelope_sha256": "073df88b32f89da9c7b30faa7aeed667634120ad5feb16b434a2795e9c33739f",
+      "included_bytes_match": true,
+      "accepted_vault_membership_matches_spend": true,
+      "node_membership_ingested_by_host": true
+    },
+    {
+      "operation": "five-of-seven-spend",
+      "transaction_hash": "30f0bd6e46c4be4b859a3a2fa1323394d22306ef06b8d946d20fbf8e6b1be7b0",
+      "block_id": 4,
+      "envelope_bytes": 232072,
+      "envelope_sha256": "fa22ef760a7566927fe2789398e2ec4a44e9fdb0741353b33b05369db47f9771",
+      "included_bytes_match": true,
+      "accepted_spend_root_matches_verified_state": true
+    }
+  ],
+  "node_membership_ingested": true,
+  "client_negative_cli_controls_passed": 6,
+  "approved_indices": [
+    0,
+    2,
+    3,
+    5,
+    6
+  ],
+  "rejected_indices": [
+    1,
+    4
+  ],
+  "vault_balance": 463,
+  "recipient_balance": 37,
+  "private_funder_balance": 500,
+  "guest_sha256": "fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c",
+  "genesis_snapshot_sha256": "4ac7de6be97444f6bc15e8d5ac788f2ac998068c7c66b81bacb38e736510affb",
+  "public_devnet": false,
+  "logos_chat_integrated": false,
+  "general_wallet_adapter": false,
+  "private_account_material": "public test fixtures",
+  "secret_member_signing_keys_in_bundle": false
+}

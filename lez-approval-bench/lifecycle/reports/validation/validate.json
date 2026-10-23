@@ -1,0 +1,268 @@
+{
+  "create_apply_user_cycles": 2196804,
+  "deterministic_public_test_keys": true,
+  "elapsed_seconds": 4.832987847,
+  "exclusive_expiry_window_propagated": true,
+  "guest_image_id": [
+    3773627294,
+    3562964235,
+    1718102793,
+    1062580918,
+    16198072,
+    4137442527,
+    1682362922,
+    3174379661
+  ],
+  "guest_sha256": "fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c",
+  "live_devnet_submission": false,
+  "mode": "execution-only; native and real guest binary",
+  "negative_apply_cases": [
+    {
+      "case": "missing_one_enrollment",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InsufficientApprovals\"",
+      "native_rejected": "enrollment rejected: InsufficientApprovals"
+    },
+    {
+      "case": "spending_quorum_is_not_enrollment",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InsufficientApprovals\"",
+      "native_rejected": "enrollment rejected: InsufficientApprovals"
+    },
+    {
+      "case": "no_member_consent",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InsufficientApprovals\"",
+      "native_rejected": "enrollment rejected: InsufficientApprovals"
+    },
+    {
+      "case": "duplicate_signer",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: DuplicateApproval\"",
+      "native_rejected": "enrollment rejected: DuplicateApproval"
+    },
+    {
+      "case": "extra_enrollment",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"invalid enrollment version, threshold or bounds\"",
+      "native_rejected": "invalid enrollment version, threshold or bounds"
+    },
+    {
+      "case": "nonmember_index",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InvalidMemberIndex\"",
+      "native_rejected": "enrollment rejected: InvalidMemberIndex"
+    },
+    {
+      "case": "invalid_signature",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InvalidSignature\"",
+      "native_rejected": "enrollment rejected: InvalidSignature"
+    },
+    {
+      "case": "changed_network_and_rebound_address",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InvalidSignature\"",
+      "native_rejected": "enrollment rejected: InvalidSignature"
+    },
+    {
+      "case": "changed_threshold_and_rebound_address",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InvalidSignature\"",
+      "native_rejected": "enrollment rejected: InvalidSignature"
+    },
+    {
+      "case": "changed_salt_and_rebound_address",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InvalidSignature\"",
+      "native_rejected": "enrollment rejected: InvalidSignature"
+    },
+    {
+      "case": "reordered_members_and_rebound_address",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InvalidSignature\"",
+      "native_rejected": "enrollment rejected: InvalidSignature"
+    },
+    {
+      "case": "duplicate_member_keys",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: DuplicateMember\"",
+      "native_rejected": "enrollment rejected: DuplicateMember"
+    },
+    {
+      "case": "invalid_member_key",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InvalidMemberKey\"",
+      "native_rejected": "enrollment rejected: InvalidMemberKey"
+    },
+    {
+      "case": "changed_nullifier_key",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InvalidSignature\"",
+      "native_rejected": "enrollment rejected: InvalidSignature"
+    },
+    {
+      "case": "changed_viewing_key",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InvalidSignature\"",
+      "native_rejected": "enrollment rejected: InvalidSignature"
+    },
+    {
+      "case": "changed_identifier",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InvalidSignature\"",
+      "native_rejected": "enrollment rejected: InvalidSignature"
+    },
+    {
+      "case": "changed_expiry",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InvalidSignature\"",
+      "native_rejected": "enrollment rejected: InvalidSignature"
+    },
+    {
+      "case": "zero_expiry",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"invalid enrollment version, threshold or bounds\"",
+      "native_rejected": "invalid enrollment version, threshold or bounds"
+    },
+    {
+      "case": "zero_threshold",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"invalid enrollment version, threshold or bounds\"",
+      "native_rejected": "invalid enrollment version, threshold or bounds"
+    },
+    {
+      "case": "threshold_exceeds_members",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"invalid enrollment version, threshold or bounds\"",
+      "native_rejected": "invalid enrollment version, threshold or bounds"
+    },
+    {
+      "case": "unknown_version",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"invalid enrollment version, threshold or bounds\"",
+      "native_rejected": "invalid enrollment version, threshold or bounds"
+    },
+    {
+      "case": "empty_member_list",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"invalid enrollment version, threshold or bounds\"",
+      "native_rejected": "invalid enrollment version, threshold or bounds"
+    },
+    {
+      "case": "too_many_members",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"invalid enrollment version, threshold or bounds\"",
+      "native_rejected": "invalid enrollment version, threshold or bounds"
+    },
+    {
+      "case": "unrelated_or_prefunded_vault_address",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"vault address does not match enrolled descriptor\"",
+      "native_rejected": "vault address does not match enrolled descriptor"
+    },
+    {
+      "case": "other_program_and_rebound_address",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"enrollment rejected: InvalidSignature\"",
+      "native_rejected": "enrollment rejected: InvalidSignature"
+    },
+    {
+      "case": "foreign_configuration_shard",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"configuration must belong to the executing program\"",
+      "native_rejected": "configuration must belong to the executing program"
+    },
+    {
+      "case": "reinitialize_existing_vault",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"vault already initialized or configuration is malformed\"",
+      "native_rejected": "vault already initialized or configuration is malformed"
+    },
+    {
+      "case": "overwrite_malformed_existing_configuration",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"vault already initialized or configuration is malformed\"",
+      "native_rejected": "vault already initialized or configuration is malformed"
+    },
+    {
+      "case": "trailing_effect_bytes",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"malformed lifecycle effect\"",
+      "native_rejected": "malformed lifecycle effect"
+    },
+    {
+      "case": "malformed_viewing_key_length",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"invalid enrollment version, threshold or bounds\"",
+      "native_rejected": "invalid enrollment version, threshold or bounds"
+    },
+    {
+      "case": "transfer_insufficient_quorum",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"InsufficientApprovals\"",
+      "native_rejected": "InsufficientApprovals"
+    },
+    {
+      "case": "transfer_no_approvals",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"InsufficientApprovals\"",
+      "native_rejected": "InsufficientApprovals"
+    },
+    {
+      "case": "transfer_duplicate_approval",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"DuplicateApproval\"",
+      "native_rejected": "DuplicateApproval"
+    },
+    {
+      "case": "transfer_changed_amount",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"InvalidSignature\"",
+      "native_rejected": "InvalidSignature"
+    },
+    {
+      "case": "transfer_changed_recipient",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"InvalidSignature\"",
+      "native_rejected": "InvalidSignature"
+    },
+    {
+      "case": "transfer_changed_expiry",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"InvalidSignature\"",
+      "native_rejected": "InvalidSignature"
+    },
+    {
+      "case": "transfer_stale_epoch",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"state version, epoch, sequence, seed or transfer mismatch\"",
+      "native_rejected": "state version, epoch, sequence, seed or transfer mismatch"
+    },
+    {
+      "case": "enrollment_signatures_cannot_authorize_spending",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"InvalidSignature\"",
+      "native_rejected": "InvalidSignature"
+    },
+    {
+      "case": "replay_consumed_transfer",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"state version, epoch, sequence, seed or transfer mismatch\"",
+      "native_rejected": "state version, epoch, sequence, seed or transfer mismatch"
+    },
+    {
+      "case": "spending_before_creation",
+      "guest_rejected": "Guest panicked: lifecycle apply rejected: \"missing or malformed committed vault configuration\"",
+      "native_rejected": "missing or malformed committed vault configuration"
+    }
+  ],
+  "negative_funding_flows": [
+    {
+      "case": "funding_key_required",
+      "rejected": "Guest panicked: lifecycle plan rejected: \"invalid or unauthorized funding source\"",
+      "returned_ppe_output": false
+    },
+    {
+      "case": "funding_balance_required",
+      "rejected": "sender 9XQ13FBybDdgJPaC59b6RqK9YyVEMsNVGjSzWCeDQWZi holds less than the transferred amount",
+      "returned_ppe_output": false
+    }
+  ],
+  "negative_plan_cases": [
+    {
+      "case": "unauthorized_funding_handle",
+      "guest_rejected": "Guest panicked: lifecycle plan rejected: \"invalid or unauthorized funding source\"",
+      "native_rejected": "invalid or unauthorized funding source"
+    },
+    {
+      "case": "wrong_vault_balance_handle",
+      "guest_rejected": "Guest panicked: lifecycle plan rejected: \"invalid or unauthorized funding source\"",
+      "native_rejected": "invalid or unauthorized funding source"
+    },
+    {
+      "case": "wrong_funding_handle",
+      "guest_rejected": "Guest panicked: lifecycle plan rejected: \"invalid or unauthorized funding source\"",
+      "native_rejected": "invalid or unauthorized funding source"
+    },
+    {
+      "case": "zero_funding_amount",
+      "guest_rejected": "Guest panicked: lifecycle plan rejected: \"invalid or unauthorized funding source\"",
+      "native_rejected": "invalid or unauthorized funding source"
+    },
+    {
+      "case": "extra_unfunded_handle",
+      "guest_rejected": "Guest panicked: lifecycle plan rejected: \"unexpected creation handles\"",
+      "native_rejected": "unexpected creation handles"
+    }
+  ],
+  "positive_creation_native_guest_match": true,
+  "positive_transfer_native_guest_match": true,
+  "ppe_elf_sha256": "2d0e691386987e0bd0f708557730445c7ebee03a5c922ae37b897a939b8a82f5",
+  "proof_generated": false,
+  "settlement_verified": false,
+  "transfer_apply_user_cycles": 1618281,
+  "unfunded_creation_same_configuration": true,
+  "upstream_commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4"
+}

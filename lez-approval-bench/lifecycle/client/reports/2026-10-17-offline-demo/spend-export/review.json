@@ -1,0 +1,35 @@
+{
+  "action": {
+    "amount_base_units": "37",
+    "custody_seed_hex": "58a0407a26de5da9e3868d35288cd87e69d814c7522ec8ef2376b20495f95705",
+    "epoch": 1,
+    "kind": "native-transfer",
+    "proposal_counter": 0,
+    "recipient": "G87tVxK7EfnSBrANUj3UnKERyYeuBS8M197RG7DoGFmE",
+    "recipient_hex": "e0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5",
+    "target_program_hex": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "action_digest": "d78ff1fe88792c50c846c36083a8941293b31aea51ecd95a095d1588434be13a",
+  "context_authentication": "external; this file alone is not evidence of accepted chain state",
+  "context_id": "f4c115fed2bbe0e7f0c2a206f59dfe3f55e67d4286052dfdc9cd70aea1534a27",
+  "decoded_from": "exact Borsh instruction bytes",
+  "expires_at_ms": 2000000000000,
+  "guest_sha256": "fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c",
+  "instruction_sha256": "8c54f7be28644e0bf9656f837d863584a8c2ae1ecea312c12dc78ab52348c33a",
+  "member_public_keys": [
+    "114c8679619137e5f162fa57a74cdeee8f000ec87fedefb1367c2b4ad3acc8b3",
+    "992024c547ca3b9bd162cb85c0f7ed36c4fc8929fb07bfe15c1edeb7a050547b",
+    "24f1bf0ac32fdc0662df2345a5ed10f3a0ade51f7cb23fdcd0b0a77a57874111",
+    "694f9d4f603a4885e8461432f18dcdfdcb0a6ca487f3c58b8d9d1d034cec3518",
+    "0c5a8205d290745775551676e5a0af10cb57e9c779375cefef8ff47e73c1f616",
+    "ee1aa0444f1ea70d7683e8ef85e5c2b4a80e3882ae145cbf822da2d26b0276f6",
+    "f3c349395870fdaca59f42f6934d448a63cc05532968a2345b594598e5fbc939"
+  ],
+  "network_domain_hex": "4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d",
+  "program_hex": "37cbd48d3f4b99ca3595d846b8cad2c3221a1201454fae6f03e80398b06afabf",
+  "required_approvals": 5,
+  "review_digest": "c275335a2110575b38c04f8c33273d3356aed55927540259d0742929a19d56b9",
+  "transport": "offline files; Logos Chat adapter pending",
+  "vault": "DFCq5L5GNP5fSKK3CaP8hK5wrc89MnpvAvNzTeWU7efL",
+  "vault_hex": "b5efbfd832522445275444229073876e79c2187e762bdafacab3acfb831d1ee3"
+}

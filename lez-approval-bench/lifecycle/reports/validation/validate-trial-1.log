@@ -1,0 +1,181 @@
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InsufficientApprovals"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InsufficientApprovals"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InsufficientApprovals"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: DuplicateApproval"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "invalid enrollment version, threshold or bounds"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InvalidMemberIndex"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: DuplicateMember"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InvalidMemberKey"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "invalid enrollment version, threshold or bounds"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "invalid enrollment version, threshold or bounds"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "invalid enrollment version, threshold or bounds"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "invalid enrollment version, threshold or bounds"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "invalid enrollment version, threshold or bounds"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "invalid enrollment version, threshold or bounds"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "vault address does not match enrolled descriptor"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "enrollment rejected: InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "configuration must belong to the executing program"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "vault already initialized or configuration is malformed"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "vault already initialized or configuration is malformed"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "malformed lifecycle effect"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "InsufficientApprovals"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "InsufficientApprovals"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "DuplicateApproval"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "state version, epoch, sequence, seed or transfer mismatch"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "InvalidSignature"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "state version, epoch, sequence, seed or transfer mismatch"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:9:61:
+lifecycle apply rejected: "missing or malformed committed vault configuration"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:6:50:
+lifecycle plan rejected: "invalid or unauthorized funding source"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:6:50:
+lifecycle plan rejected: "invalid or unauthorized funding source"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:6:50:
+lifecycle plan rejected: "invalid or unauthorized funding source"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:6:50:
+lifecycle plan rejected: "invalid or unauthorized funding source"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:6:50:
+lifecycle plan rejected: "unexpected creation handles"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/main.rs:6:50:
+lifecycle plan rejected: "invalid or unauthorized funding source"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Error: unexpected flow error: sender 9XQ13FBybDdgJPaC59b6RqK9YyVEMsNVGjSzWCeDQWZi holds less than the transferred amount

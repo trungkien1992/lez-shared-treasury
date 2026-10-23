@@ -1,0 +1,62 @@
+{
+  "historical_test_fixture": true,
+  "import": {
+    "balance_base_units": "463",
+    "candidate_unspent_at_checkpoint": true,
+    "checkpoint_id": "6de4b97dde2e1a9b45feedbdbfced6caa3ef1604d4108b9d500e284bed57f827",
+    "commitment_hex": "91a49196bd0fd28dd1cc4612ab6710c22f15dab773e790a35c0f47b669d14977",
+    "commitment_root_hex": "701364282cb7a3d93fa1abdb7f29a2462861b97bb2c287b8c4d1afd629f82f70",
+    "head_block_id": 4,
+    "proposal_counter": 1,
+    "public_network_finality_verified": false,
+    "replayed_transactions": 3,
+    "state_authentication": "receipt-verified replay relative to an independently trusted checkpoint"
+  },
+  "review": {
+    "action": {
+      "amount_base_units": "37",
+      "custody_seed_hex": "3060703a710f7fcdd170338d3235d5fffaea2733909e18ff1011fe8b97b3fd46",
+      "epoch": 1,
+      "kind": "native-transfer",
+      "proposal_counter": 1,
+      "recipient": "2DYKaRPBeNM5WdW8rNsYEktjPrnd89Mm4Lzp3qonSzoj",
+      "recipient_hex": "1212121212121212121212121212121212121212121212121212121212121212",
+      "target_program_hex": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "action_digest": "e1aef5bf2ba5e5c882c15d49d259cd5e1d05aafaa2962174715bbb0377afecad",
+    "context_authentication": {
+      "balance_base_units": "463",
+      "candidate_unspent_at_checkpoint": true,
+      "checkpoint_id": "6de4b97dde2e1a9b45feedbdbfced6caa3ef1604d4108b9d500e284bed57f827",
+      "commitment_hex": "91a49196bd0fd28dd1cc4612ab6710c22f15dab773e790a35c0f47b669d14977",
+      "commitment_root_hex": "701364282cb7a3d93fa1abdb7f29a2462861b97bb2c287b8c4d1afd629f82f70",
+      "head_block_id": 4,
+      "proposal_counter": 1,
+      "public_network_finality_verified": false,
+      "replayed_transactions": 3,
+      "state_authentication": "receipt-verified replay relative to an independently trusted checkpoint"
+    },
+    "context_id": "0079a7cb3737121c9386389f5960b73401f4d51fdab11a6499ca41b7cf39c500",
+    "decoded_from": "exact Borsh instruction bytes",
+    "expires_at_ms": 2000000000000,
+    "guest_sha256": "fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c",
+    "instruction_sha256": "68db0163a440b9f4f453810e47c8e45c4d13b47d60ff9244652172aead6d7bbe",
+    "member_public_keys": [
+      "1a598b1fcf09f99a82c0212caaa7e227385e3c48c9f7b937c05f9965ef74ed1c",
+      "26ea1e4fbc90b89e36e5ce2cb8706ddd6123c66c0361e25b7492598c896fe29e",
+      "cb96a78a0f7844fb436388a4deab2ea935a86b2720e3f23da23cb26ad4ae9291",
+      "412edad49c31a4d30b478ce86f2d98c2392785d2882d8aab157050e4b60b3c0c",
+      "f03dd8e14a68045e0f9195698d122b0f9a3eaff1d8c56219e41419a49a10c7db",
+      "87ef52267660bcbd5da917abe253cd7a2425b27344073faf2875aedfaadfb947",
+      "7f805bae8da1859137f37af8ed44f6956b1e8d66d6e00f2a02bc29dc8514356c"
+    ],
+    "network_domain_hex": "4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d",
+    "program_hex": "37cbd48d3f4b99ca3595d846b8cad2c3221a1201454fae6f03e80398b06afabf",
+    "required_approvals": 5,
+    "review_digest": "cf4f953aa1d2f8ae327d57816a784b8e4e79061b486646474ef358ba63aae6f2",
+    "transport": "offline files; Logos Chat adapter pending",
+    "vault": "G1qw7KyEiPNjR7ZmDAoGUFLigjTwqyijZGqyY79TgUim",
+    "vault_hex": "df16a1ecc3f1f0803c6e63b8f0593d08f03e6259177943a92240097e836f47fa"
+  },
+  "live_node_queried": false
+}

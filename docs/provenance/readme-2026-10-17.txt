@@ -1,0 +1,50 @@
+LEZ SHARED TREASURY — CHECKPOINT-BACKED STATE IMPORT
+Latest implementation milestone: 17 October 2026
+
+New: trusted-checkpoint state import, receipt-verified replay, spent-note rejection
+and checkpoint-bound transfer review/signing. Existing local approval collection,
+guest and saved real-proof evidence remain available.
+
+Read first:
+1. STATUS.json
+2. lez-approval-bench/lifecycle/client/STATE_IMPORT_RESULTS_2026-10-17.md
+3. lez-approval-bench/lifecycle/client/STATE_IMPORT.md
+4. lez-approval-bench/lifecycle/client/reports/2026-10-17-state-import/validation-summary.json
+
+The new state-import milestone passed 35 Rust tests and six fresh offline CLI
+negative controls. bin/treasury-client is the newly built optimized Linux client.
+Historical example checkpoints may have expired; regenerate them before running
+the CLI. The demo nullifier key and fresh member signing keys stay outside this
+package. Archived LEZ fixture material remains public test-only material.
+
+State verification is relative to an independently trusted local checkpoint.
+Live-network checkpoint authentication, the production wallet adapter, Logos
+Chat/E2EE and complete RFP delivery remain pending. No new proof generation,
+standalone-node inclusion, public-network submission or hosted CI run is claimed.
+
+The archive retains its 12 October filename and historical evidence below. Those
+dates identify earlier checkpoints, not the latest client implementation.
+
+HISTORICAL 13 OCTOBER MILESTONE
+LEZ SHARED TREASURY — MEMBER WORKFLOW COMPLETE
+Latest milestone: 13 October 2026
+
+Completed: canonical-byte member review, local signing, asynchronous approval/rejection collection, exact guest-compatible exports, real creation/payment proofs, independent saved-receipt verification and actual pinned local sequencer inclusion.
+
+Seven fresh local test signers enrolled unanimously. Spend approvals from members 0, 2, 3, 5 and 6 met the five-of-seven quorum; members 1 and 4 signed rejections. The private funder ended at 500, the vault at 463 and the recipient at 37 base units. The fresh node included all three exact saved envelopes and exited cleanly.
+
+Read first:
+1. STATUS.json
+2. lez-approval-bench/lifecycle/client/CLIENT_RESULTS_2026-10-13.md
+3. lez-approval-bench/lifecycle/client/README.md
+4. lez-approval-bench/lifecycle/client/reports/2026-10-13-member-workflow/verification.json
+
+The package includes source, lockfiles, the exact unchanged guest, public member responses, real receipts, encodings, genesis snapshot, logs, test results and reproduction commands. bin/treasury-client and bin/lifecycle-host are the updated Linux binaries. bin/lifecycle-host-2026-10-12 and the October 12 reports/video retain the earlier fixture-driven baseline. The upstream checkout, sequencer binary and build dependencies are external and pinned.
+
+Thirteen client tests, ten shared approval-core tests, six CLI negative controls and the 47-case default host/guest regression suite passed. The .github workflow has locally validated quick checks; no hosted CI run or GitHub push was performed.
+
+Run verify_inventory.py for archive integrity. Use the host saved-proof modes for cryptographic verification. The latest member-client README gives exact saved-evidence and actual local-node replay commands. Secret fresh member signing keys are excluded. Public test-only LEZ private-account fixture material remains intentionally included and must not secure real funds.
+
+Proving resumed from two verified creation approval checkpoints generated for this same member workflow. Creation/payment privacy proofs and succinct compression completed in the resumed run. The historical native-funding receipt was reused for the unchanged bootstrap state. Recorded timings are not an uninterrupted fresh complete end-to-end benchmark.
+
+The node uses mock Bedrock and loopback RPC. No public-network submission occurred. Logos Chat/E2EE, general wallet/state integration, account ownership/key sharing, full product interfaces and the remaining RFP features are pending. This is a completed local engineering milestone, not full RFP delivery or an audit-ready production system.

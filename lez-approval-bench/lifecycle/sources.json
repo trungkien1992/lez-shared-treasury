@@ -1,0 +1,90 @@
+{
+  "checked_on": "2026-10-07",
+  "upstream_commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4",
+  "repository": "https://github.com/logos-blockchain/logos-execution-zone",
+  "official_source_files": [
+    {
+      "path": "lee/state_machine/core/src/program/mod.rs",
+      "url": "https://github.com/logos-blockchain/logos-execution-zone/blob/411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4/lee/state_machine/core/src/program/mod.rs",
+      "sha256": "5a73b7f39aa889775034f8a50f6ff5805d8785d6a66652e54dbb0f2c4b1b11a1"
+    },
+    {
+      "path": "lee/state_machine/core/src/execution_state.rs",
+      "url": "https://github.com/logos-blockchain/logos-execution-zone/blob/411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4/lee/state_machine/core/src/execution_state.rs",
+      "sha256": "06d197608759ae0fec7e72e6e3c8ab73c8b7210b8bd6712904bcc61728263fe0"
+    },
+    {
+      "path": "lee/state_machine/core/src/circuit_io.rs",
+      "url": "https://github.com/logos-blockchain/logos-execution-zone/blob/411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4/lee/state_machine/core/src/circuit_io.rs",
+      "sha256": "034bc3d688ac003976434609ffcea7fafdff6b3b4f345b2dbc370b65e8b45181"
+    },
+    {
+      "path": "lee/state_machine/core/src/native_token.rs",
+      "url": "https://github.com/logos-blockchain/logos-execution-zone/blob/411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4/lee/state_machine/core/src/native_token.rs",
+      "sha256": "fb41edfcee30946c18f18a8ef34d8911cac37f00eaf3312284a5efe2a1dca379"
+    },
+    {
+      "path": "lee/state_machine/src/state/mod.rs",
+      "url": "https://github.com/logos-blockchain/logos-execution-zone/blob/411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4/lee/state_machine/src/state/mod.rs",
+      "sha256": "68da939d4f563be3861bd9fc9092a6a8d3eac05c5296897fd2738682a807dfac"
+    },
+    {
+      "path": "integration_tests/tests/private_pda.rs",
+      "url": "https://github.com/logos-blockchain/logos-execution-zone/blob/411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4/integration_tests/tests/private_pda.rs",
+      "sha256": "266ec57d3bba18daf25dfdee862d64b94a0d86b6f1607ac3e4c93c44381b5ee7"
+    },
+    {
+      "path": "lez/sequencer/service/rpc/src/lib.rs",
+      "url": "https://github.com/logos-blockchain/logos-execution-zone/blob/411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4/lez/sequencer/service/rpc/src/lib.rs",
+      "sha256": "5caceb18017a10e125b375bf04369ed761643bb8f1164ad39b8532d16918fca6"
+    },
+    {
+      "path": "lez/sequencer/actors/rpc_server/src/actor/service.rs",
+      "url": "https://github.com/logos-blockchain/logos-execution-zone/blob/411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4/lez/sequencer/actors/rpc_server/src/actor/service.rs",
+      "sha256": "f9b3623d4c5bb25fbbbaa2ed61737c33ffb815400fe0da9917dff37aa0b4d68a"
+    },
+    {
+      "path": "lez/sequencer/core/src/config.rs",
+      "url": "https://github.com/logos-blockchain/logos-execution-zone/blob/411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4/lez/sequencer/core/src/config.rs",
+      "sha256": "37ef1aa88264e6c077530507ab9b6a5b08802d482ef667a249aecd9aeb020fb6"
+    },
+    {
+      "path": "lez/configs/docker-all-in-one/devnet/sequencer_config.json",
+      "url": "https://github.com/logos-blockchain/logos-execution-zone/blob/411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4/lez/configs/docker-all-in-one/devnet/sequencer_config.json",
+      "sha256": "cb9f7877e82b1c51925be07c3dc625fb85164008c8629279a2dc2d49cba0ad73"
+    }
+  ],
+  "guest_sha256": "fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c",
+  "guest_image_id": [
+    3773627294,
+    3562964235,
+    1718102793,
+    1062580918,
+    16198072,
+    4137442527,
+    1682362922,
+    3174379661
+  ],
+  "ppe_sha256": "2d0e691386987e0bd0f708557730445c7ebee03a5c922ae37b897a939b8a82f5",
+  "reused_unchanged_sources": [
+    {
+      "path": "core/src/lib.rs",
+      "sha256": "a0a63cfd4f44a38f8f955b6884f2f3af4a7049a4bb036f386bcc88c47937e0df"
+    },
+    {
+      "path": "integration/core/src/lib.rs",
+      "sha256": "b44771f31dcdd8a9f5baa14ce8da658f9b2748abf73095272bf05d95b9ca9b79"
+    },
+    {
+      "path": "integration/host/src/measured.rs",
+      "sha256": "e31ac30811578b4bcf93d1f2e95be03df390db5e0ec30d63b1d8869060437330"
+    }
+  ],
+  "external_package_versions_and_sources_equal_integration_lockfiles": true,
+  "new_guest_real_proof": false,
+  "network_endpoint_confirmed": false,
+  "network_rpc_calls": 0,
+  "local_http_preflight_tests": 6,
+  "paid_remote_jobs": 0,
+  "transactions_submitted": 0
+}

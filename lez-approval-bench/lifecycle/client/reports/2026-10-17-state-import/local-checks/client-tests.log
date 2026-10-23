@@ -1,0 +1,65 @@
+warning: lee@0.1.0: Generated module at /workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/target/debug/build/lee-722aea1e4585c5ec/out/lee/privacy_preserving_circuit/mod.rs
+   Compiling treasury-client v0.1.0 (/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client)
+    Finished `test` profile [unoptimized] target(s) in 4.06s
+     Running unittests src/lib.rs (target/debug/deps/treasury_client-b17e3100234917a7)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (target/debug/deps/treasury_client-4651b843870009dd)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/state_import.rs (target/debug/deps/state_import-7817b04abcb70cdd)
+
+running 12 tests
+test ambiguous_legacy_cli_signing_requires_an_explicit_mode ... ok
+test checkpoint_expiry_age_future_observation_and_counter_rollback_fail ... ok
+test modified_note_key_or_descriptor_cannot_create_a_verified_context ... ok
+test spent_note_is_rejected_even_though_its_membership_proof_still_exists ... ok
+test latest_member_workflow_imports_the_current_post_payment_note ... ok
+test development_receipts_are_explicitly_forbidden ... ok
+test wrong_replay_bounds_trailing_bytes_and_version_fail_closed ... ok
+test changed_proof_bound_message_and_omitted_or_reordered_replay_fail ... ok
+test wrong_snapshot_network_vault_guest_or_head_hash_is_rejected ... ok
+test signing_binds_the_trusted_checkpoint_and_rechecks_freshness ... ok
+test real_receipt_replay_imports_unspent_creation_and_signs_guest_compatible_approval ... ok
+verified CLI roundtrip: imported accepted state, reviewed checkpoint-bound bytes, signed and independently checked approval
+test verified_cli_import_review_and_sign_roundtrip_with_real_archived_proofs ... ok
+
+test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 59.64s
+
+     Running tests/workflow.rs (target/debug/deps/workflow-72fadc6abc7cd5f1)
+
+running 13 tests
+test a_rejection_cannot_be_presented_as_an_approval ... ok
+test proposer_descriptions_and_unknown_metadata_are_rejected ... ok
+test archived_real_creation_instruction_roundtrips_without_a_byte_change ... ok
+test distinct_nonconsecutive_signers_export_the_guest_instruction ... ok
+test a_rejection_is_not_a_veto_but_conflicting_decisions_are_detected has been running for over 60 seconds
+test changed_signed_fields_and_response_indices_fail_verification has been running for over 60 seconds
+test creation_requires_every_member_even_with_threshold_five has been running for over 60 seconds
+test expired_requests_fail_at_the_exclusive_boundary has been running for over 60 seconds
+test next_counter_context_does_not_accept_old_requests has been running for over 60 seconds
+test review_preserves_large_amounts_as_decimal_base_units ... ok
+test signing_requires_the_exact_reviewed_bytes ... ok
+test changed_signed_fields_and_response_indices_fail_verification ... ok
+test unsigned_inbound_funding_scope_is_explicit ... ok
+test next_counter_context_does_not_accept_old_requests ... ok
+test replayed_and_reordered_deliveries_never_inflate_quorum has been running for over 60 seconds
+test expired_requests_fail_at_the_exclusive_boundary ... ok
+test a_rejection_is_not_a_veto_but_conflicting_decisions_are_detected ... ok
+test replayed_and_reordered_deliveries_never_inflate_quorum ... ok
+test creation_requires_every_member_even_with_threshold_five ... ok
+
+test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 154.02s
+
+   Doc-tests treasury_client
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

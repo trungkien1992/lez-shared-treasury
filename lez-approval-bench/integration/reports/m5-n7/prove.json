@@ -1,0 +1,153 @@
+{
+  "ciphertext_padding": 1024,
+  "composite": {
+    "borsh_sha256": "03dd9ed4feca5903f54f3c4b06f78186ed2a658162932d25ca4e120d8e677a5f",
+    "borsh_transaction_bytes": 5316615,
+    "checks": {
+      "expiry_rejected": "OutOfValidityWindow",
+      "failed_checks_preserved_state": true,
+      "modified_message_rejected": "InvalidPrivacyPreservingProof",
+      "new_commitments_present": true,
+      "public_effects": 0,
+      "public_signatures": 0,
+      "replay_rejected": "InvalidInput(\"Commitment already seen\")",
+      "valid_transition": true,
+      "validation_seconds": 0.508054276
+    },
+    "core_transaction_bytes": 5316615,
+    "envelope_encoding": "pinned common::LeeTransaction layout; no RPC test",
+    "envelope_sha256": "fff9d5ba773b5a768b5fb18ce12b939bccd59ce071e80dc9e3b8c2b9f3052940",
+    "fits_debug_1mib_minus_2048": false,
+    "inner_proof_bytes": 5312145,
+    "lee_envelope_bytes": 5316616
+  },
+  "dummy_notes": 0,
+  "guest_image_id": [
+    2059719584,
+    1594371413,
+    2204304149,
+    3232472967,
+    1398273450,
+    815850652,
+    619385496,
+    1475037365
+  ],
+  "guest_sha256": "ca8bbda814b5e2116dee7a8b1636af9f7e283ab5e2d302669f0c4485a89c37a7",
+  "limitations": [
+    "local LEE state transition, no RPC/sequencer/Bedrock deployment",
+    "preinitialized private vault genesis fixture",
+    "no enrollment or reconfiguration workflow",
+    "two notes; no wallet seven-note padding",
+    "synthetic network domain and public deterministic test keys"
+  ],
+  "member_account_ids": [
+    "CntQ7q2MHGxso9ebbdv6XVYtzhKnGJYHnhYA1V6Aaxg5",
+    "6d4jEqncWAF9Qr1koFkQfCohXTcfJ41Md3UQSLhYYCin",
+    "GtvnQVLsv8V34E3X9hMBR9hsUokapUgiE4o7vCU4VMB5",
+    "EX5ZmwTtQDwEauFG3cnp4mKDBQ2cdgg5oynkYGDaaZTC",
+    "BomdwnjqAudoNQoCT97JMYzyU84UTujXaEHkjA1hPNeb",
+    "7LWqNSTfRqMz8av3B7snvEaMQFwiwHFKe2r4KtwgfvbN",
+    "6c9vDX3X4FGPVggNxdRv9TBjquxSDDrCFqzMvRfFbUsS"
+  ],
+  "members": 7,
+  "mode": "succinct",
+  "post_state_checks": "both encrypted notes decrypt to exact expected accounts; vault 1000→963, recipient 0→37, proposal counter 0→1",
+  "ppe_elf_sha256": "2d0e691386987e0bd0f708557730445c7ebee03a5c922ae37b897a939b8a82f5",
+  "ppe_image_id": [
+    3943929112,
+    3682468618,
+    2822605667,
+    1764660516,
+    290278025,
+    2512717227,
+    411457898,
+    556249114
+  ],
+  "private_notes": 2,
+  "program_identity": "shadow",
+  "segment_limit_po2": 18,
+  "session_limit_cycles": 134217728,
+  "stages": [
+    {
+      "image_id": [
+        2059719584,
+        1594371413,
+        2204304149,
+        3232472967,
+        1398273450,
+        815850652,
+        619385496,
+        1475037365
+      ],
+      "input_sha256": "b8143a0e9fc3811c36d03f7d9553c8b6098db6b3e1659d02ff88e50d3fac9bfe",
+      "journal_bytes": 1450,
+      "mode": "real-proof",
+      "receipt_bytes": 224110,
+      "receipt_sha256": "189ac9577a3535f6f1905deb5eefa4f9c0cbdde2d94b5273ce6c94483c1ad2fb",
+      "seconds": 20.287159219,
+      "stage": "vault-plan",
+      "stats": {
+        "paging_cycles": 32155,
+        "reserved_cycles": 11534,
+        "segments": 1,
+        "total_cycles": 65536,
+        "user_cycles": 21847
+      }
+    },
+    {
+      "image_id": [
+        2059719584,
+        1594371413,
+        2204304149,
+        3232472967,
+        1398273450,
+        815850652,
+        619385496,
+        1475037365
+      ],
+      "input_sha256": "83dd3489401a983ade2967802f13edc623ad466d4ea2bbc8d5e258581bc0fb4a",
+      "journal_bytes": 1198,
+      "mode": "real-proof",
+      "receipt_bytes": 2049252,
+      "receipt_sha256": "5535e1dbfa351b532acc11f849f960f413d4acae2bbd1fdd2117fd1fdab66cec",
+      "seconds": 642.26325049,
+      "stage": "vault-apply",
+      "stats": {
+        "paging_cycles": 207064,
+        "reserved_cycles": 285867,
+        "segments": 8,
+        "total_cycles": 2097152,
+        "user_cycles": 1604221
+      }
+    },
+    {
+      "image_id": [
+        3943929112,
+        3682468618,
+        2822605667,
+        1764660516,
+        290278025,
+        2512717227,
+        411457898,
+        556249114
+      ],
+      "input_sha256": "92a19efcba39a6e617172fe19a947f47b56f63d871eefdda8a5b7d21b8905bae",
+      "journal_bytes": 4462,
+      "mode": "real-proof",
+      "receipt_bytes": 5317209,
+      "receipt_sha256": "a89f1ed11a3b75e5648517e008bb5217f745f92d61a5113bb22d81ac1ed371d8",
+      "seconds": 1035.086606974,
+      "stage": "ppe-composite",
+      "stats": {
+        "paging_cycles": 458560,
+        "reserved_cycles": 373711,
+        "segments": 11,
+        "total_cycles": 2883584,
+        "user_cycles": 2051313
+      }
+    }
+  ],
+  "threshold": 5,
+  "upstream_commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4",
+  "wall_seconds_this_invocation": 1700.091080512
+}

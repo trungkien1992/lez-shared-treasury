@@ -1,0 +1,11 @@
+{
+  "recorded_at_utc": "2026-10-13T07:31:04.473638+00:00",
+  "linux_binaries_sha256": {
+    "treasury-client": "73d35b0daf5ba6e28c88d21b488640b97c16405483fc9aeab853eb66d5183690",
+    "lifecycle-host": "549f246cdc9d41f2d456ef894a095f9342a7a38e319342476b66f3cba5b1502b"
+  },
+  "guest_sha256": "fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c",
+  "upstream_commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4",
+  "hosted_ci_executed": false,
+  "secret_member_signing_keys_in_bundle": false
+}

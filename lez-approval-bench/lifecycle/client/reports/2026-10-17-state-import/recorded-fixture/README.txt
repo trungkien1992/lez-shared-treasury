@@ -1,0 +1,1 @@
+Historical local test fixture. Checkpoint generated from a known archived state, not a live node or consensus proof. Replay uses fixture validity timestamps. Public test-only LEZ key material must never secure funds. Checkpoint expires five minutes after generation. Read client/STATE_IMPORT.md.

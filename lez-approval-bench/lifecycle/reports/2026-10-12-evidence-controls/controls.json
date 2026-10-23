@@ -1,0 +1,18 @@
+{
+  "positive_control": "actual node membership ingested and matched proved input",
+  "negative_controls": [
+    {
+      "case": "altered_node_membership",
+      "exit_code": 1,
+      "expected_rejection": "node witness does not open the reported commitment root",
+      "rejected_as_expected": true
+    },
+    {
+      "case": "altered_saved_transaction",
+      "exit_code": 1,
+      "expected_rejection": "saved transaction/receipt mismatch",
+      "rejected_as_expected": true
+    }
+  ],
+  "original_evidence_unchanged": true
+}

@@ -1,0 +1,8 @@
+{
+  "journal_bytes": 4462,
+  "mode": "real-proof",
+  "receipt_bytes": 232150,
+  "receipt_sha256": "f527d6d95c58ccaa9e4a22df7d03c712f4b310cc8628935b0a97d1c64d1dbbb1",
+  "seconds": 1103.581216862,
+  "stage": "ppe-succinct"
+}

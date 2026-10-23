@@ -1,0 +1,32 @@
+{
+  "prepared_on": "2026-10-23",
+  "source_snapshot_date": "2026-10-17",
+  "unchanged_rust_files": 31,
+  "fresh_checks": [
+    {
+      "fresh_cli_negative_controls_passed": 6,
+      "local_test_signers": 7,
+      "temporary_signing_keys_removed": true,
+      "network_contacted": false,
+      "command": "demo",
+      "recorded_at_utc": "2026-10-23T01:42:57.530016+00:00"
+    },
+    {
+      "saved_lifecycle_receipts_verified": 2,
+      "saved_funding_receipt_verified": true,
+      "new_receipts_generated": false,
+      "network_contacted": false,
+      "command": "receipts",
+      "recorded_at_utc": "2026-10-23T01:42:51.056951+00:00"
+    }
+  ],
+  "executables": "original archived Linux binaries; source identity preserved; no new Rust compilation in this packaging run",
+  "historical_rust_tests_passed": 35,
+  "historical_rust_test_date": "2026-10-17",
+  "rust_tests_rerun_for_this_release": false,
+  "new_proof_generation": false,
+  "new_sequencer_inclusion": false,
+  "public_network_submission": false,
+  "hosted_ci_executed": false,
+  "source_archive_sha256": "1e391e30854cd63d62e5e7dc3a5ddbacc7cf274566f6ec63f8eb60882bfebab6"
+}

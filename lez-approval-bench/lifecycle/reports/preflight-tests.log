@@ -1,0 +1,11 @@
+test_invalid_channel_is_failure_before_http (test_devnet_preflight.PreflightTests.test_invalid_channel_is_failure_before_http) ... ok
+test_invalid_jsonrpc_response_is_failure (test_devnet_preflight.PreflightTests.test_invalid_jsonrpc_response_is_failure) ... ok
+test_real_http_readonly_roundtrip (test_devnet_preflight.PreflightTests.test_real_http_readonly_roundtrip) ... ok
+test_rpc_auth_in_url_is_not_logged_or_sent (test_devnet_preflight.PreflightTests.test_rpc_auth_in_url_is_not_logged_or_sent) ... ok
+test_send_method_cannot_reach_network (test_devnet_preflight.PreflightTests.test_send_method_cannot_reach_network) ... ok
+test_wrong_channel_stops_before_other_queries (test_devnet_preflight.PreflightTests.test_wrong_channel_stops_before_other_queries) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.055s
+
+OK

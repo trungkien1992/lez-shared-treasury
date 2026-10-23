@@ -1,0 +1,206 @@
+Proving ppe-composite (segment 2^18)
+2026-10-12T12:13:50.269218Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_session: exit_code = Halted(0), journal = Some("3309000001000000b30423ab776a62c08ca141811113e2437ec775abc8649fd90d4f1e18f97fd9bd0101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001100000000e8030000000000000000000000000000010000005b7a6cea2edd0daa90ec21243f07d7f8733f565d243cccd02ef128475c29a3a06b098322110010150b2aa032bd85d1b73cf254eefe257b1a5aacc00d5fe95429ee9289047728af09b3489a03b68d646a6fe9fed60ad0d0438562f4425c8bd84800040000f597b825d123126f4af22e8f4756c2beec32cc5f92e6820de511fa565d47372220963cc9b0b87c85518741e1dea4923f1ce656375eb8ca9c4286418ea65ba0dfa90f96d0477f9316762fecf9a9389a6252883a752db1a4be21f8aa25f5b5777ff4071cd75532d0adfd1c5b08f5dadb5bff987709d6dcfd0fcc6f3eff5d0876062241d6af572a60a32fd867ea7073cfd0a1bc938fa55dc35441291f9569f45902853334097ecaf1201cee40c1033e4e59fdc9cbbfd2e595513850b6fe8147f089ca00094ccefff868cb1190501ee207fea6b6267a28171f61e1cf5a8442cd1d7bc70cec544e0df514c8dba8b025c3f777d62a03f53d348681f7b60a99987ede8de43b826ede0f9ace0a84d9d7062346e72ea6fa03d7d7400c567b0a352ca1e06f159b60802a6834f17f479c7ad929e92d9376be5cb77dec5af8172a949d59844e12a9e17c8d2f5afe4ed99b2097010d9b36f5178548ba538123198dc4f94a0fba3145e15b989e7322134b42529e1f5a5984d8fbe8c692b9aec8d53e04adebb14cbd06605d8355e22f77f9929e11135cff7dee158956eacf19c7165a6c03645cac62f85b8ead3fa2b564aa10d69b001076030dd0b8678753af059a748a9ab6193664838b9fad827d049e115b35ff069cca3cd023ddc75d5aa80583f5790ff831d00312a45a104ee71cd08716b3409a4c72d6a425ddeec9df639c406c4004b622895b39ff07f50e92beaa92414aa86f7eec254b1780c2dff0359f9ff40a3f78dc47709690f148e50801fe6ab2a6d96630eadce5850b0d71ae56767c134d6a1c06f5b9baadfd028655efd153f9f3fda605d4ecc167686c0447efb524ca294bdd6aeda0f09616c890992e3e896092f48820c27c80af285391c8ac881521c8fa63d31a2491062351c89a82886967911682ce2ae5c82981729a35b72e55b1702532ab1dea9f099fecdd49a6454fb587ae0f55341c044c6f1748248dd4a673274bfded84b3714155982bb227aefe7808c36e76509456f5634f5e66f46253d8a3fd3d28f12bd34eece15c7de5ebf8673e7531ea11f62cd052b002e4dd604f74b2b01fe8201ec9586e1fc7bebcba394934988e1e7a5763465403c13d94064ea359ed23dbcacce37498191575edd649b25b5b39bb0b376acf7101284c1f63af47aa594619de1ade1ccc369713c47ec4c8cfad2af1b71d609444b76fdd0c330133bb92779931ea36817de3048f91909dec97f9ed7ef638947623db9f40d2b7a66416973b091af119a0b9b24bbe8b5e4a2a09f27527c7a81c9de40b31adea4af8600bb5320d22e43f1b605517dadcda61f6c4472b362479f4e2d6e3e941f659f0c43345973187d6fcc69434c63fe3d8b171c609acf508d20ef132228b90ee7e25d1b78e8404b59a61f4b76397701e81c15628029671c016e2fed3bde1692c2b23b64a60f17a06400400008990ed167b89b18a1723f4d8b374f5984d02157946bf69671b29dabfd2f0890bf53e3a14f95034fef9e6897069b0cf8a5c43bad63cc3d9c40898155c1995eb1b182e594e0c95f52a1973b5dae35399d6c8605b2a23ee9151c8ff8e3d45c0f7d75cca0c3a05631bfb72a888dfd089f9317ba11a9beb8fd18c91ae5f51306bd993f500c02d41a037afcca9bd97cf5c7ae221feb7abb0f99ef23abb9beb219267af4f4fbb9a17008077b8e0b20ada2e7a43c4cbe268eaf5712d77d4e863f12b682dbc3b96f7de69b8fb5b8366232834e7660a2582b11ef6cf1ec1c825854aa37754695f705b8ba49a709acd20972390706ff94980b503ca3bf4c08db0820942ebfd8a8ca627ad250a0e556393b165a80584cc5ca6d03409ded291af6bc2a5084275cc76eebd987a44eafb8106c5dc33c77487770252c32c46f899611198ed91cbfcfe63d0f0ab2f5a0f4fa5da3fcb926aeb3ecb91f8ee6276405732a055cc3a61b54a796a6c917c628c57be9bb801e2f4d378bc4b1b11180da72176a1d2051a0443fd793d1b691d9124264c57788ef42e93c58ce7f1e6ecfd30a47db7350b17dc048a95a0fb43cb3ce253e584c160b4104c13131612e3d8267ba9db3e84082a178d787ee093d9d9d3df04a2c1f0fa2c9cc7a03dad23587708e661371d152edb5ac30d05923e35aca0d3bba63b174640178302708061d89243685643be0a7709aee9bb53310b9b9b1b4a2a1db8789c169eca24c84ff319852fc855ba4e52569f564f7b6694c523119ae059a5b70d7e3a11f0b92ef05c6ff9972ceb1d6ca6a4d6982e04cf6c5749033433c7ca7febbaf5d46d7ae3a8b1bead97aab74c55abd3042344a8b099dbe57d1822b810aebe99ea04af64aa246e6583c0da8919221bfeb6b185b5673e0d10fff3abe8bc69c9a9c2f912dd58c9587de3ce9a9021324e211e3d99af4acf33f984346a2caf07d232aafe6369fdc496650269c207f300e447ffaf12bd4facff9af9fb379f92a663a260ab119efcc45bd7c025619c06fde884269bfa022d61387e35d681f9ba4dc8ffa01c7615965fcba359485546011a087781b4f471e189c408bd804c67512d5bbfd4acd6c64aa9b29ba3fd57e4c417035b7a9ca98b4c31ec7fa7f52b59f2c362f371992e97cd493e8359a7d1e0f76d909ddbeb3c3a81c8415b176c3898a3657c52f13a6ac8c1038b238a06cf9e4212bab5bec5971adbefd36ab7735f226b1cf156a2f7d8fde76eaeeb1346777d4139c6a79e9a616078aec39caadb7f375a2afa4d38215f8a00c943258d328de9a335dfe34226606e41408a4a47d72a8d720f2ce78b3670a45865f4d336de65e7326574656689bdbc07eaa3f3d9a99047237c61dc723f41eaac1dda799e17340e992e360a9cebdf85f74ab11874ccbf9a743563089539c445c3f2c124214763d4a36e49bcdfcfcc3a83b2ca7dac96d8bcc74ef8d511aa221aea1da04003b40f3699881c24c92a39d2b758123e965d3c2d3e4b16990a9cf70fdd5b103a3914acf5f64f1c50b839512b0000000000000000"), segments: 6
+2026-10-12T12:13:50.269717Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-12T12:13:50.269720Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-12T12:13:50.454493Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-12T12:16:23.288834Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-12T12:16:23.289051Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-12T12:16:23.401340Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-12T12:19:00.986615Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-12T12:19:00.986635Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-12T12:19:01.105001Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-12T12:21:41.648316Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-12T12:21:41.648339Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-12T12:21:41.690643Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-12T12:24:22.606942Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-12T12:24:22.607055Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-12T12:24:22.735847Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-12T12:26:59.119927Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-12T12:26:59.120048Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-12T12:26:59.198787Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-12T12:31:54.796926Z DEBUG risc0_zkvm::host::server::prove::prover_impl: adding keccak assumption: 74cb0967d9b555fcd3cbae790d6c48b9a85f3a3d2c37119baaeb9b2a6f17e2f1
+2026-10-12T12:31:54.797499Z DEBUG risc0_zkvm::host::server::prove::prover_impl: keccak root assumption: Assumption { claim: Digest(74cb0967d9b555fcd3cbae790d6c48b9a85f3a3d2c37119baaeb9b2a6f17e2f1), control_root: Digest(abd93866a6878528f29ffc6ea6d9e428cc9ad020a540dd11f1d45e5e9bb6db71) }
+Completed ppe-composite: {"image_id":[3943929112,3682468618,2822605667,1764660516,290278025,2512717227,411457898,556249114],"input_sha256":"57bbd079e8ac44170bbcae895d789a9f308729f62d9754701c01899e7eeb1859","journal_bytes":2359,"mode":"real-proof","receipt_bytes":1751311,"receipt_sha256":"93135764b183fa84e7a8c5c70dd279aed28644d79bf7f2c3910060541b9e745a","seconds":1085.218093827,"stage":"ppe-composite","stats":{"paging_cycles":244380,"reserved_cycles":194566,"segments":6,"total_cycles":1441792,"user_cycles":1002846}}
+Compressing complete PPE receipt to upstream's succinct format
+{
+  "commitments": [
+    [
+      238,
+      146,
+      137,
+      4,
+      119,
+      40,
+      175,
+      9,
+      179,
+      72,
+      154,
+      3,
+      182,
+      141,
+      100,
+      106,
+      111,
+      233,
+      254,
+      214,
+      10,
+      208,
+      208,
+      67,
+      133,
+      98,
+      244,
+      66,
+      92,
+      139,
+      216,
+      72
+    ]
+  ],
+  "config": {
+    "expected_funder_commitment": [
+      238,
+      146,
+      137,
+      4,
+      119,
+      40,
+      175,
+      9,
+      179,
+      72,
+      154,
+      3,
+      182,
+      141,
+      100,
+      106,
+      111,
+      233,
+      254,
+      214,
+      10,
+      208,
+      208,
+      67,
+      133,
+      98,
+      244,
+      66,
+      92,
+      139,
+      216,
+      72
+    ],
+    "expected_funder_commitment_root": [
+      176,
+      129,
+      150,
+      172,
+      36,
+      129,
+      29,
+      177,
+      189,
+      39,
+      88,
+      242,
+      140,
+      63,
+      204,
+      107,
+      147,
+      192,
+      131,
+      239,
+      160,
+      242,
+      45,
+      92,
+      210,
+      13,
+      94,
+      68,
+      179,
+      70,
+      236,
+      67
+    ],
+    "funding_amount": 1000,
+    "genesis_supply": {
+      "supply_account": {
+        "account_id": "D3oe3kSmVnmKHUBSUsvPCsbFiJaUu9VdsCoFhvPKNDoz",
+        "balance": 1000000
+      }
+    },
+    "private_funder_id": "9XQ13FBybDdgJPaC59b6RqK9YyVEMsNVGjSzWCeDQWZi",
+    "public_sender_id": "D3oe3kSmVnmKHUBSUsvPCsbFiJaUu9VdsCoFhvPKNDoz",
+    "public_sender_nonce": 0,
+    "sequencer_submission": false,
+    "test_only_public_private_key": true
+  },
+  "deterministic_public_test_keys": true,
+  "elapsed_seconds": 1757.834232268,
+  "encoding": {
+    "borsh_sha256": "2e3bbcd4cb610e3ea7b9d233a19755aadcd88658dddfed25c6ae1b08b3fea3d6",
+    "borsh_transaction_bytes": 227976,
+    "core_transaction_bytes": 227976,
+    "envelope_encoding": "pinned common::LeeTransaction layout; RPC verification is a separate gate",
+    "envelope_sha256": "6c5a1b85db8eeb7b54b73bd7407bfc31a947f23cc52c692683d1b1f2eb67743c",
+    "fits_repository_1mib_minus_2048": true,
+    "lee_envelope_bytes": 227977
+  },
+  "guest_image_id": [
+    3773627294,
+    3562964235,
+    1718102793,
+    1062580918,
+    16198072,
+    4137442527,
+    1682362922,
+    3174379661
+  ],
+  "guest_sha256": "fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c",
+  "live_devnet_submission": false,
+  "mode": "bootstrap",
+  "native_funding_membership_matches_lifecycle": true,
+  "native_funding_root_matches_lifecycle": true,
+  "ppe_elf_sha256": "2d0e691386987e0bd0f708557730445c7ebee03a5c922ae37b897a939b8a82f5",
+  "private_funder_note_decrypted": true,
+  "public_balance_after": 999000,
+  "real_receipt_verified": true,
+  "replay_rejected": "InvalidInput(\"Nonce mismatch\")",
+  "sequencer_submission": false,
+  "stages": [
+    {
+      "image_id": [
+        3943929112,
+        3682468618,
+        2822605667,
+        1764660516,
+        290278025,
+        2512717227,
+        411457898,
+        556249114
+      ],
+      "input_sha256": "57bbd079e8ac44170bbcae895d789a9f308729f62d9754701c01899e7eeb1859",
+      "journal_bytes": 2359,
+      "mode": "real-proof",
+      "receipt_bytes": 1751311,
+      "receipt_sha256": "93135764b183fa84e7a8c5c70dd279aed28644d79bf7f2c3910060541b9e745a",
+      "seconds": 1085.218093827,
+      "stage": "ppe-composite",
+      "stats": {
+        "paging_cycles": 244380,
+        "reserved_cycles": 194566,
+        "segments": 6,
+        "total_cycles": 1441792,
+        "user_cycles": 1002846
+      }
+    }
+  ],
+  "transaction_hash": "2e3bbcd4cb610e3ea7b9d233a19755aadcd88658dddfed25c6ae1b08b3fea3d6",
+  "upstream_commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4"
+}

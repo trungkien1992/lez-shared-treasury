@@ -1,0 +1,16 @@
+{
+  "completed": true,
+  "guest_sha256": "fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c",
+  "upstream_commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4",
+  "real_lifecycle_receipts_verified": 2,
+  "actual_local_sequencer_transactions": 3,
+  "node_membership_ingested": true,
+  "genesis_snapshot_sha256": "4ac7de6be97444f6bc15e8d5ac788f2ac998068c7c66b81bacb38e736510affb",
+  "validation_negative_cases": 47,
+  "evidence_controls_passed": 2,
+  "private_funder_balance": 500,
+  "vault_balance": 463,
+  "recipient_balance": 37,
+  "public_network_validation": false,
+  "full_rfp_complete": false
+}

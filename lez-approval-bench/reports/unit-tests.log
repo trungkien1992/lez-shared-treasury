@@ -1,0 +1,24 @@
+   Compiling approval-core v0.1.0 (/workspace/scratch/a598161390b0/lez-approval-bench/core)
+    Finished `release` profile [optimized] target(s) in 0.93s
+     Running unittests src/lib.rs (target/release/deps/approval_core-e24ba1000e193a56)
+
+running 10 tests
+test tests::bitcoin_bip340_published_32_byte_vectors ... ok
+test tests::duplicate_approval_is_not_a_fifth_member ... ok
+test tests::approval_order_does_not_change_result ... ok
+test tests::distinct_signature_with_wrong_member_is_rejected ... ok
+test tests::configuration_epoch_is_current ... ok
+test tests::configuration_and_action_bounds ... ok
+test tests::four_approvers_do_not_meet_five ... ok
+test tests::action_fields_are_bound ... ok
+test tests::five_distinct_approvers_pass ... ok
+test tests::member_and_signature_shape_are_checked ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+   Doc-tests approval_core
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

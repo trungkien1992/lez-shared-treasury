@@ -1,0 +1,6 @@
+Package: malloc_buf 0.0.6
+SPDX: MIT
+Authors: Steven Sheldon
+Repository: https://github.com/SSheldon/malloc_buf
+Source: registry+https://github.com/rust-lang/crates.io-index
+This declaration is transcribed from the exact resolved package manifest.

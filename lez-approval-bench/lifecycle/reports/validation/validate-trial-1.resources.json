@@ -1,0 +1,24 @@
+{
+  "started_at_utc": "2026-10-07T15:05:09.365431+00:00",
+  "elapsed_seconds": 3.7836459140016814,
+  "exit_code": 1,
+  "run_status": "completed",
+  "timeout_seconds": 600,
+  "threads": 8,
+  "command": [
+    "/workspace/scratch/a598161390b0/lez-approval-bench/integration/target/release/lifecycle-host",
+    "validate",
+    "/workspace/scratch/a598161390b0/lez-approval-bench/lifecycle/reports/validation"
+  ],
+  "child_max_rss_kib": 49600,
+  "child_user_cpu_seconds": 3.441809,
+  "child_system_cpu_seconds": 0.62198,
+  "cpu_max": "800000 100000",
+  "memory_max": "8589934592",
+  "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "gpu_used": false,
+  "paid_remote_proving": false,
+  "dev_mode": false,
+  "rss_definition": "Linux RUSAGE_CHILDREN maximum per-process resident set size, not simultaneous aggregate"
+}

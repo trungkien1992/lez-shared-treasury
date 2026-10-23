@@ -1,0 +1,40 @@
+{
+  "checked_at_utc": "2026-10-07T15:03:19.101829+00:00",
+  "transactions_submitted": 0,
+  "ready_to_submit": false,
+  "commands_available": {
+    "git": true,
+    "docker": false,
+    "just": false
+  },
+  "pinned_commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4",
+  "checks": {
+    "upstream_commit_matches": true,
+    "upstream_worktree_clean": true,
+    "ppe_sha256_matches": true
+  },
+  "blockers": [
+    "Confirmed LEZ RPC endpoint and channel ID are missing.",
+    "Lifecycle guest has execution evidence, not a completed real proof.",
+    "Network runtime/PPE compatibility and live transaction size limit need operator confirmation.",
+    "Create fresh test-only member and viewing/nullifier keys, fund an account, sync its real commitment proof, and generate new transactions.",
+    "Independent review and encrypted key-distribution/account-enrollment workflow remain outstanding."
+  ],
+  "repository_config": {
+    "path": "/workspace/scratch/a598161390b0/lez-upstream/lez/configs/docker-all-in-one/devnet/sequencer_config.json",
+    "max_block_size": "1.0 MiB",
+    "max_num_tx_in_block": 20,
+    "is_live_configuration": false
+  },
+  "archived_v1_envelope": {
+    "bytes": 232072,
+    "repository_cap_bytes": 1046528,
+    "fits_repository_cap": true,
+    "usable_on_live_network": false,
+    "reason": "uses a synthetic genesis commitment root and public fixture keys"
+  },
+  "rpc": {
+    "attempted": false,
+    "reason": "No confirmed endpoint and channel supplied."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "ciphertext_padding": 1024,
+  "dummy_notes": 0,
+  "guest_image_id": [
+    2059719584,
+    1594371413,
+    2204304149,
+    3232472967,
+    1398273450,
+    815850652,
+    619385496,
+    1475037365
+  ],
+  "guest_sha256": "ca8bbda814b5e2116dee7a8b1636af9f7e283ab5e2d302669f0c4485a89c37a7",
+  "limitations": [
+    "local LEE state transition, no RPC/sequencer/Bedrock deployment",
+    "preinitialized private vault genesis fixture",
+    "no enrollment or reconfiguration workflow",
+    "two notes; no wallet seven-note padding",
+    "synthetic network domain and public deterministic test keys"
+  ],
+  "member_account_ids": [
+    "CntQ7q2MHGxso9ebbdv6XVYtzhKnGJYHnhYA1V6Aaxg5",
+    "6d4jEqncWAF9Qr1koFkQfCohXTcfJ41Md3UQSLhYYCin",
+    "GtvnQVLsv8V34E3X9hMBR9hsUokapUgiE4o7vCU4VMB5",
+    "EX5ZmwTtQDwEauFG3cnp4mKDBQ2cdgg5oynkYGDaaZTC",
+    "BomdwnjqAudoNQoCT97JMYzyU84UTujXaEHkjA1hPNeb",
+    "7LWqNSTfRqMz8av3B7snvEaMQFwiwHFKe2r4KtwgfvbN",
+    "6c9vDX3X4FGPVggNxdRv9TBjquxSDDrCFqzMvRfFbUsS"
+  ],
+  "members": 7,
+  "mode": "execute",
+  "post_state_checks": "both encrypted notes decrypt to exact expected accounts; vault 1000→963, recipient 0→37, proposal counter 0→1",
+  "ppe_elf_sha256": "2d0e691386987e0bd0f708557730445c7ebee03a5c922ae37b897a939b8a82f5",
+  "ppe_image_id": [
+    3943929112,
+    3682468618,
+    2822605667,
+    1764660516,
+    290278025,
+    2512717227,
+    411457898,
+    556249114
+  ],
+  "private_notes": 2,
+  "program_identity": "shadow",
+  "segment_limit_po2": 18,
+  "session_limit_cycles": 134217728,
+  "stages": [
+    {
+      "image_id": [
+        2059719584,
+        1594371413,
+        2204304149,
+        3232472967,
+        1398273450,
+        815850652,
+        619385496,
+        1475037365
+      ],
+      "input_sha256": "b8143a0e9fc3811c36d03f7d9553c8b6098db6b3e1659d02ff88e50d3fac9bfe",
+      "journal_bytes": 1450,
+      "mode": "execute-only",
+      "seconds": 0.067344813,
+      "segments": 1,
+      "stage": "vault-plan",
+      "user_cycles": 21847
+    },
+    {
+      "image_id": [
+        2059719584,
+        1594371413,
+        2204304149,
+        3232472967,
+        1398273450,
+        815850652,
+        619385496,
+        1475037365
+      ],
+      "input_sha256": "83dd3489401a983ade2967802f13edc623ad466d4ea2bbc8d5e258581bc0fb4a",
+      "journal_bytes": 1198,
+      "mode": "execute-only",
+      "seconds": 0.183052474,
+      "segments": 8,
+      "stage": "vault-apply",
+      "user_cycles": 1604221
+    },
+    {
+      "input_sha256": "92a19efcba39a6e617172fe19a947f47b56f63d871eefdda8a5b7d21b8905bae",
+      "journal_bytes": 4462,
+      "mode": "execute-only",
+      "seconds": 0.161468105,
+      "segments": 11,
+      "stage": "ppe",
+      "user_cycles": 2051285
+    }
+  ],
+  "threshold": 5,
+  "upstream_commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4",
+  "wall_seconds_this_invocation": 0.41955357
+}

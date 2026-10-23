@@ -1,0 +1,59 @@
+{
+  "upstream_commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4",
+  "sequencer_sha256": "36ba6487a16957161f70ec91d0a5b6ed805b1f5d9b317de9e7e8449b7646027b",
+  "host_sha256": "549f246cdc9d41f2d456ef894a095f9342a7a38e319342476b66f3cba5b1502b",
+  "command": [
+    "/workspace/scratch/edc38349058c/continue-work/LEZ_Shared_Treasury_Real_Lifecycle_2026-10-12/lez-approval-bench/lifecycle/target/release/sequencer_service",
+    "/workspace/scratch/edc38349058c/continue-work/LEZ_Shared_Treasury_Real_Lifecycle_2026-10-12/lez-approval-bench/lifecycle/reports/2026-10-13-client-settlement/sequencer-config.json",
+    "--listen-address",
+    "127.0.0.1",
+    "--port",
+    "13440"
+  ],
+  "loopback_only": true,
+  "gossip_disabled": true,
+  "dev_mode": false,
+  "public_deterministic_test_keys": false,
+  "public_test_private_account_material": true,
+  "member_signing_source": "client-exported responses",
+  "live_devnet_submission": false,
+  "transactions": [
+    {
+      "operation": "fund-private-source",
+      "transaction_hash": "54905db89319e187295183ce93550339d8831d830aa5684cdfbaf10351b82684",
+      "block_id": 2,
+      "envelope_bytes": 227977,
+      "envelope_sha256": "7e126e1ad406619ebdf178c2d6a6777003c3af51647070d4096582d80ee8cd36",
+      "included_bytes_match": true,
+      "accepted_funding_root_matches_lifecycle": true
+    },
+    {
+      "operation": "create-and-fund-vault",
+      "transaction_hash": "745c704e799195b2fad42c769cfc5bc53725059daf7f4f24bd7cbf1e59e080c5",
+      "block_id": 3,
+      "envelope_bytes": 232072,
+      "envelope_sha256": "073df88b32f89da9c7b30faa7aeed667634120ad5feb16b434a2795e9c33739f",
+      "included_bytes_match": true,
+      "accepted_vault_membership_matches_spend": true,
+      "node_membership_ingested_by_host": true
+    },
+    {
+      "operation": "five-of-seven-spend",
+      "transaction_hash": "30f0bd6e46c4be4b859a3a2fa1323394d22306ef06b8d946d20fbf8e6b1be7b0",
+      "block_id": 4,
+      "envelope_bytes": 232072,
+      "envelope_sha256": "fa22ef760a7566927fe2789398e2ec4a44e9fdb0741353b33b05369db47f9771",
+      "included_bytes_match": true,
+      "accepted_spend_root_matches_verified_state": true
+    }
+  ],
+  "complete": true,
+  "channel_id": "0101010101010101010101010101010101010101010101010101010101010101",
+  "public_funding_balance_after": 999000,
+  "private_funder_balance": 500,
+  "vault_balance": 463,
+  "recipient_balance": 37,
+  "balances_from": "independently decrypted proof outputs whose exact transactions were included",
+  "elapsed_seconds": 8.606596000998252,
+  "node_exit_code": 0
+}

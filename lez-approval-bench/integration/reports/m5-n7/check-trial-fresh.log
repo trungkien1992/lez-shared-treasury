@@ -1,0 +1,11 @@
+{
+  "expiry_rejected": "OutOfValidityWindow",
+  "failed_checks_preserved_state": true,
+  "modified_message_rejected": "InvalidPrivacyPreservingProof",
+  "new_commitments_present": true,
+  "public_effects": 0,
+  "public_signatures": 0,
+  "replay_rejected": "InvalidInput(\"Commitment already seen\")",
+  "valid_transition": true,
+  "validation_seconds": 0.91696579
+}

@@ -1,0 +1,25 @@
+{
+  "started_at_utc": "2026-10-07T12:38:09.417062+00:00",
+  "elapsed_seconds": 0.46580244199867593,
+  "exit_code": 0,
+  "run_status": "completed",
+  "timeout_seconds": 300,
+  "threads": 8,
+  "command": [
+    "/workspace/scratch/a598161390b0/lez-approval-bench/integration/target/release/vault-host",
+    "execute",
+    "3",
+    "/workspace/scratch/a598161390b0/lez-approval-bench/integration/reports/m3-n7"
+  ],
+  "child_max_rss_kib": 51264,
+  "child_user_cpu_seconds": 0.430507,
+  "child_system_cpu_seconds": 0.080539,
+  "cpu_max": "800000 100000",
+  "memory_max": "8589934592",
+  "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "gpu_used": false,
+  "paid_remote_proving": false,
+  "dev_mode": false,
+  "rss_definition": "Linux RUSAGE_CHILDREN maximum per-process resident set size, not simultaneous aggregate"
+}

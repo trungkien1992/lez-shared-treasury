@@ -1,0 +1,92 @@
+{
+  "source_pin": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4",
+  "sequencer_sha256": "36ba6487a16957161f70ec91d0a5b6ed805b1f5d9b317de9e7e8449b7646027b",
+  "transactions_submitted": 0,
+  "loopback_only": true,
+  "gossip_disabled": true,
+  "complete": true,
+  "rpc": {
+    "endpoint": "http://127.0.0.1:13442",
+    "read_only": true,
+    "expected_channel": "0101010101010101010101010101010101010101010101010101010101010101",
+    "methods": {
+      "checkHealth": null,
+      "getChannelId": "0101010101010101010101010101010101010101010101010101010101010101",
+      "getLastBlockId": 1,
+      "getProgramIds": {
+        "amm": [
+          4030282020,
+          923854754,
+          239014614,
+          2631754673,
+          2260416846,
+          3633079171,
+          1037732495,
+          3214745898
+        ],
+        "privacy_preserving_circuit": [
+          3943929112,
+          3682468618,
+          2822605667,
+          1764660516,
+          290278025,
+          2512717227,
+          411457898,
+          556249114
+        ],
+        "token": [
+          742469009,
+          2781184622,
+          3496626878,
+          3713569652,
+          1701438085,
+          2132033625,
+          373050663,
+          2870233740
+        ]
+      },
+      "getProofsAndRoot": [
+        [],
+        [
+          78,
+          57,
+          81,
+          96,
+          102,
+          56,
+          200,
+          253,
+          135,
+          241,
+          116,
+          17,
+          149,
+          91,
+          179,
+          124,
+          69,
+          240,
+          124,
+          95,
+          64,
+          7,
+          193,
+          138,
+          32,
+          174,
+          3,
+          127,
+          129,
+          154,
+          212,
+          36
+        ]
+      ]
+    },
+    "channel_and_rpc_checks_passed": true,
+    "runtime_binary_compatibility_verified": false,
+    "live_transaction_size_limit_verified": false
+  },
+  "initial_root_matches_pinned_snapshot": true,
+  "node_exit_code": 0
+}

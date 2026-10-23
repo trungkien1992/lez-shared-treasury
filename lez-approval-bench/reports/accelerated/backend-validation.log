@@ -1,0 +1,43 @@
+{
+  "approval_cases": 21,
+  "case_names": [
+    "valid_5_of_7",
+    "insufficient_approvals",
+    "duplicate_approval",
+    "wrong_signer",
+    "stale_epoch",
+    "oversized_action",
+    "duplicate_key",
+    "invalid_key",
+    "short_signature",
+    "invalid_index",
+    "reversed_approvals",
+    "changed_network",
+    "changed_instance",
+    "changed_program",
+    "changed_proposal",
+    "changed_target",
+    "changed_expiry",
+    "changed_instruction",
+    "changed_threshold",
+    "zero_threshold",
+    "threshold_exceeds_members"
+  ],
+  "execution_wall_ms": 1027.841923,
+  "guest_backend": "pinned official RISC Zero patches",
+  "host_backend": "upstream crates.io",
+  "is_proving_evidence": false,
+  "published_bip340_32_byte_vectors": 15,
+  "status": "accelerated_guest_validation_passed",
+  "user_cycles": 17122394,
+  "validation_image_id_words_u32": [
+    3023131172,
+    1697243164,
+    1648937941,
+    651908582,
+    399815247,
+    684351709,
+    1991208466,
+    1823514026
+  ]
+}

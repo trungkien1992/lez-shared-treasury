@@ -1,0 +1,32 @@
+{
+  "started_at_utc": "2026-10-07T07:19:14.804494+00:00",
+  "exit_code": 1,
+  "command": [
+    "/workspace/scratch/a598161390b0/lez-approval-bench/target/release/approval-host",
+    "--m",
+    "5",
+    "--n",
+    "7",
+    "--out",
+    "/workspace/scratch/a598161390b0/lez-approval-bench/reports/m5-n7.json",
+    "--r0vm",
+    "/workspace/scratch/a598161390b0/tools-bootstrap/bin/r0vm",
+    "--receipt",
+    "composite"
+  ],
+  "elapsed_wall_seconds": 0.006763923000107752,
+  "child_user_cpu_seconds": 0.013446,
+  "child_system_cpu_seconds": 0.0019529999999999999,
+  "child_max_rss_kib": 10496,
+  "rss_definition": "Linux RUSAGE_CHILDREN maximum resident set size; largest process peak, not simultaneous aggregate",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "architecture": "x86_64",
+  "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+  "visible_logical_cpus": 9,
+  "cgroup_cpu_max": "800000 100000",
+  "cgroup_memory_max_bytes": "8589934592",
+  "rayon_num_threads": 4,
+  "gpu_used": false,
+  "risc0_dev_mode": false,
+  "paid_remote_proving": false
+}

@@ -1,0 +1,125 @@
+Running real M=5, N=7 proof; log: /workspace/scratch/a598161390b0/lez-approval-bench/reports/accelerated/m5-n7.log
+Starting REAL local proof: M=5, N=7, receipt=composite
+2026-10-07T11:43:28.517195Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_session: exit_code = Halted(0), journal = Some("45000000aa0000002d0000005f000000d500000067000000f1000000970000001d0000002200000037000000e6000000b4000000cd00000061000000f2000000860000006b00000060000000c9000000850000001b000000f50000002f000000610000000900000034000000bc0000005a0000007800000003000000ff000000b0000000820000000f00000013000000f3000000d0000000ac000000ec0000001e00000076000000a4000000ba000000a1000000130000000a00000017000000920000007c00000094000000b80000002700000042000000ff0000006d000000430000009000000051000000f0000000b8000000a4000000b2000000b60000000500000007000000050000000000000001000000020000000300000004000000"), segments: 9
+2026-10-07T11:43:28.517650Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T11:43:28.517654Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T11:43:28.677698Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T11:44:43.777849Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T11:44:43.778073Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T11:44:44.143193Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T11:45:58.150088Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T11:45:58.150175Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T11:45:58.619264Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T11:47:14.585693Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T11:47:14.585895Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T11:47:14.944064Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T11:48:33.303770Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T11:48:33.303997Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T11:48:33.517655Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T11:49:49.363235Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T11:49:49.363406Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T11:49:49.847987Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T11:51:19.274469Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T11:51:19.274658Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T11:51:19.522580Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T11:52:39.844750Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T11:52:39.844961Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T11:52:40.104534Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+2026-10-07T11:53:52.249117Z DEBUG risc0_zkvm::host::server::prove: prove_segment
+2026-10-07T11:53:52.249252Z DEBUG risc0_zkvm::host::server::prove::prover_impl: segment_preflight
+2026-10-07T11:53:52.330802Z DEBUG risc0_zkvm::host::server::prove::prover_impl: prove_segment_core
+{
+  "action_digest": "b0820f13f3d0acec1e76a4baa1130a17927c94b82742ff6d439051f0b8a4b2b6",
+  "configuration_digest": "45aa2d5fd567f1971d2237e6b4cd61f2866b60c9851bf52f610934bc5a7803ff",
+  "dev_mode": false,
+  "fixtures": "public deterministic keys; synthetic action; no network transaction",
+  "full_lez_private_transaction": false,
+  "guest_crypto_backend": "official RISC Zero acceleration patches; exact commits in guest Cargo.lock",
+  "guest_elf_bytes": 356252,
+  "image_id_words_u32": [
+    1710233713,
+    203129687,
+    3349352222,
+    2342411639,
+    1367316791,
+    1495279452,
+    1207331062,
+    3921694198
+  ],
+  "journal_bytes": 288,
+  "k256": "0.13.4",
+  "lez_reference_commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4",
+  "m": 5,
+  "n": 7,
+  "not_measured": [
+    "LEZ private-account wrapper",
+    "LEZ transaction size",
+    "devnet block limits",
+    "current-member account binding",
+    "expiry enforcement",
+    "replay storage",
+    "custody",
+    "coordination",
+    "selective disclosure"
+  ],
+  "proving_wall_ms": 642289.254538,
+  "receipt_bytes_bincode_1_3_3": 2268522,
+  "receipt_file": "m5-n7.receipt",
+  "receipt_kind": "composite",
+  "risc0_zkvm": "3.0.5",
+  "rust_host": "1.98.1",
+  "scope": "standalone_approval_verifier_guest",
+  "segment_limit_po2": 18,
+  "serialized_guest_input_bytes": 3060,
+  "signer_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "stats": {
+    "paging_cycles": 203394,
+    "reserved_cycles": 267927,
+    "segments": 9,
+    "total_cycles": 2162688,
+    "user_cycles": 1691367
+  },
+  "status": "verified_real_proof",
+  "verification_wall_ms": 190.411976,
+  "verified_approvals": 5
+}
+{
+  "started_at_utc": "2026-10-07T11:43:28.308758+00:00",
+  "exit_code": 0,
+  "run_status": "completed",
+  "timeout_seconds": 1800,
+  "command": [
+    "/workspace/scratch/a598161390b0/lez-approval-bench/target/release/approval-host",
+    "--m",
+    "5",
+    "--n",
+    "7",
+    "--out",
+    "/workspace/scratch/a598161390b0/lez-approval-bench/reports/accelerated/m5-n7.json",
+    "--r0vm",
+    "/workspace/scratch/a598161390b0/tools-bootstrap/bin/r0vm",
+    "--receipt",
+    "composite"
+  ],
+  "elapsed_wall_seconds": 642.5070523500035,
+  "child_user_cpu_seconds": 4722.821648,
+  "child_system_cpu_seconds": 25.695793,
+  "child_max_rss_kib": 2423740,
+  "rss_definition": "Linux RUSAGE_CHILDREN maximum resident set size; largest process peak, not simultaneous aggregate",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "architecture": "x86_64",
+  "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+  "visible_logical_cpus": 9,
+  "cgroup_cpu_max": "800000 100000",
+  "cgroup_memory_max_bytes": "8589934592",
+  "rayon_num_threads": 8,
+  "gpu_used": false,
+  "risc0_dev_mode": false,
+  "paid_remote_proving": false
+}

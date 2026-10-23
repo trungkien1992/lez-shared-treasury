@@ -1,0 +1,35 @@
+{
+  "completed_at_utc": "2026-10-07T15:14:40.056830+00:00",
+  "implementation": "descriptor-bound private vault creation with unanimous Schnorr-key enrollment and optional atomic funding",
+  "initial_members": 7,
+  "enrollment_signatures": 7,
+  "spending_threshold": 5,
+  "create_fund_spend_executed": true,
+  "all_four_notes_decrypted_and_checked": true,
+  "negative_apply_native_and_guest_cases": 40,
+  "negative_plan_native_and_guest_cases": 5,
+  "negative_funding_execution_flows": 2,
+  "read_only_rpc_tests_passed": 6,
+  "new_guest_real_proof_completed": false,
+  "new_guest_settlement_verified": false,
+  "private_member_identity_handshake": false,
+  "key_distribution_workflow": false,
+  "live_devnet_submission": false,
+  "public_issue_changed": false,
+  "full_rfp_complete": false,
+  "guest_sha256": "fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c",
+  "guest_image_id": [
+    3773627294,
+    3562964235,
+    1718102793,
+    1062580918,
+    16198072,
+    4137442527,
+    1682362922,
+    3174379661
+  ],
+  "execution_user_cycles": {
+    "creation": 4340257,
+    "spend": 3696705
+  }
+}

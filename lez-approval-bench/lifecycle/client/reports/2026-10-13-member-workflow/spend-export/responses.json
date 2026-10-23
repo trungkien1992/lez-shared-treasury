@@ -1,0 +1,61 @@
+{
+  "format": "lez-treasury-responses/v1",
+  "responses": [
+    {
+      "format": "lez-treasury-response/v1",
+      "context_id": "ef1ddf9dc6bc4473b54018983902b5be09252ef05a83861dc44aa3307785d249",
+      "action_digest": "50d6a2e4458c74e252f4097c7277414b4692bcd4eea5b43e5c880d251ba4143d",
+      "member_index": 0,
+      "decision": "approve",
+      "signature": "3b2bf27039b0235d0d956c0e7c69f4685c2eb8be16b78924dc67a2a71f460f58b8bc8fea3aeee2f96cde518f647ee927694c88b190fc6acd86b61bb36b6572ef"
+    },
+    {
+      "format": "lez-treasury-response/v1",
+      "context_id": "ef1ddf9dc6bc4473b54018983902b5be09252ef05a83861dc44aa3307785d249",
+      "action_digest": "50d6a2e4458c74e252f4097c7277414b4692bcd4eea5b43e5c880d251ba4143d",
+      "member_index": 1,
+      "decision": "reject",
+      "signature": "fd381b11b5a82b2d267111f4e0775ffe7251f824e4badac2fa116dc7d1dd4d65809909bed6d51f603eaa5d83e63a64b5525cc03abe1b15cba90d3523d7b7245a"
+    },
+    {
+      "format": "lez-treasury-response/v1",
+      "context_id": "ef1ddf9dc6bc4473b54018983902b5be09252ef05a83861dc44aa3307785d249",
+      "action_digest": "50d6a2e4458c74e252f4097c7277414b4692bcd4eea5b43e5c880d251ba4143d",
+      "member_index": 2,
+      "decision": "approve",
+      "signature": "2e15206be621942105ca46a6f6f9236d6513e7646f5346f6b594c901750f4e4359eeb323a50d57c0bd70563d3f4b0a64c0c01813f28eea0dc132cc727e377026"
+    },
+    {
+      "format": "lez-treasury-response/v1",
+      "context_id": "ef1ddf9dc6bc4473b54018983902b5be09252ef05a83861dc44aa3307785d249",
+      "action_digest": "50d6a2e4458c74e252f4097c7277414b4692bcd4eea5b43e5c880d251ba4143d",
+      "member_index": 3,
+      "decision": "approve",
+      "signature": "1941cd1b535fd166cdce1e6b4e590446dc87a3b6f3494a9bb299d43a51d032fe05bfe47f75506d2b463ee5cbb450984312b66f16a9b17a342d40b69c834ad00b"
+    },
+    {
+      "format": "lez-treasury-response/v1",
+      "context_id": "ef1ddf9dc6bc4473b54018983902b5be09252ef05a83861dc44aa3307785d249",
+      "action_digest": "50d6a2e4458c74e252f4097c7277414b4692bcd4eea5b43e5c880d251ba4143d",
+      "member_index": 4,
+      "decision": "reject",
+      "signature": "06a78d8161f582d51a798cbf92a1444b0ee455305814ce034e5d80b37de05edba4660f1fb06e03527dcddc8dea46dbfe8e9fd2942a2d3b44e66d05e6523f9d1a"
+    },
+    {
+      "format": "lez-treasury-response/v1",
+      "context_id": "ef1ddf9dc6bc4473b54018983902b5be09252ef05a83861dc44aa3307785d249",
+      "action_digest": "50d6a2e4458c74e252f4097c7277414b4692bcd4eea5b43e5c880d251ba4143d",
+      "member_index": 5,
+      "decision": "approve",
+      "signature": "30215f00827197bf5a05f9eb21d35da26a69378bece057f6a52f9bb11585dd57ee7b49976bbfae42f8bae239cec6e9c883cb7b9632dc3c35060a25b6c6f8ca55"
+    },
+    {
+      "format": "lez-treasury-response/v1",
+      "context_id": "ef1ddf9dc6bc4473b54018983902b5be09252ef05a83861dc44aa3307785d249",
+      "action_digest": "50d6a2e4458c74e252f4097c7277414b4692bcd4eea5b43e5c880d251ba4143d",
+      "member_index": 6,
+      "decision": "approve",
+      "signature": "56ce184e03d564c5e20048ed841f6d4f378da6c5df385d8a5cfc586557c4848bd6b7b522bd0803792468ea74ab2986a75410f68073f9cdbf773c6fd4edfddf89"
+    }
+  ]
+}

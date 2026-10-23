@@ -1,0 +1,8 @@
+{
+  "credential_pattern_scan_passed": true,
+  "private_key_filenames_absent": true,
+  "rust_source_identity_checked": true,
+  "public_test_fixture_material_intentionally_retained": true,
+  "private_vendor_documents_included": false,
+  "scope": "Recognized credential patterns and private-key filenames; not a cryptographic proof that arbitrary secrets cannot exist."
+}

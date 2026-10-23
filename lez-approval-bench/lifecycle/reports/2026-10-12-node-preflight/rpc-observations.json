@@ -1,0 +1,88 @@
+[
+  {
+    "method": "checkHealth",
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": null
+    }
+  },
+  {
+    "method": "getChannelId",
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": "0101010101010101010101010101010101010101010101010101010101010101"
+    }
+  },
+  {
+    "method": "getAccountBalance",
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": 1000000
+    }
+  },
+  {
+    "method": "getAccountsNonces",
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 4,
+      "result": [
+        0
+      ]
+    }
+  },
+  {
+    "method": "getProofsAndRoot",
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 5,
+      "result": [
+        [],
+        [
+          78,
+          57,
+          81,
+          96,
+          102,
+          56,
+          200,
+          253,
+          135,
+          241,
+          116,
+          17,
+          149,
+          91,
+          179,
+          124,
+          69,
+          240,
+          124,
+          95,
+          64,
+          7,
+          193,
+          138,
+          32,
+          174,
+          3,
+          127,
+          129,
+          154,
+          212,
+          36
+        ]
+      ]
+    }
+  },
+  {
+    "method": "getLastBlockId",
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 6,
+      "result": 1
+    }
+  }
+]

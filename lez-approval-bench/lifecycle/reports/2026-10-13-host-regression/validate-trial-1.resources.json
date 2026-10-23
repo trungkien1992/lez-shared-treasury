@@ -1,0 +1,26 @@
+{
+  "started_at_utc": "2026-10-13T06:15:38.683534+00:00",
+  "elapsed_seconds": 3.8734215599979507,
+  "exit_code": 0,
+  "client_exported_instructions": false,
+  "state_profile": "standalone",
+  "run_status": "completed",
+  "timeout_seconds": 1800,
+  "threads": 2,
+  "command": [
+    "/workspace/scratch/edc38349058c/continue-work/LEZ_Shared_Treasury_Real_Lifecycle_2026-10-12/lez-approval-bench/lifecycle/target/release/lifecycle-host",
+    "validate",
+    "/workspace/scratch/edc38349058c/continue-work/LEZ_Shared_Treasury_Real_Lifecycle_2026-10-12/lez-approval-bench/lifecycle/reports/2026-10-13-host-regression"
+  ],
+  "child_max_rss_kib": 50316,
+  "child_user_cpu_seconds": 3.435559,
+  "child_system_cpu_seconds": 0.561113,
+  "cpu_max": "800000 100000",
+  "memory_max": "8589934592",
+  "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "gpu_used": false,
+  "paid_remote_proving": false,
+  "dev_mode": false,
+  "rss_definition": "Linux RUSAGE_CHILDREN maximum per-process resident set size, not simultaneous aggregate"
+}

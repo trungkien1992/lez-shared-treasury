@@ -1,0 +1,8 @@
+{
+  "format": "lez-treasury-response/v1",
+  "context_id": "f4c115fed2bbe0e7f0c2a206f59dfe3f55e67d4286052dfdc9cd70aea1534a27",
+  "action_digest": "d78ff1fe88792c50c846c36083a8941293b31aea51ecd95a095d1588434be13a",
+  "member_index": 0,
+  "decision": "approve",
+  "signature": "9e6d9dfce69cf079492af0fc5a78e433c3678ecea94cb42f2b14452ec35d7e547b89bc3f47cea99c5309d63b78bca1c2413aa2d7ed730daa892d6da272d31aed"
+}

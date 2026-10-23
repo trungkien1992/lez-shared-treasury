@@ -1,0 +1,23 @@
+{
+  "action_digest": "50d6a2e4458c74e252f4097c7277414b4692bcd4eea5b43e5c880d251ba4143d",
+  "approved_indices": [
+    0,
+    2,
+    3,
+    5,
+    6
+  ],
+  "execution_status": "not proved or submitted",
+  "instruction_sha256": "1cde421a637feaf2630327f680dbeba57d22dc51715bc920236c4f049835a18a",
+  "native_config_apply_passed": true,
+  "predicted_context_authenticated": false,
+  "proof_generated": false,
+  "quorum": true,
+  "rejected_indices": [
+    1,
+    4
+  ],
+  "rejection_policy": "a rejection is a signed opinion, not a veto; a member's conflicting decisions halt export",
+  "required_approvals": 5,
+  "sequencer_submission": false
+}

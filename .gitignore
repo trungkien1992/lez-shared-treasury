@@ -1,0 +1,11 @@
+/lez-upstream/
+/var/
+**/target/
+**/__pycache__/
+*.pyc
+.DS_Store
+*.key
+*.pem
+.env
+.env.*
+member-keys/

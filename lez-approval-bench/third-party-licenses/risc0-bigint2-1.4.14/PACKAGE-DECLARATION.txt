@@ -1,0 +1,6 @@
+Package: risc0-bigint2 1.4.14
+SPDX: Apache-2.0
+Authors: 
+Repository: https://github.com/risc0/risc0/
+Source: registry+https://github.com/rust-lang/crates.io-index
+This declaration is transcribed from the exact resolved package manifest.

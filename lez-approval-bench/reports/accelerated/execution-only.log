@@ -1,0 +1,42 @@
+Executing guest only, without proving: M=5, N=7
+{
+  "execution_wall_ms": 154.386854,
+  "image_id_words_u32": [
+    1710233713,
+    203129687,
+    3349352222,
+    2342411639,
+    1367316791,
+    1495279452,
+    1207331062,
+    3921694198
+  ],
+  "is_proving_evidence": false,
+  "m": 5,
+  "n": 7,
+  "segment_cycles": [
+    209747,
+    204295,
+    209435,
+    216410,
+    209472,
+    209424,
+    209424,
+    212791,
+    10369
+  ],
+  "segment_po2": [
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    16
+  ],
+  "segments": 9,
+  "status": "executed_without_proof",
+  "user_cycles": 1691367
+}

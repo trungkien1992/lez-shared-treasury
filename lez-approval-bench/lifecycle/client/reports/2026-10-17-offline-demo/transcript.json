@@ -1,0 +1,496 @@
+[
+  {
+    "arguments": [
+      "keygen",
+      "<LOCAL_TEST_KEYS>/member-0.key",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/member-0.public.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"public_key_hex\": \"114c8679619137e5f162fa57a74cdeee8f000ec87fedefb1367c2b4ad3acc8b3\",\n  \"scheme\": \"bip340\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "keygen",
+      "<LOCAL_TEST_KEYS>/member-1.key",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/member-1.public.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"public_key_hex\": \"992024c547ca3b9bd162cb85c0f7ed36c4fc8929fb07bfe15c1edeb7a050547b\",\n  \"scheme\": \"bip340\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "keygen",
+      "<LOCAL_TEST_KEYS>/member-2.key",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/member-2.public.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"public_key_hex\": \"24f1bf0ac32fdc0662df2345a5ed10f3a0ade51f7cb23fdcd0b0a77a57874111\",\n  \"scheme\": \"bip340\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "keygen",
+      "<LOCAL_TEST_KEYS>/member-3.key",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/member-3.public.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"public_key_hex\": \"694f9d4f603a4885e8461432f18dcdfdcb0a6ca487f3c58b8d9d1d034cec3518\",\n  \"scheme\": \"bip340\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "keygen",
+      "<LOCAL_TEST_KEYS>/member-4.key",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/member-4.public.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"public_key_hex\": \"0c5a8205d290745775551676e5a0af10cb57e9c779375cefef8ff47e73c1f616\",\n  \"scheme\": \"bip340\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "keygen",
+      "<LOCAL_TEST_KEYS>/member-5.key",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/member-5.public.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"public_key_hex\": \"ee1aa0444f1ea70d7683e8ef85e5c2b4a80e3882ae145cbf822da2d26b0276f6\",\n  \"scheme\": \"bip340\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "keygen",
+      "<LOCAL_TEST_KEYS>/member-6.key",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/member-6.public.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"public_key_hex\": \"f3c349395870fdaca59f42f6934d448a63cc05532968a2345b594598e5fbc939\",\n  \"scheme\": \"bip340\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "configure",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/reports/lifecycle/enrolled-descriptor.borsh",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/member-public-keys.json",
+      "5",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"context_id\": \"f4c115fed2bbe0e7f0c2a206f59dfe3f55e67d4286052dfdc9cd70aea1534a27\",\n  \"fresh_salt\": true,\n  \"private_account_material\": \"retained from the explicitly supplied descriptor template\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "create",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "2000000000000",
+      "7ea6ed36ff5de3e1d21e4d1ef0dbf326a0ed4d2b4eda4c6db3ab7a42d6453335",
+      "500",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/create.request.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action\": {\n    \"descriptor_digest\": \"58a0407a26de5da9e3868d35288cd87e69d814c7522ec8ef2376b20495f95705\",\n    \"funding\": {\n      \"amount_base_units\": \"500\",\n      \"approved_by_this_enrollment\": false,\n      \"from_hex\": \"7ea6ed36ff5de3e1d21e4d1ef0dbf326a0ed4d2b4eda4c6db3ab7a42d6453335\"\n    },\n    \"identifier\": \"0000000000000000000000000000000000000000000000000000000000000000\",\n    \"kind\": \"enroll\",\n    \"nullifier_public_key\": \"6a0eb03fa0c05aaf7f78995b4de077f86d5e03af6f191a04b6c73c33919358c2\",\n    \"required_enrollments\": 7,\n    \"signed_scope\": \"complete treasury descriptor and expiry; inbound funding is separately authorized\",\n    \"spending_threshold\": 5,\n    \"viewing_key_sha256\": \"c8cff27632e47d07d6a4a68e384e4662be02f3ad85d5cf730f398bce9b2c7afc\"\n  },\n  \"action_digest\": \"4a23b1df01236486cbd352ea4b098f9fe0f028f4b97dcb43bbf30fe49bb939d9\",\n  \"context_authentication\": \"external; this file alone is not evidence of accepted chain state\",\n  \"context_id\": \"f4c115fed2bbe0e7f0c2a206f59dfe3f55e67d4286052dfdc9cd70aea1534a27\",\n  \"decoded_from\": \"exact Borsh instruction bytes\",\n  \"expires_at_ms\": 2000000000000,\n  \"guest_sha256\": \"fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c\",\n  \"instruction_sha256\": \"282cc0be9b6c3f99751ee90912ec2da4bef5eeebd9f47e9c96cfa3b00be79a6c\",\n  \"member_public_keys\": [\n    \"114c8679619137e5f162fa57a74cdeee8f000ec87fedefb1367c2b4ad3acc8b3\",\n    \"992024c547ca3b9bd162cb85c0f7ed36c4fc8929fb07bfe15c1edeb7a050547b\",\n    \"24f1bf0ac32fdc0662df2345a5ed10f3a0ade51f7cb23fdcd0b0a77a57874111\",\n    \"694f9d4f603a4885e8461432f18dcdfdcb0a6ca487f3c58b8d9d1d034cec3518\",\n    \"0c5a8205d290745775551676e5a0af10cb57e9c779375cefef8ff47e73c1f616\",\n    \"ee1aa0444f1ea70d7683e8ef85e5c2b4a80e3882ae145cbf822da2d26b0276f6\",\n    \"f3c349395870fdaca59f42f6934d448a63cc05532968a2345b594598e5fbc939\"\n  ],\n  \"network_domain_hex\": \"4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d\",\n  \"program_hex\": \"37cbd48d3f4b99ca3595d846b8cad2c3221a1201454fae6f03e80398b06afabf\",\n  \"required_approvals\": 7,\n  \"review_digest\": \"89a7021ea8f22ed6a1a673d9f6191882e2d453b2903bbafc0817dab4d9464830\",\n  \"transport\": \"offline files; Logos Chat adapter pending\",\n  \"vault\": \"DFCq5L5GNP5fSKK3CaP8hK5wrc89MnpvAvNzTeWU7efL\",\n  \"vault_hex\": \"b5efbfd832522445275444229073876e79c2187e762bdafacab3acfb831d1ee3\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "review",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/create.request.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action\": {\n    \"descriptor_digest\": \"58a0407a26de5da9e3868d35288cd87e69d814c7522ec8ef2376b20495f95705\",\n    \"funding\": {\n      \"amount_base_units\": \"500\",\n      \"approved_by_this_enrollment\": false,\n      \"from_hex\": \"7ea6ed36ff5de3e1d21e4d1ef0dbf326a0ed4d2b4eda4c6db3ab7a42d6453335\"\n    },\n    \"identifier\": \"0000000000000000000000000000000000000000000000000000000000000000\",\n    \"kind\": \"enroll\",\n    \"nullifier_public_key\": \"6a0eb03fa0c05aaf7f78995b4de077f86d5e03af6f191a04b6c73c33919358c2\",\n    \"required_enrollments\": 7,\n    \"signed_scope\": \"complete treasury descriptor and expiry; inbound funding is separately authorized\",\n    \"spending_threshold\": 5,\n    \"viewing_key_sha256\": \"c8cff27632e47d07d6a4a68e384e4662be02f3ad85d5cf730f398bce9b2c7afc\"\n  },\n  \"action_digest\": \"4a23b1df01236486cbd352ea4b098f9fe0f028f4b97dcb43bbf30fe49bb939d9\",\n  \"context_authentication\": \"external; this file alone is not evidence of accepted chain state\",\n  \"context_id\": \"f4c115fed2bbe0e7f0c2a206f59dfe3f55e67d4286052dfdc9cd70aea1534a27\",\n  \"decoded_from\": \"exact Borsh instruction bytes\",\n  \"expired_at_local_clock\": false,\n  \"expires_at_ms\": 2000000000000,\n  \"guest_sha256\": \"fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c\",\n  \"instruction_sha256\": \"282cc0be9b6c3f99751ee90912ec2da4bef5eeebd9f47e9c96cfa3b00be79a6c\",\n  \"member_public_keys\": [\n    \"114c8679619137e5f162fa57a74cdeee8f000ec87fedefb1367c2b4ad3acc8b3\",\n    \"992024c547ca3b9bd162cb85c0f7ed36c4fc8929fb07bfe15c1edeb7a050547b\",\n    \"24f1bf0ac32fdc0662df2345a5ed10f3a0ade51f7cb23fdcd0b0a77a57874111\",\n    \"694f9d4f603a4885e8461432f18dcdfdcb0a6ca487f3c58b8d9d1d034cec3518\",\n    \"0c5a8205d290745775551676e5a0af10cb57e9c779375cefef8ff47e73c1f616\",\n    \"ee1aa0444f1ea70d7683e8ef85e5c2b4a80e3882ae145cbf822da2d26b0276f6\",\n    \"f3c349395870fdaca59f42f6934d448a63cc05532968a2345b594598e5fbc939\"\n  ],\n  \"network_domain_hex\": \"4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d\",\n  \"program_hex\": \"37cbd48d3f4b99ca3595d846b8cad2c3221a1201454fae6f03e80398b06afabf\",\n  \"required_approvals\": 7,\n  \"review_digest\": \"89a7021ea8f22ed6a1a673d9f6191882e2d453b2903bbafc0817dab4d9464830\",\n  \"transport\": \"offline files; Logos Chat adapter pending\",\n  \"vault\": \"DFCq5L5GNP5fSKK3CaP8hK5wrc89MnpvAvNzTeWU7efL\",\n  \"vault_hex\": \"b5efbfd832522445275444229073876e79c2187e762bdafacab3acfb831d1ee3\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/create.request.json",
+      "<LOCAL_TEST_KEYS>/member-0.key",
+      "approve",
+      "89a7021ea8f22ed6a1a673d9f6191882e2d453b2903bbafc0817dab4d9464830",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/enrollment-0.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"4a23b1df01236486cbd352ea4b098f9fe0f028f4b97dcb43bbf30fe49bb939d9\",\n  \"decision\": \"approve\",\n  \"member_index\": 0\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/create.request.json",
+      "<LOCAL_TEST_KEYS>/member-1.key",
+      "approve",
+      "89a7021ea8f22ed6a1a673d9f6191882e2d453b2903bbafc0817dab4d9464830",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/enrollment-1.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"4a23b1df01236486cbd352ea4b098f9fe0f028f4b97dcb43bbf30fe49bb939d9\",\n  \"decision\": \"approve\",\n  \"member_index\": 1\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/create.request.json",
+      "<LOCAL_TEST_KEYS>/member-2.key",
+      "approve",
+      "89a7021ea8f22ed6a1a673d9f6191882e2d453b2903bbafc0817dab4d9464830",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/enrollment-2.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"4a23b1df01236486cbd352ea4b098f9fe0f028f4b97dcb43bbf30fe49bb939d9\",\n  \"decision\": \"approve\",\n  \"member_index\": 2\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/create.request.json",
+      "<LOCAL_TEST_KEYS>/member-3.key",
+      "approve",
+      "89a7021ea8f22ed6a1a673d9f6191882e2d453b2903bbafc0817dab4d9464830",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/enrollment-3.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"4a23b1df01236486cbd352ea4b098f9fe0f028f4b97dcb43bbf30fe49bb939d9\",\n  \"decision\": \"approve\",\n  \"member_index\": 3\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/create.request.json",
+      "<LOCAL_TEST_KEYS>/member-4.key",
+      "approve",
+      "89a7021ea8f22ed6a1a673d9f6191882e2d453b2903bbafc0817dab4d9464830",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/enrollment-4.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"4a23b1df01236486cbd352ea4b098f9fe0f028f4b97dcb43bbf30fe49bb939d9\",\n  \"decision\": \"approve\",\n  \"member_index\": 4\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/create.request.json",
+      "<LOCAL_TEST_KEYS>/member-5.key",
+      "approve",
+      "89a7021ea8f22ed6a1a673d9f6191882e2d453b2903bbafc0817dab4d9464830",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/enrollment-5.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"4a23b1df01236486cbd352ea4b098f9fe0f028f4b97dcb43bbf30fe49bb939d9\",\n  \"decision\": \"approve\",\n  \"member_index\": 5\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/create.request.json",
+      "<LOCAL_TEST_KEYS>/member-6.key",
+      "approve",
+      "89a7021ea8f22ed6a1a673d9f6191882e2d453b2903bbafc0817dab4d9464830",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/enrollment-6.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"4a23b1df01236486cbd352ea4b098f9fe0f028f4b97dcb43bbf30fe49bb939d9\",\n  \"decision\": \"approve\",\n  \"member_index\": 6\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "collect",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/create.request.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/create.responses.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/enrollment-6.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/enrollment-5.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/enrollment-4.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/enrollment-3.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/enrollment-2.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/enrollment-1.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/enrollment-0.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"4a23b1df01236486cbd352ea4b098f9fe0f028f4b97dcb43bbf30fe49bb939d9\",\n  \"approved_indices\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6\n  ],\n  \"execution_status\": \"tracked externally by prover and sequencer evidence\",\n  \"quorum\": true,\n  \"rejected_indices\": [],\n  \"rejection_policy\": \"a rejection is a signed opinion, not a veto; a member's conflicting decisions halt export\",\n  \"required_approvals\": 7\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "export",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/create.request.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/create.responses.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/create-export"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"4a23b1df01236486cbd352ea4b098f9fe0f028f4b97dcb43bbf30fe49bb939d9\",\n  \"approved_indices\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6\n  ],\n  \"execution_status\": \"tracked externally by prover and sequencer evidence\",\n  \"instruction_sha256\": \"af6e185035b5fd0323bea7e771c2877c6f5881768c4e8a3db7471e8fef2ca3e2\",\n  \"native_config_apply_passed\": true,\n  \"predicted_context_authenticated\": false,\n  \"proof_generated\": false,\n  \"quorum\": true,\n  \"rejected_indices\": [],\n  \"rejection_policy\": \"a rejection is a signed opinion, not a veto; a member's conflicting decisions halt export\",\n  \"required_approvals\": 7,\n  \"sequencer_submission\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "propose",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "e0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5",
+      "37",
+      "2000000000000",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action\": {\n    \"amount_base_units\": \"37\",\n    \"custody_seed_hex\": \"58a0407a26de5da9e3868d35288cd87e69d814c7522ec8ef2376b20495f95705\",\n    \"epoch\": 1,\n    \"kind\": \"native-transfer\",\n    \"proposal_counter\": 0,\n    \"recipient\": \"G87tVxK7EfnSBrANUj3UnKERyYeuBS8M197RG7DoGFmE\",\n    \"recipient_hex\": \"e0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5\",\n    \"target_program_hex\": \"0000000000000000000000000000000000000000000000000000000000000000\"\n  },\n  \"action_digest\": \"d78ff1fe88792c50c846c36083a8941293b31aea51ecd95a095d1588434be13a\",\n  \"context_authentication\": \"external; this file alone is not evidence of accepted chain state\",\n  \"context_id\": \"f4c115fed2bbe0e7f0c2a206f59dfe3f55e67d4286052dfdc9cd70aea1534a27\",\n  \"decoded_from\": \"exact Borsh instruction bytes\",\n  \"expires_at_ms\": 2000000000000,\n  \"guest_sha256\": \"fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c\",\n  \"instruction_sha256\": \"8c54f7be28644e0bf9656f837d863584a8c2ae1ecea312c12dc78ab52348c33a\",\n  \"member_public_keys\": [\n    \"114c8679619137e5f162fa57a74cdeee8f000ec87fedefb1367c2b4ad3acc8b3\",\n    \"992024c547ca3b9bd162cb85c0f7ed36c4fc8929fb07bfe15c1edeb7a050547b\",\n    \"24f1bf0ac32fdc0662df2345a5ed10f3a0ade51f7cb23fdcd0b0a77a57874111\",\n    \"694f9d4f603a4885e8461432f18dcdfdcb0a6ca487f3c58b8d9d1d034cec3518\",\n    \"0c5a8205d290745775551676e5a0af10cb57e9c779375cefef8ff47e73c1f616\",\n    \"ee1aa0444f1ea70d7683e8ef85e5c2b4a80e3882ae145cbf822da2d26b0276f6\",\n    \"f3c349395870fdaca59f42f6934d448a63cc05532968a2345b594598e5fbc939\"\n  ],\n  \"network_domain_hex\": \"4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d\",\n  \"program_hex\": \"37cbd48d3f4b99ca3595d846b8cad2c3221a1201454fae6f03e80398b06afabf\",\n  \"required_approvals\": 5,\n  \"review_digest\": \"c275335a2110575b38c04f8c33273d3356aed55927540259d0742929a19d56b9\",\n  \"transport\": \"offline files; Logos Chat adapter pending\",\n  \"vault\": \"DFCq5L5GNP5fSKK3CaP8hK5wrc89MnpvAvNzTeWU7efL\",\n  \"vault_hex\": \"b5efbfd832522445275444229073876e79c2187e762bdafacab3acfb831d1ee3\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "review",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action\": {\n    \"amount_base_units\": \"37\",\n    \"custody_seed_hex\": \"58a0407a26de5da9e3868d35288cd87e69d814c7522ec8ef2376b20495f95705\",\n    \"epoch\": 1,\n    \"kind\": \"native-transfer\",\n    \"proposal_counter\": 0,\n    \"recipient\": \"G87tVxK7EfnSBrANUj3UnKERyYeuBS8M197RG7DoGFmE\",\n    \"recipient_hex\": \"e0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5\",\n    \"target_program_hex\": \"0000000000000000000000000000000000000000000000000000000000000000\"\n  },\n  \"action_digest\": \"d78ff1fe88792c50c846c36083a8941293b31aea51ecd95a095d1588434be13a\",\n  \"context_authentication\": \"external; this file alone is not evidence of accepted chain state\",\n  \"context_id\": \"f4c115fed2bbe0e7f0c2a206f59dfe3f55e67d4286052dfdc9cd70aea1534a27\",\n  \"decoded_from\": \"exact Borsh instruction bytes\",\n  \"expired_at_local_clock\": false,\n  \"expires_at_ms\": 2000000000000,\n  \"guest_sha256\": \"fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c\",\n  \"instruction_sha256\": \"8c54f7be28644e0bf9656f837d863584a8c2ae1ecea312c12dc78ab52348c33a\",\n  \"member_public_keys\": [\n    \"114c8679619137e5f162fa57a74cdeee8f000ec87fedefb1367c2b4ad3acc8b3\",\n    \"992024c547ca3b9bd162cb85c0f7ed36c4fc8929fb07bfe15c1edeb7a050547b\",\n    \"24f1bf0ac32fdc0662df2345a5ed10f3a0ade51f7cb23fdcd0b0a77a57874111\",\n    \"694f9d4f603a4885e8461432f18dcdfdcb0a6ca487f3c58b8d9d1d034cec3518\",\n    \"0c5a8205d290745775551676e5a0af10cb57e9c779375cefef8ff47e73c1f616\",\n    \"ee1aa0444f1ea70d7683e8ef85e5c2b4a80e3882ae145cbf822da2d26b0276f6\",\n    \"f3c349395870fdaca59f42f6934d448a63cc05532968a2345b594598e5fbc939\"\n  ],\n  \"network_domain_hex\": \"4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d\",\n  \"program_hex\": \"37cbd48d3f4b99ca3595d846b8cad2c3221a1201454fae6f03e80398b06afabf\",\n  \"required_approvals\": 5,\n  \"review_digest\": \"c275335a2110575b38c04f8c33273d3356aed55927540259d0742929a19d56b9\",\n  \"transport\": \"offline files; Logos Chat adapter pending\",\n  \"vault\": \"DFCq5L5GNP5fSKK3CaP8hK5wrc89MnpvAvNzTeWU7efL\",\n  \"vault_hex\": \"b5efbfd832522445275444229073876e79c2187e762bdafacab3acfb831d1ee3\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-0.key",
+      "approve",
+      "c275335a2110575b38c04f8c33273d3356aed55927540259d0742929a19d56b9",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-0.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d78ff1fe88792c50c846c36083a8941293b31aea51ecd95a095d1588434be13a\",\n  \"decision\": \"approve\",\n  \"member_index\": 0\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-1.key",
+      "reject",
+      "c275335a2110575b38c04f8c33273d3356aed55927540259d0742929a19d56b9",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-1.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d78ff1fe88792c50c846c36083a8941293b31aea51ecd95a095d1588434be13a\",\n  \"decision\": \"reject\",\n  \"member_index\": 1\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-2.key",
+      "approve",
+      "c275335a2110575b38c04f8c33273d3356aed55927540259d0742929a19d56b9",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-2.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d78ff1fe88792c50c846c36083a8941293b31aea51ecd95a095d1588434be13a\",\n  \"decision\": \"approve\",\n  \"member_index\": 2\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-3.key",
+      "approve",
+      "c275335a2110575b38c04f8c33273d3356aed55927540259d0742929a19d56b9",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-3.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d78ff1fe88792c50c846c36083a8941293b31aea51ecd95a095d1588434be13a\",\n  \"decision\": \"approve\",\n  \"member_index\": 3\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-4.key",
+      "reject",
+      "c275335a2110575b38c04f8c33273d3356aed55927540259d0742929a19d56b9",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-4.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d78ff1fe88792c50c846c36083a8941293b31aea51ecd95a095d1588434be13a\",\n  \"decision\": \"reject\",\n  \"member_index\": 4\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-5.key",
+      "approve",
+      "c275335a2110575b38c04f8c33273d3356aed55927540259d0742929a19d56b9",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-5.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d78ff1fe88792c50c846c36083a8941293b31aea51ecd95a095d1588434be13a\",\n  \"decision\": \"approve\",\n  \"member_index\": 5\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-6.key",
+      "approve",
+      "c275335a2110575b38c04f8c33273d3356aed55927540259d0742929a19d56b9",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-6.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d78ff1fe88792c50c846c36083a8941293b31aea51ecd95a095d1588434be13a\",\n  \"decision\": \"approve\",\n  \"member_index\": 6\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "collect",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.responses.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-6.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-5.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-4.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-3.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-2.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-1.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-0.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-3.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-3.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d78ff1fe88792c50c846c36083a8941293b31aea51ecd95a095d1588434be13a\",\n  \"approved_indices\": [\n    0,\n    2,\n    3,\n    5,\n    6\n  ],\n  \"execution_status\": \"tracked externally by prover and sequencer evidence\",\n  \"quorum\": true,\n  \"rejected_indices\": [\n    1,\n    4\n  ],\n  \"rejection_policy\": \"a rejection is a signed opinion, not a veto; a member's conflicting decisions halt export\",\n  \"required_approvals\": 5\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "export",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.responses.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-export"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d78ff1fe88792c50c846c36083a8941293b31aea51ecd95a095d1588434be13a\",\n  \"approved_indices\": [\n    0,\n    2,\n    3,\n    5,\n    6\n  ],\n  \"execution_status\": \"tracked externally by prover and sequencer evidence\",\n  \"instruction_sha256\": \"04e65f5e2de7dcbe62f0ee2bbe7732c6f7dceee8e8619d38aa9ff23b94860c08\",\n  \"native_config_apply_passed\": true,\n  \"predicted_context_authenticated\": false,\n  \"proof_generated\": false,\n  \"quorum\": true,\n  \"rejected_indices\": [\n    1,\n    4\n  ],\n  \"rejection_policy\": \"a rejection is a signed opinion, not a veto; a member's conflicting decisions halt export\",\n  \"required_approvals\": 5,\n  \"sequencer_submission\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "collect",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/below-threshold.responses.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-0.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-2.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-3.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-5.response.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action_digest\": \"d78ff1fe88792c50c846c36083a8941293b31aea51ecd95a095d1588434be13a\",\n  \"approved_indices\": [\n    0,\n    2,\n    3,\n    5\n  ],\n  \"execution_status\": \"tracked externally by prover and sequencer evidence\",\n  \"quorum\": false,\n  \"rejected_indices\": [],\n  \"rejection_policy\": \"a rejection is a signed opinion, not a veto; a member's conflicting decisions halt export\",\n  \"required_approvals\": 5\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "export",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/below-threshold.responses.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/must-not-export-below-threshold"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: cannot export approval package: InsufficientApprovals\n"
+  },
+  {
+    "arguments": [
+      "propose",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "e0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5",
+      "38",
+      "2000000000000",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/altered-amount.request.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"action\": {\n    \"amount_base_units\": \"38\",\n    \"custody_seed_hex\": \"58a0407a26de5da9e3868d35288cd87e69d814c7522ec8ef2376b20495f95705\",\n    \"epoch\": 1,\n    \"kind\": \"native-transfer\",\n    \"proposal_counter\": 0,\n    \"recipient\": \"G87tVxK7EfnSBrANUj3UnKERyYeuBS8M197RG7DoGFmE\",\n    \"recipient_hex\": \"e0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5\",\n    \"target_program_hex\": \"0000000000000000000000000000000000000000000000000000000000000000\"\n  },\n  \"action_digest\": \"0a5d108bba89f02d5d99cb789f2c6079e9b2d62e2946d20dc5d6bb6ef2b86412\",\n  \"context_authentication\": \"external; this file alone is not evidence of accepted chain state\",\n  \"context_id\": \"f4c115fed2bbe0e7f0c2a206f59dfe3f55e67d4286052dfdc9cd70aea1534a27\",\n  \"decoded_from\": \"exact Borsh instruction bytes\",\n  \"expires_at_ms\": 2000000000000,\n  \"guest_sha256\": \"fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c\",\n  \"instruction_sha256\": \"ebd70fa5bda6ff291653d5c6cdec02614c9d08973d22756b823dcbc48f8e62ef\",\n  \"member_public_keys\": [\n    \"114c8679619137e5f162fa57a74cdeee8f000ec87fedefb1367c2b4ad3acc8b3\",\n    \"992024c547ca3b9bd162cb85c0f7ed36c4fc8929fb07bfe15c1edeb7a050547b\",\n    \"24f1bf0ac32fdc0662df2345a5ed10f3a0ade51f7cb23fdcd0b0a77a57874111\",\n    \"694f9d4f603a4885e8461432f18dcdfdcb0a6ca487f3c58b8d9d1d034cec3518\",\n    \"0c5a8205d290745775551676e5a0af10cb57e9c779375cefef8ff47e73c1f616\",\n    \"ee1aa0444f1ea70d7683e8ef85e5c2b4a80e3882ae145cbf822da2d26b0276f6\",\n    \"f3c349395870fdaca59f42f6934d448a63cc05532968a2345b594598e5fbc939\"\n  ],\n  \"network_domain_hex\": \"4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d\",\n  \"program_hex\": \"37cbd48d3f4b99ca3595d846b8cad2c3221a1201454fae6f03e80398b06afabf\",\n  \"required_approvals\": 5,\n  \"review_digest\": \"216a6fd6da96dd58c5eab04aadab1f3a47a6ecfb489b760564a7b40836d3e3b7\",\n  \"transport\": \"offline files; Logos Chat adapter pending\",\n  \"vault\": \"DFCq5L5GNP5fSKK3CaP8hK5wrc89MnpvAvNzTeWU7efL\",\n  \"vault_hex\": \"b5efbfd832522445275444229073876e79c2187e762bdafacab3acfb831d1ee3\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "arguments": [
+      "collect",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/altered-amount.request.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/must-not-collect-altered",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-0.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-1.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-2.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-3.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-4.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-5.response.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-6.response.json"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: response belongs to a different request or configuration\n"
+  },
+  {
+    "arguments": [
+      "collect",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/must-not-collect-flipped",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/flipped-decision.response.json"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: invalid approval or rejection signature\n\nCaused by:\n    signature error\n"
+  },
+  {
+    "arguments": [
+      "review",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend-export/predicted-context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: request uses a different configuration or proposal counter\n"
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-0.key",
+      "approve",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/must-not-sign-wrong-review"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: review digest changed; review the exact request again before signing\n"
+  },
+  {
+    "arguments": [
+      "respond-offline",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/context.json",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/spend.request.json",
+      "<LOCAL_TEST_KEYS>/member-0.key",
+      "approve",
+      "c275335a2110575b38c04f8c33273d3356aed55927540259d0742929a19d56b9",
+      "/workspace/scratch/edc38349058c/treasury-state-import-2026-10-17/lez-approval-bench/lifecycle/client/reports/2026-10-17-offline-demo/must-not-read-public-key-file"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: private key permissions must be 0600 or stricter\n"
+  }
+]

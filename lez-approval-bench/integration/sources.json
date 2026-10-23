@@ -1,0 +1,69 @@
+{
+  "upstream": {
+    "repository": "https://github.com/logos-blockchain/logos-execution-zone",
+    "commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4",
+    "working_tree_modified": false
+  },
+  "linked_crates": [
+    "lee",
+    "lee_core",
+    "program_loader_core",
+    "build_utils"
+  ],
+  "host_prover_reference": "lee/state_machine/src/privacy_preserving_transaction/circuit/mod.rs",
+  "host_prover_adaptations": [
+    "Own restricted shadow-program Backend; unmodified upstream ExecutionState and native token implementation",
+    "Explicit segment limit 2^18 and session limit 128M cycles",
+    "Stage timing, verified receipt checkpoints, execute-only mode",
+    "Composite PPE checkpoint before optional succinct compression"
+  ],
+  "privacy_circuit": {
+    "path": "artifacts/lee/privacy_preserving_circuit/privacy_preserving_circuit.bin",
+    "sha256": "2d0e691386987e0bd0f708557730445c7ebee03a5c922ae37b897a939b8a82f5",
+    "recompiled": false
+  },
+  "guest": {
+    "sha256": "ca8bbda814b5e2116dee7a8b1636af9f7e283ab5e2d302669f0c4485a89c37a7",
+    "license": "MIT OR Apache-2.0"
+  },
+  "toolchain": {
+    "host_rust": "1.98.1",
+    "risc0_rust": "1.94.1",
+    "risc0_zkvm": "3.0.5",
+    "r0vm_sha256": "36c016a5bb2ded5bd1f8f92cc487e6ffaeb1e95ec05850c983081a0f716b515b"
+  },
+  "guest_patches": {
+    "k256": "7d4a8d6477e258ce4169ee4669cf92aee0582c39",
+    "sha2": "8631fabdea7bdffa97b11868e04e73491d8e5bcf",
+    "crypto-bigint": "3ab63a6f1048833f7047d5a50532e4a4cc789384"
+  },
+  "compatibility_pins": {
+    "borsh": "1.6.1",
+    "generic-array": "0.14.7",
+    "serde_with": "3.20.0"
+  },
+  "debug_size_comparison": {
+    "block_bytes": 1048576,
+    "overhead_bytes": 2048,
+    "transaction_cap_bytes": 1046528,
+    "sources": [
+      "lez/sequencer/service/configs/debug/sequencer_config.json",
+      "lez/sequencer/core/src/config.rs",
+      "lez/configs/docker-all-in-one/devnet/sequencer_config.json"
+    ],
+    "live_devnet_limit_verified": false,
+    "committed_devnet_configuration_agrees": true
+  },
+  "wire_envelope": {
+    "source": "lez/common/src/transaction.rs",
+    "layout": "Borsh discriminant 1 + Borsh PrivacyPreservingTransaction",
+    "common_crate_linked": false,
+    "rpc_roundtrip_tested": false
+  },
+  "host_binary_sha256": "0a609bcf82bd8d7a20922d85c7c2fc8236fb8cb6fab309b0c9d1f5330a001f02",
+  "reproducibility": {
+    "host_and_guest_lockfiles": true,
+    "final_build": "RISC0_BUILD_LOCKED=1 cargo build --release --locked -p vault-host",
+    "upstream_working_tree_clean": true
+  }
+}

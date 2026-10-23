@@ -1,0 +1,15 @@
+[package]
+name = "approval-host"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+approval-core = { path = "../core", features = ["fixtures"] }
+approval-methods = { path = "../methods" }
+risc0-zkvm = { workspace = true, features = ["client", "std", "disable-dev-mode"] }
+serde_json = "=1.0.145"
+anyhow = "=1.0.100"
+bincode = "=1.3.3"
+hex = "=0.4.3"
+

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/a598161390b0/lez-approval-bench/scripts/check_saved_receipt.py", line 49, in <module>
+    assert data.count(prefix) == 1, "cannot uniquely locate the known journal prefix"
+           ^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: cannot uniquely locate the known journal prefix

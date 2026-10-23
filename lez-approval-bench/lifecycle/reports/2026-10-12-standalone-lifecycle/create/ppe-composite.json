@@ -1,0 +1,26 @@
+{
+  "image_id": [
+    3943929112,
+    3682468618,
+    2822605667,
+    1764660516,
+    290278025,
+    2512717227,
+    411457898,
+    556249114
+  ],
+  "input_sha256": "948988d0f7910ba33f9d46224884f40cf624c5284557b8402f9c5b53e7eb1bcf",
+  "journal_bytes": 4462,
+  "mode": "real-proof",
+  "receipt_bytes": 6321795,
+  "receipt_sha256": "31025fb02919349dd8607760bc55aabac8806a8b5780add6e5675acb1acd0553",
+  "seconds": 725.050500775,
+  "stage": "ppe-composite",
+  "stats": {
+    "paging_cycles": 503008,
+    "reserved_cycles": 324984,
+    "segments": 12,
+    "total_cycles": 2916352,
+    "user_cycles": 2088360
+  }
+}

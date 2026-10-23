@@ -1,0 +1,12 @@
+{
+  "balance_base_units": "463",
+  "candidate_unspent_at_checkpoint": true,
+  "checkpoint_id": "6de4b97dde2e1a9b45feedbdbfced6caa3ef1604d4108b9d500e284bed57f827",
+  "commitment_hex": "91a49196bd0fd28dd1cc4612ab6710c22f15dab773e790a35c0f47b669d14977",
+  "commitment_root_hex": "701364282cb7a3d93fa1abdb7f29a2462861b97bb2c287b8c4d1afd629f82f70",
+  "head_block_id": 4,
+  "proposal_counter": 1,
+  "public_network_finality_verified": false,
+  "replayed_transactions": 3,
+  "state_authentication": "receipt-verified replay relative to an independently trusted checkpoint"
+}

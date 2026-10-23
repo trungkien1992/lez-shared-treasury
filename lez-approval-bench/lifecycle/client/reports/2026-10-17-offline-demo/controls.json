@@ -1,0 +1,32 @@
+[
+  {
+    "case": "four approvals cannot export a five-of-seven transfer",
+    "passed": true,
+    "observed": "Error: cannot export approval package: InsufficientApprovals\n"
+  },
+  {
+    "case": "responses cannot authorize a different amount",
+    "passed": true,
+    "observed": "Error: response belongs to a different request or configuration\n"
+  },
+  {
+    "case": "a signed rejection cannot be relabelled as approval",
+    "passed": true,
+    "observed": "Error: invalid approval or rejection signature\n\nCaused by:\n    signature error\n"
+  },
+  {
+    "case": "counter-one context rejects the counter-zero request",
+    "passed": true,
+    "observed": "Error: request uses a different configuration or proposal counter\n"
+  },
+  {
+    "case": "changed review digest refuses signing",
+    "passed": true,
+    "observed": "Error: review digest changed; review the exact request again before signing\n"
+  },
+  {
+    "case": "signing key with group or public permissions is refused",
+    "passed": true,
+    "observed": "Error: private key permissions must be 0600 or stricter\n"
+  }
+]

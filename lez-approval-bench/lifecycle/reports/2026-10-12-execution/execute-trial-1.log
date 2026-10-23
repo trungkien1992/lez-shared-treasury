@@ -1,0 +1,154 @@
+{
+  "all_four_notes_decrypted_and_checked": true,
+  "ciphertext_padding": 1024,
+  "creation": {
+    "funder_after": 500,
+    "funder_before": 1000,
+    "initial_proposal": 0,
+    "stages": [
+      {
+        "image_id": [
+          3773627294,
+          3562964235,
+          1718102793,
+          1062580918,
+          16198072,
+          4137442527,
+          1682362922,
+          3174379661
+        ],
+        "input_sha256": "d8ada1ac0c5fc75382875d2d90c216012caf4702adf6a7c255b0f972a0070d30",
+        "journal_bytes": 4702,
+        "mode": "execute-only",
+        "seconds": 0.051366016,
+        "segments": 1,
+        "stage": "vault-plan",
+        "user_cycles": 58597
+      },
+      {
+        "image_id": [
+          3773627294,
+          3562964235,
+          1718102793,
+          1062580918,
+          16198072,
+          4137442527,
+          1682362922,
+          3174379661
+        ],
+        "input_sha256": "00fff0d86e8dd58a2a03f0a231a055a179bfc3357016305aaa8b0e377c406928",
+        "journal_bytes": 2524,
+        "mode": "execute-only",
+        "seconds": 0.153947621,
+        "segments": 11,
+        "stage": "vault-apply",
+        "user_cycles": 2196804
+      },
+      {
+        "input_sha256": "4ac61db150e615a0e2065627729c50ba155d4e5b57b30c8d0ebcb6f2f07446a2",
+        "journal_bytes": 4462,
+        "mode": "execute-only",
+        "seconds": 0.147996364,
+        "segments": 12,
+        "stage": "ppe",
+        "user_cycles": 2084856
+      }
+    ],
+    "vault_after": 500,
+    "vault_before": 0
+  },
+  "descriptor_digest": "c7eb944b2f335990c5cca2dcfc2b0fb2875fa67a64c8277bbe821c7113c11403",
+  "deterministic_public_test_keys": true,
+  "dummy_notes": 0,
+  "elapsed_seconds": 0.753408792,
+  "enrollment_digest": "82aa5da2cb0927950676f15ea16c08de04b19426854f6b975d5af0ef5569fbfd",
+  "funder_id": "9XQ13FBybDdgJPaC59b6RqK9YyVEMsNVGjSzWCeDQWZi",
+  "genesis": "only the independent private funding account; vault is absent",
+  "guest_image_id": [
+    3773627294,
+    3562964235,
+    1718102793,
+    1062580918,
+    16198072,
+    4137442527,
+    1682362922,
+    3174379661
+  ],
+  "guest_sha256": "fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c",
+  "live_devnet_submission": false,
+  "member_keys": [
+    "79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798",
+    "c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5",
+    "f9308a019258c31049344f85f89d5229b531c845836f99b08601f113bce036f9",
+    "e493dbf1c10d80f3581e4904930b1404cc6c13900ee0758474fa94abe8c4cd13",
+    "2f8bde4d1a07209355b4a7250a5c5128e88b84bddc619ab7cba8d569b240efe4",
+    "fff97bd5755eeea420453a14355235d382f6472f8568a18b2f057a1460297556",
+    "5cbdf0646e5db4eaa398f365f2ea7a0e3d419b7e0330e39ce92bddedcac4f9bc"
+  ],
+  "mode": "execution-only",
+  "ppe_elf_sha256": "2d0e691386987e0bd0f708557730445c7ebee03a5c922ae37b897a939b8a82f5",
+  "private_notes_per_transaction": 2,
+  "proof_generated": false,
+  "settlement_verified": false,
+  "spend": {
+    "next_proposal": 1,
+    "recipient_after": 37,
+    "recipient_before": 0,
+    "stages": [
+      {
+        "image_id": [
+          3773627294,
+          3562964235,
+          1718102793,
+          1062580918,
+          16198072,
+          4137442527,
+          1682362922,
+          3174379661
+        ],
+        "input_sha256": "8b3e2470fa9cf672d086839ed0f53dec1aa6b842dc3e6f1c3fcee92340e4b628",
+        "journal_bytes": 1452,
+        "mode": "execute-only",
+        "seconds": 0.066316938,
+        "segments": 1,
+        "stage": "vault-plan",
+        "user_cycles": 25691
+      },
+      {
+        "image_id": [
+          3773627294,
+          3562964235,
+          1718102793,
+          1062580918,
+          16198072,
+          4137442527,
+          1682362922,
+          3174379661
+        ],
+        "input_sha256": "f1e10922a5620b013c9099397e09c16302c5847f80f1570f1ce00fcc7301a034",
+        "journal_bytes": 1199,
+        "mode": "execute-only",
+        "seconds": 0.172984732,
+        "segments": 8,
+        "stage": "vault-apply",
+        "user_cycles": 1618281
+      },
+      {
+        "input_sha256": "8808c7904c2b0ace3c5a642481ef380ad5e3e83508d03d262b5bed91fc5068a9",
+        "journal_bytes": 4462,
+        "mode": "execute-only",
+        "seconds": 0.157677565,
+        "segments": 11,
+        "stage": "ppe",
+        "user_cycles": 2052733
+      }
+    ],
+    "vault_after": 463,
+    "vault_before": 500
+  },
+  "spending_threshold": 5,
+  "state_carry": "explicit simulated commitment insertion from checked creation output",
+  "unanimous_enrollment": 7,
+  "upstream_commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4",
+  "vault_id": "ELDWrrQ1GqACW4KEyEnwks4W2ARUZCWPG3Wm5jYURf7y"
+}

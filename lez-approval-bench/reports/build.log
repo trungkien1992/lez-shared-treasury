@@ -1,0 +1,4 @@
+   Compiling approval-methods v0.1.0 (/workspace/scratch/a598161390b0/lez-approval-bench/methods)
+   Compiling approval-core v0.1.0 (/workspace/scratch/a598161390b0/lez-approval-bench/core)
+   Compiling approval-host v0.1.0 (/workspace/scratch/a598161390b0/lez-approval-bench/host)
+    Finished `release` profile [optimized] target(s) in 3.96s

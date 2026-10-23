@@ -1,0 +1,7 @@
+{
+  "core/src/lib.rs": "a0a63cfd4f44a38f8f955b6884f2f3af4a7049a4bb036f386bcc88c47937e0df",
+  "integration/core/src/lib.rs": "b44771f31dcdd8a9f5baa14ce8da658f9b2748abf73095272bf05d95b9ca9b79",
+  "lifecycle/core/src/lib.rs": "9b256c2c6adb2d8edf86b1ae9a6334649313484a955fc1bae66c084cbec7e0a4",
+  "lifecycle/methods/guest/src/main.rs": "09ea4187cee110464223e7fec72aa2cd344ef6b07721d334efab59b5f176dd25",
+  "lifecycle/reports/lifecycle/lifecycle-guest.bin": "fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c"
+}

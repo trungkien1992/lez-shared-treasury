@@ -1,0 +1,13 @@
+{
+  "format": "lez-treasury-trusted-checkpoint/v1",
+  "guest_sha256": "fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c",
+  "network_domain_hex": "4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d",
+  "vault_hex": "df16a1ecc3f1f0803c6e63b8f0593d08f03e6259177943a92240097e836f47fa",
+  "base_state_sha256": "3f48847fe21ced8632cb61a446f28c9a832fdaaf3edff9382ede9a592f3a1cfa",
+  "base_block_id": 1,
+  "head_state_sha256": "2ce26e3064188493356e4974838111fb77954e0f42287296b4783a5f5a6c52ba",
+  "head_block_id": 4,
+  "observed_at_ms": 1792200740704,
+  "valid_until_ms": 1792201040704,
+  "minimum_proposal_counter": 1
+}

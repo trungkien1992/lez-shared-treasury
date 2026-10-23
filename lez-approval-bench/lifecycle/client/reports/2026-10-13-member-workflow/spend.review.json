@@ -1,0 +1,36 @@
+{
+  "action": {
+    "amount_base_units": "37",
+    "custody_seed_hex": "3060703a710f7fcdd170338d3235d5fffaea2733909e18ff1011fe8b97b3fd46",
+    "epoch": 1,
+    "kind": "native-transfer",
+    "proposal_counter": 0,
+    "recipient": "G87tVxK7EfnSBrANUj3UnKERyYeuBS8M197RG7DoGFmE",
+    "recipient_hex": "e0b228626a164d7bce119baad077eb36fa169e447111b0828430d7cf4e44ddb5",
+    "target_program_hex": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "action_digest": "50d6a2e4458c74e252f4097c7277414b4692bcd4eea5b43e5c880d251ba4143d",
+  "context_authentication": "external; this file alone is not evidence of accepted chain state",
+  "context_id": "ef1ddf9dc6bc4473b54018983902b5be09252ef05a83861dc44aa3307785d249",
+  "decoded_from": "exact Borsh instruction bytes",
+  "expired_at_local_clock": false,
+  "expires_at_ms": 2000000000000,
+  "guest_sha256": "fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c",
+  "instruction_sha256": "73f0b3757db5037f4b8bcf88562e7422581b4272b8af56075ded91fa5c49db17",
+  "member_public_keys": [
+    "1a598b1fcf09f99a82c0212caaa7e227385e3c48c9f7b937c05f9965ef74ed1c",
+    "26ea1e4fbc90b89e36e5ce2cb8706ddd6123c66c0361e25b7492598c896fe29e",
+    "cb96a78a0f7844fb436388a4deab2ea935a86b2720e3f23da23cb26ad4ae9291",
+    "412edad49c31a4d30b478ce86f2d98c2392785d2882d8aab157050e4b60b3c0c",
+    "f03dd8e14a68045e0f9195698d122b0f9a3eaff1d8c56219e41419a49a10c7db",
+    "87ef52267660bcbd5da917abe253cd7a2425b27344073faf2875aedfaadfb947",
+    "7f805bae8da1859137f37af8ed44f6956b1e8d66d6e00f2a02bc29dc8514356c"
+  ],
+  "network_domain_hex": "4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d",
+  "program_hex": "37cbd48d3f4b99ca3595d846b8cad2c3221a1201454fae6f03e80398b06afabf",
+  "required_approvals": 5,
+  "review_digest": "87d814c77508125bc5b848c5754e9b3a0154d96c523ba4aace3f3863e1509f20",
+  "transport": "offline files; Logos Chat adapter pending",
+  "vault": "G1qw7KyEiPNjR7ZmDAoGUFLigjTwqyijZGqyY79TgUim",
+  "vault_hex": "df16a1ecc3f1f0803c6e63b8f0593d08f03e6259177943a92240097e836f47fa"
+}

@@ -1,0 +1,21 @@
+[package]
+name = "vault-host"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+vault-core = { path = "../core" }
+vault-methods = { path = "../methods" }
+approval-core = { path = "../../core" }
+lee = { path = "../../../lez-upstream/lee/state_machine" }
+lee_core = { path = "../../../lez-upstream/lee/state_machine/core", features = ["host"] }
+borsh.workspace = true
+risc0-zkvm = { workspace = true, features = ["client", "disable-dev-mode"] }
+k256 = { version = "=0.13.4", default-features = false, features = ["schnorr", "std"] }
+serde = { version = "=1.0.228", features = ["derive"] }
+serde_json = "=1.0.145"
+anyhow = "=1.0.100"
+bincode = "=1.3.3"
+hex = "=0.4.3"
+sha2 = "=0.10.9"

@@ -1,0 +1,26 @@
+{
+  "image_id": [
+    2059719584,
+    1594371413,
+    2204304149,
+    3232472967,
+    1398273450,
+    815850652,
+    619385496,
+    1475037365
+  ],
+  "input_sha256": "83dd3489401a983ade2967802f13edc623ad466d4ea2bbc8d5e258581bc0fb4a",
+  "journal_bytes": 1198,
+  "mode": "real-proof",
+  "receipt_bytes": 2049252,
+  "receipt_sha256": "5535e1dbfa351b532acc11f849f960f413d4acae2bbd1fdd2117fd1fdab66cec",
+  "seconds": 642.26325049,
+  "stage": "vault-apply",
+  "stats": {
+    "paging_cycles": 207064,
+    "reserved_cycles": 285867,
+    "segments": 8,
+    "total_cycles": 2097152,
+    "user_cycles": 1604221
+  }
+}

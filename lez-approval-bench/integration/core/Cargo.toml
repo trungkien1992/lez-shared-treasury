@@ -1,0 +1,13 @@
+[package]
+name = "vault-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+approval-core = { path = "../../core" }
+lee_core = { path = "../../../lez-upstream/lee/state_machine/core" }
+borsh.workspace = true
+# Match pinned LEZ's lockfile; newer 0.14.x deprecates APIs denied by LEZ.
+generic-array = "=0.14.7"
+serde_with = "=3.20.0"

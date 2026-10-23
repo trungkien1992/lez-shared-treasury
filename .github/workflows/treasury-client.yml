@@ -1,0 +1,72 @@
+name: Treasury member client
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  evidence-integrity:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out evidence release
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Check source identities and recorded evidence
+        run: python3 scripts/verify_evidence.py
+
+  member-workflow:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    env:
+      RISC0_DEV_MODE: '0'
+      CARGO_BUILD_JOBS: '2'
+    steps:
+      - name: Check out custom project
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Fetch unchanged pinned LEZ
+        run: |
+          git init lez-upstream
+          git -C lez-upstream remote add origin https://github.com/logos-blockchain/logos-execution-zone.git
+          git -C lez-upstream fetch --depth 1 origin 411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4
+          git -C lez-upstream checkout --detach FETCH_HEAD
+      - name: Install host system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes pkg-config libpcsclite-dev libssl-dev
+      - name: Install host toolchain
+        run: rustup toolchain install 1.98.1 --profile minimal
+      - name: Install exact CPU executor
+        run: |
+          python3 lez-approval-bench/lifecycle/client/scripts/install_r0vm.py --output "$RUNNER_TEMP/treasury-tools/r0vm"
+      - name: Build client and host around the archived guest
+        working-directory: lez-approval-bench/lifecycle
+        run: |
+          LIFECYCLE_PREBUILT_GUEST="$PWD/reports/lifecycle/lifecycle-guest.bin" cargo +1.98.1 build --release --locked -p treasury-client -p lifecycle-host
+          LIFECYCLE_PREBUILT_GUEST="$PWD/reports/lifecycle/lifecycle-guest.bin" cargo +1.98.1 test --release --locked -p treasury-client
+      - name: Check shared approval verifier
+        working-directory: lez-approval-bench
+        run: cargo +1.98.1 test --release --locked -p approval-core
+      - name: Exercise seven independent local test signers
+        working-directory: lez-approval-bench/lifecycle
+        run: |
+          python3 client/scripts/demo.py --client "$PWD/target/release/treasury-client" --key-dir "$RUNNER_TEMP/treasury-member-keys" --report-dir "$PWD/client/reports/ci-member-workflow"
+          python3 scripts/run.py execute --state-profile standalone --host "$PWD/target/release/lifecycle-host" --r0vm "$RUNNER_TEMP/treasury-tools/r0vm" --create-instruction "$PWD/client/reports/ci-member-workflow/create-export/instruction.borsh" --transfer-instruction "$PWD/client/reports/ci-member-workflow/spend-export/instruction.borsh" --report-dir reports/ci-client-guest-execution --threads 2
+      - name: Independently verify archived real receipts
+        run: |
+          python3 scripts/review.py receipts
+      - name: Retain public test evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: treasury-member-workflow
+          path: |
+            lez-approval-bench/lifecycle/client/reports/ci-member-workflow
+            lez-approval-bench/lifecycle/reports/ci-client-guest-execution
+            var/
+
+# Full fresh proving and sequencer settlement are deliberately run separately
+# with scripts/run.py and scripts/settle_local.py. No secret key directory is uploaded.

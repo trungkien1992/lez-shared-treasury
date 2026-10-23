@@ -1,0 +1,23 @@
+LEZ Shared Treasury | local fixture demonstration
+7 enrolled members, 5 approvals required for a transfer
+Real receipts verified in separate processes; development mode disabled
+
+1. fund-private-source
+   Included in block 2 | 227,977 bytes
+   Transaction 54905db89319e187295183ce93550339d8831d830aa5684cdfbaf10351b82684
+2. create-and-fund-vault
+   Included in block 3 | 232,072 bytes
+   Transaction 06f19c257ad4d984faaf34fd885014f22a7023c448b59d0bffec6745ca9ce81a
+3. five-of-seven-spend
+   Included in block 4 | 232,072 bytes
+   Transaction 36c982b7681e572be93a3c8ce6333a9c87ff824e3f0fbd27f73e562971d15671
+
+Private funding account: 500 test units
+Treasury after transfer: 463 test units
+Recipient received:     37 test units
+Vault proposal counter: 1
+Node membership witness matches the proved spend input
+Expiry, changed-message and replay checks preserve state on rejection
+
+Scope: pinned standalone node, mock Bedrock, public deterministic fixture keys
+Public devnet, wallet/key sharing, rotation, coordination and disclosure remain pending

@@ -1,0 +1,61 @@
+{
+  "action_digest": "b0820f13f3d0acec1e76a4baa1130a17927c94b82742ff6d439051f0b8a4b2b6",
+  "configuration_digest": "45aa2d5fd567f1971d2237e6b4cd61f2866b60c9851bf52f610934bc5a7803ff",
+  "dev_mode": false,
+  "fixtures": "public deterministic keys; synthetic action; no network transaction",
+  "full_lez_private_transaction": false,
+  "guest_crypto_backend": "official RISC Zero acceleration patches; exact commits in guest Cargo.lock",
+  "guest_elf_bytes": 356252,
+  "image_id_words_u32": [
+    1710233713,
+    203129687,
+    3349352222,
+    2342411639,
+    1367316791,
+    1495279452,
+    1207331062,
+    3921694198
+  ],
+  "journal_bytes": 288,
+  "k256": "0.13.4",
+  "lez_reference_commit": "411adc8fdb3f4c3af64354c4fc26d3e4a6a3d3f4",
+  "m": 5,
+  "n": 7,
+  "not_measured": [
+    "LEZ private-account wrapper",
+    "LEZ transaction size",
+    "devnet block limits",
+    "current-member account binding",
+    "expiry enforcement",
+    "replay storage",
+    "custody",
+    "coordination",
+    "selective disclosure"
+  ],
+  "proving_wall_ms": 642289.254538,
+  "receipt_bytes_bincode_1_3_3": 2268522,
+  "receipt_file": "m5-n7.receipt",
+  "receipt_kind": "composite",
+  "risc0_zkvm": "3.0.5",
+  "rust_host": "1.98.1",
+  "scope": "standalone_approval_verifier_guest",
+  "segment_limit_po2": 18,
+  "serialized_guest_input_bytes": 3060,
+  "signer_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "stats": {
+    "paging_cycles": 203394,
+    "reserved_cycles": 267927,
+    "segments": 9,
+    "total_cycles": 2162688,
+    "user_cycles": 1691367
+  },
+  "status": "verified_real_proof",
+  "verification_wall_ms": 190.411976,
+  "verified_approvals": 5
+}

@@ -1,0 +1,40 @@
+{
+  "action": {
+    "descriptor_digest": "58a0407a26de5da9e3868d35288cd87e69d814c7522ec8ef2376b20495f95705",
+    "funding": {
+      "amount_base_units": "500",
+      "approved_by_this_enrollment": false,
+      "from_hex": "7ea6ed36ff5de3e1d21e4d1ef0dbf326a0ed4d2b4eda4c6db3ab7a42d6453335"
+    },
+    "identifier": "0000000000000000000000000000000000000000000000000000000000000000",
+    "kind": "enroll",
+    "nullifier_public_key": "6a0eb03fa0c05aaf7f78995b4de077f86d5e03af6f191a04b6c73c33919358c2",
+    "required_enrollments": 7,
+    "signed_scope": "complete treasury descriptor and expiry; inbound funding is separately authorized",
+    "spending_threshold": 5,
+    "viewing_key_sha256": "c8cff27632e47d07d6a4a68e384e4662be02f3ad85d5cf730f398bce9b2c7afc"
+  },
+  "action_digest": "4a23b1df01236486cbd352ea4b098f9fe0f028f4b97dcb43bbf30fe49bb939d9",
+  "context_authentication": "external; this file alone is not evidence of accepted chain state",
+  "context_id": "f4c115fed2bbe0e7f0c2a206f59dfe3f55e67d4286052dfdc9cd70aea1534a27",
+  "decoded_from": "exact Borsh instruction bytes",
+  "expires_at_ms": 2000000000000,
+  "guest_sha256": "fff9878b2215978e6be4bd62ac1f89a4c3b1b351bf4f0d61b308eaa0c30e321c",
+  "instruction_sha256": "282cc0be9b6c3f99751ee90912ec2da4bef5eeebd9f47e9c96cfa3b00be79a6c",
+  "member_public_keys": [
+    "114c8679619137e5f162fa57a74cdeee8f000ec87fedefb1367c2b4ad3acc8b3",
+    "992024c547ca3b9bd162cb85c0f7ed36c4fc8929fb07bfe15c1edeb7a050547b",
+    "24f1bf0ac32fdc0662df2345a5ed10f3a0ade51f7cb23fdcd0b0a77a57874111",
+    "694f9d4f603a4885e8461432f18dcdfdcb0a6ca487f3c58b8d9d1d034cec3518",
+    "0c5a8205d290745775551676e5a0af10cb57e9c779375cefef8ff47e73c1f616",
+    "ee1aa0444f1ea70d7683e8ef85e5c2b4a80e3882ae145cbf822da2d26b0276f6",
+    "f3c349395870fdaca59f42f6934d448a63cc05532968a2345b594598e5fbc939"
+  ],
+  "network_domain_hex": "4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d",
+  "program_hex": "37cbd48d3f4b99ca3595d846b8cad2c3221a1201454fae6f03e80398b06afabf",
+  "required_approvals": 7,
+  "review_digest": "89a7021ea8f22ed6a1a673d9f6191882e2d453b2903bbafc0817dab4d9464830",
+  "transport": "offline files; Logos Chat adapter pending",
+  "vault": "DFCq5L5GNP5fSKK3CaP8hK5wrc89MnpvAvNzTeWU7efL",
+  "vault_hex": "b5efbfd832522445275444229073876e79c2187e762bdafacab3acfb831d1ee3"
+}
