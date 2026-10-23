@@ -49,6 +49,13 @@ sequencer and made no public-network submission.
 `evidence/release-validation.json` records which packaging and archived-binary
 checks were actually rerun for this release. It distinguishes them from historical
 Rust tests, new proving and hosted CI. No unchecked mode is described as passed.
+That file records the checks before initial publication. The subsequent
+[GitHub Actions runs](https://github.com/trungkien1992/lez-shared-treasury/actions)
+provide fresh source-build and test evidence. The first run passed all 35 Rust
+tests and the seven-signer demo, then failed while reading an unavailable cgroup
+limit for measurement metadata. The Python harness now records unavailable
+limits as `null`; workflow results and artifacts identify the full validation
+state for each commit.
 
 `scripts/verify_evidence.py` checks byte integrity, source identity, transaction
 hash correlation and saved record consistency. A malicious party could replace

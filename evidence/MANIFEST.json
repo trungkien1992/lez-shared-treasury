@@ -23,8 +23,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 5914,
-      "sha256": "7927effe7bc321984909a2f6a55b021d48ec61699b64818f4af3d0b91134ceb7"
+      "size_bytes": 6045,
+      "sha256": "e4140614da6e30a8197671e6ae56dcebbf9c75ccf41dfc18cdb9af08382c791e"
     },
     {
       "path": "SECURITY.md",
@@ -43,8 +43,8 @@
     },
     {
       "path": "docs/EVIDENCE.md",
-      "size_bytes": 3988,
-      "sha256": "af804b25029d88793edc73b64ba1524ed58ccb3b02c55f20f58927f40d833b8f"
+      "size_bytes": 4480,
+      "sha256": "e83fab6c098a3e728caf158ad8cf926b66aa558493124c851f5fa3574120ffed"
     },
     {
       "path": "docs/REPRODUCE.md",
@@ -63,8 +63,8 @@
     },
     {
       "path": "docs/STATUS.md",
-      "size_bytes": 2677,
-      "sha256": "790a7a11c50edc22a5fe30b763c9224149e4bcce8d762d4e5f0f0bbd7d7ac49c"
+      "size_bytes": 2854,
+      "sha256": "c67d97762ddf9af033e2a9870c418c48a6395edef51bb4910f6e26aa2006ad3f"
     },
     {
       "path": "docs/TRUST_MODEL.md",
@@ -73,8 +73,8 @@
     },
     {
       "path": "docs/provenance/README.md",
-      "size_bytes": 1728,
-      "sha256": "837b57fd8a4f8d3ba387f90b5cfec029d0c06647dc444ecb53c962264676ba3d"
+      "size_bytes": 2072,
+      "sha256": "a144bbbaabdb6f8cfcd8db3b73985d3f1372510c0f8111c4fe44482beeaaf202"
     },
     {
       "path": "docs/provenance/full-archive-manifest.json",
@@ -4798,8 +4798,8 @@
     },
     {
       "path": "lez-approval-bench/lifecycle/scripts/run.py",
-      "size_bytes": 4554,
-      "sha256": "de44c1101cf725d164ff211421ed1a21bb3e9d221c2a59189f020061cdc3cb4d"
+      "size_bytes": 4707,
+      "sha256": "2f9ce0a04ad20a3a1b644784f08d31a18d1c9504ddc43f2231505836420d0033"
     },
     {
       "path": "lez-approval-bench/lifecycle/scripts/settle_local.py",

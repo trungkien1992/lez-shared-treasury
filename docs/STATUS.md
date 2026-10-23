@@ -19,7 +19,7 @@ on 23 October do not turn the earlier observations into a new proving run.
 | Selective disclosure and public posture | Planned | Audience verification without spending authority |
 | Logos headless module, QML mini-app, SPEL IDL and catalog | Planned | Platform-integrated clients and installable releases |
 | Public testnet deployment | Not demonstrated | Final delivery and benchmarks target testnet 0.4 |
-| Hosted CI | Workflow prepared, not yet run on GitHub for this release | First hosted run must be reported with its URL and result |
+| Hosted CI | Fresh source build, 35 Rust tests and seven-signer CLI demo passed on 23 October | See [GitHub Actions](https://github.com/trungkien1992/lez-shared-treasury/actions) for the complete workflow result; the first run exposed a measurement-wrapper portability issue, corrected in the Python harness |
 | Full threshold performance curve | Not completed | Real proving across M, wallet padding and measured network limits |
 | Independent audit | Preliminary scoping only | Accepted provider, release inventory, frozen commit, contract and schedule |
 

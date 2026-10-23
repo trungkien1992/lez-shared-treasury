@@ -2,6 +2,12 @@
 """Measured local execution, real proving and saved-proof verification. No RPC submission."""
 import argparse, datetime, json, os, platform, resource, shutil, signal, subprocess, time
 from pathlib import Path
+
+def optional_limit(path):
+ """A host without readable cgroup v2 limits has no value to report."""
+ try: return Path(path).read_text().strip()
+ except OSError: return None
+
 p=argparse.ArgumentParser()
 p.add_argument('mode', choices=['execute','validate','prove','succinct','check','check-succinct','bootstrap-execute','bootstrap','check-bootstrap'])
 p.add_argument('--threads', type=int, default=8)
@@ -58,8 +64,8 @@ report={'started_at_utc':started_utc,'elapsed_seconds':time.monotonic()-started,
         'state_profile':a.state_profile,
         'run_status':status,'timeout_seconds':a.timeout,'threads':a.threads,'command':command,
         'child_max_rss_kib':usage.ru_maxrss,'child_user_cpu_seconds':usage.ru_utime,
-        'child_system_cpu_seconds':usage.ru_stime,'cpu_max':Path('/sys/fs/cgroup/cpu.max').read_text().strip(),
-        'memory_max':Path('/sys/fs/cgroup/memory.max').read_text().strip(),
+        'child_system_cpu_seconds':usage.ru_stime,'cpu_max':optional_limit('/sys/fs/cgroup/cpu.max'),
+        'memory_max':optional_limit('/sys/fs/cgroup/memory.max'),
         'cpu_model':next(x.split(':',1)[1].strip() for x in Path('/proc/cpuinfo').read_text().splitlines() if x.startswith('model name')),
         'platform':platform.platform(),'gpu_used':False,'paid_remote_proving':False,'dev_mode':False,
         'rss_definition':'Linux RUSAGE_CHILDREN maximum per-process resident set size, not simultaneous aggregate'}

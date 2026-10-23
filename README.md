@@ -30,7 +30,7 @@ using local test accounts, with substantial RFP work still planned.
 | Private creation and payment | Saved real RISC Zero receipts; three exact encoded transactions accepted by a standalone LEZ sequencer on 13 October | Local mock-Bedrock environment; no public-testnet acceptance claimed |
 | Member workflow | Seven local random test signers enroll; five approve a 37-unit payment and two sign rejections; collector exports guest-compatible bytes | Offline files, development key storage, no human team or Chat integration |
 | State before signing | Receipt-verified replay, complete-state hashes, spent-note rejection, checkpoint-bound review/signing | The operator supplies an independently trusted checkpoint and local nullifier key |
-| Validation | 35 Rust tests and six fresh CLI negative controls passed in the 17 October snapshot | Historical test results; this release does not claim a new Rust build or hosted CI run |
+| Validation | 35 Rust tests passed in a fresh GitHub source build on 23 October; seven-signer demo and six CLI negative controls also passed | See [GitHub Actions](https://github.com/trungkien1992/lez-shared-treasury/actions) for the complete workflow result; fresh proof generation and node inclusion remain separate |
 
 The final local balances were 500 for the private funding account, 463 for the
 vault and 37 for the recipient, with proposal counter 1. They are local test units.

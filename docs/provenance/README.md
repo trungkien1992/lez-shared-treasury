@@ -11,6 +11,11 @@ Its 1,308-entry file manifest was checked before preparing this release.
 Cargo manifest/lockfile and retained lifecycle guest image. All 31 Rust files
 retain the snapshot bytes. Reviewer documentation and release scripts were added;
 the member-client README and CI recipe were clarified for the new layout.
+After publication, the Python lifecycle measurement wrapper was made portable
+to hosts without readable cgroup v2 limit files. It records unavailable limits
+as JSON `null` and preserves the child command's exit status. This fixes the
+first GitHub runner's reporting failure without changing any Rust source,
+guest image or historical evidence.
 
 `full-archive-manifest.json`, `status-2026-10-17.json` and
 `readme-2026-10-17.txt` are historical reference files. The original full-archive
